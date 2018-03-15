@@ -9,6 +9,6 @@
     </main.dart.js>;rel=preload;as=script'''
 
 [[headers]]
-  for = "**/*.@(js|svg)"
+  for = "/**/*.@(js|svg)"
   [header.values]
     Cache-Control = "max-age=604801"
