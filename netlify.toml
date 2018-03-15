@@ -10,4 +10,4 @@
 
   for = "/**/*.@(js|svg)"
   [header.values]
-    Cache-Control = "max-age=604801"
+    Cache-Control = "public, max-age=604801"
