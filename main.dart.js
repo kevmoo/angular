@@ -12685,7 +12685,7 @@ if(a===C.G){t=this.b
 if(t==null){t=new Q.ep(this.a4(C.a_),this.a4(C.a3))
 this.b=t}return t}if(a===C.a3){t=this.c
 if(t==null){t=new O.hP(P.aZ(null,null,null,W.bA),!1)
-this.c=t}return t}if(a===C.a_)return"https://node-hnapi.herokuapp.com"
+this.c=t}return t}if(a===C.a_)return"https://api.hackernews.io"
 if(a===C.a6){t=this.d
 if(t==null){t=this.a4(C.a7)
 s=this.aW(C.aZ,null)
