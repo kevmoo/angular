@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+    #  Multi-key header rules are expressed with multi-line strings
+    Link = '''
+    </main.dart.js>;rel=preload;as=script'''
+
+[[headers]]
+  for = "**/*.@(js|svg)"
+  [header.values]
+    Cache-Control = "max-age=604801"
