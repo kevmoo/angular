@@ -2055,7 +2055,7 @@ t=X.iY("hacker-news-service",C.n,20,null,!1)
 s=new X.dC([])
 r=new X.f3(s,null,!0,!0,null,null,null)
 r.b=$.$get$jM()
-s.bt("get","https://api.hackernews.io",t.gbr())
+s.bt("get","https://node-hnapi.herokuapp.com",t.gbr())
 P.d4("Running PWA, version: 2017-10-12T23:40:50.000Z")
 X.l1(r)}}
 var v=[C,H,J,P,W,X,V,S,Q,O,L,K,N]
