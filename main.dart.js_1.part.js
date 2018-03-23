@@ -1,14 +1,14 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,d,e,f,g,h,i,j,k,l,m,$){var C={},H={},J={},P={},W={},F={},G={},Y={},R={
-pD:function(n,o){var y=new R.kj(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,P.I(),n,null,null,null)
-y.a=S.a6(y,1,C.l,o)
-y.fd(n,o)
+pI:function(n,o){var y=new R.kn(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,P.E(),n,null,null,null)
+y.a=S.a2(y,1,C.l,o)
+y.fe(n,o)
 return y},
-v4:function(n,o){var y=new R.m0(null,null,null,null,null,P.a5(["$implicit",null]),n,null,null,null)
-y.a=S.a6(y,3,C.n,o)
-y.d=$.o4
+v9:function(n,o){var y=new R.m3(null,null,null,null,null,P.a6(["$implicit",null]),n,null,null,null)
+y.a=S.a2(y,3,C.m,o)
+y.d=$.o9
 return y},
-kj:function kj(n,o,p,q,r,s,t,u,v,w,x,y,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){var _=this
+kn:function kn(n,o,p,q,r,s,t,u,v,w,x,y,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){var _=this
 _.r=n
 _.x=o
 _.y=p
@@ -31,7 +31,7 @@ _.c=a6
 _.d=a7
 _.e=a8
 _.f=a9},
-m0:function m0(n,o,p,q,r,s,t,u,v,w){var _=this
+m3:function m3(n,o,p,q,r,s,t,u,v,w){var _=this
 _.r=n
 _.x=o
 _.y=p
@@ -42,18 +42,18 @@ _.c=t
 _.d=u
 _.e=v
 _.f=w}},K={},E={
-va:function(n,o){var y=new E.m6(null,null,null,null,null,null,null,null,null,!1,null,null,P.I(),n,null,null,null)
-y.a=S.a6(y,3,C.n,o)
-y.d=$.kp
+vh:function(n,o){var y=new E.mb(null,null,null,null,null,null,null,null,null,!1,null,null,P.E(),n,null,null,null)
+y.a=S.a2(y,3,C.m,o)
+y.d=$.ks
 return y},
-vb:function(n,o){var y=new E.m7(null,null,null,null,null,P.a5(["$implicit",null]),n,null,null,null)
-y.a=S.a6(y,3,C.n,o)
-y.d=$.kp
+vi:function(n,o){var y=new E.mc(null,null,null,null,null,P.a6(["$implicit",null]),n,null,null,null)
+y.a=S.a2(y,3,C.m,o)
+y.d=$.ks
 return y},
-vc:function(n,o){var y=new E.m8(null,null,null,P.I(),n,null,null,null)
-y.a=S.a6(y,3,C.C,o)
+vj:function(n,o){var y=new E.md(null,null,null,P.E(),n,null,null,null)
+y.a=S.a2(y,3,C.C,o)
 return y},
-ko:function ko(n,o,p,q,r,s,t,u,v,w,x,y){var _=this
+kr:function kr(n,o,p,q,r,s,t,u,v,w,x,y){var _=this
 _.r=n
 _.x=o
 _.y=p
@@ -66,7 +66,7 @@ _.c=v
 _.d=w
 _.e=x
 _.f=y},
-m6:function m6(n,o,p,q,r,s,t,u,v,w,x,y,a0,a1,a2,a3,a4){var _=this
+mb:function mb(n,o,p,q,r,s,t,u,v,w,x,y,a0,a1,a2,a3,a4){var _=this
 _.r=n
 _.x=o
 _.y=p
@@ -84,7 +84,7 @@ _.c=a1
 _.d=a2
 _.e=a3
 _.f=a4},
-m7:function m7(n,o,p,q,r,s,t,u,v,w){var _=this
+mc:function mc(n,o,p,q,r,s,t,u,v,w){var _=this
 _.r=n
 _.x=o
 _.y=p
@@ -95,7 +95,7 @@ _.c=t
 _.d=u
 _.e=v
 _.f=w},
-m8:function m8(n,o,p,q,r,s,t,u){var _=this
+md:function md(n,o,p,q,r,s,t,u){var _=this
 _.r=n
 _.x=o
 _.a=p
@@ -103,19 +103,19 @@ _.b=q
 _.c=r
 _.d=s
 _.e=t
-_.f=u}},S={},Q={},D={
-qh:function(n){var y,x
-y=J.J(n)
-x=J.qN(y.i(n,"comments"),1,new D.mA())
+_.f=u}},M={},S={},Q={},D={
+qm:function(n){var y,x
+y=J.H(n)
+x=J.qS(y.i(n,"comments"),1,new D.mF())
 y.k(n,"comments_count",x)
 return x},
-mA:function mA(){},
-aG:function aG(n,o){this.a=n
-this.b=o}},M={},V={},L={},A={},T={},N={},O={},Z={},X={},U={},B={aB:function aB(n,o,p){this.a=n
+mF:function mF(){},
+aI:function aI(n,o){this.a=n
+this.b=o}},V={},L={},A={},T={},N={},O={},Z={},X={},U={},B={aE:function aE(n,o,p){this.a=n
 this.b=o
 this.c=p}}
-var z=[C,H,J,P,W,F,G,Y,R,K,E,S,Q,D,M,V,L,A,T,N,O,Z,X,U,B]
-g([C,H,J,P,W,F,G,Y,R,K,E,S,Q,D,M,V,L,A,T,N,O,Z,X,U,B])
+var z=[C,H,J,P,W,F,G,Y,R,K,E,M,S,Q,D,V,L,A,T,N,O,Z,X,U,B]
+g([C,H,J,P,W,F,G,Y,R,K,E,M,S,Q,D,V,L,A,T,N,O,Z,X,U,B])
 C=h(m[0],C)
 H=h(m[1],H)
 J=h(m[2],J)
@@ -127,10 +127,10 @@ Y=h(m[7],Y)
 R=h(m[8],R)
 K=h(m[9],K)
 E=h(m[10],E)
-S=h(m[11],S)
-Q=h(m[12],Q)
-D=h(m[13],D)
-M=h(m[14],M)
+M=h(m[11],M)
+S=h(m[12],S)
+Q=h(m[13],Q)
+D=h(m[14],D)
 V=h(m[15],V)
 L=h(m[16],L)
 A=h(m[17],A)
@@ -141,22 +141,22 @@ Z=h(m[21],Z)
 X=h(m[22],X)
 U=h(m[23],U)
 B=h(m[24],B)
-B.aB.prototype={
-iG:function(){this.c=!this.c}}
-R.kj.prototype={
-fd:function(n,o){var y=document.createElement("comment")
+B.aE.prototype={
+iJ:function(){this.c=!this.c}}
+R.kn.prototype={
+fe:function(n,o){var y=document.createElement("comment")
 this.e=y
-y=$.o4
-if(y==null){y=$.aP.bf("",C.z,C.ao)
-$.o4=y}this.b7(y)},
-G:function(){var y,x,w,v,u,t,s
+y=$.o9
+if(y==null){y=$.aP.bf("",C.y,C.ao)
+$.o9=y}this.b7(y)},
+E:function(){var y,x,w,v,u,t,s
 y=this.bk(this.e)
 x=document
-w=S.fa(x,y)
+w=S.fb(x,y)
 this.r=w
 w.className="header"
 this.S(w)
-w=S.ae(x,"button",this.r)
+w=S.ai(x,"button",this.r)
 this.x=w
 this.S(w)
 v=x.createTextNode("[")
@@ -166,9 +166,9 @@ this.y=w
 this.x.appendChild(w)
 u=x.createTextNode("]")
 this.x.appendChild(u)
-w=S.om(x,this.r)
+w=S.op(x,this.r)
 this.z=w
-this.e0(w)
+this.e1(w)
 w=x.createTextNode("")
 this.Q=w
 this.z.appendChild(w)
@@ -177,56 +177,56 @@ this.z.appendChild(t)
 w=x.createTextNode("")
 this.ch=w
 this.z.appendChild(w)
-w=S.fa(x,y)
+w=S.fb(x,y)
 this.cx=w
 this.S(w)
-w=S.fa(x,this.cx)
+w=S.fb(x,this.cx)
 this.cy=w
 w.className="content"
 this.S(w)
 s=$.$get$bO().cloneNode(!1)
 this.cx.appendChild(s)
-w=new V.ai(11,9,this,s,null,null,null)
+w=new V.a7(11,9,this,s,null,null,null)
 this.db=w
-this.dx=new R.cf(w,null,null,null,new D.aM(w,R.uu()))
-w=this.x;(w&&C.a3).aj(w,"click",this.hK(this.f.giF()))
-this.am(C.e,null)
+this.dx=new R.cg(w,null,null,null,new D.ar(w,R.uw()))
+w=this.x;(w&&C.a3).ab(w,"click",this.hM(this.f.giI()))
+this.ao(C.e,null)
 return},
 K:function(){var y,x,w,v,u,t,s,r,q
 y=this.f
-x=J.S(y.b,"comments")
+x=J.a0(y.b,"comments")
 w=this.id
 if(w==null?x!=null:w!==x){this.dx.scV(x)
 this.id=x}this.dx.cU()
-this.db.au()
-v=Q.bN(y.c?"+"+H.c(J.S(y.b,"comments_count")):"-")
+this.db.ad()
+v=Q.bo(y.c?"+"+H.c(J.a0(y.b,"comments_count")):"-")
 if(this.dy!==v){this.y.textContent=v
-this.dy=v}u=Q.bN(J.S(y.b,"user"))
+this.dy=v}u=Q.bo(J.a0(y.b,"user"))
 if(this.fr!==u){this.Q.textContent=u
-this.fr=u}t=Q.bN(J.S(y.b,"time_ago"))
+this.fr=u}t=Q.bo(J.a0(y.b,"time_ago"))
 if(this.fx!==t){this.ch.textContent=t
 this.fx=t}s=y.c
 if(this.fy!==s){this.cx.hidden=s
 this.fy=s}w=y.a
-r=J.S(y.b,"content")
+r=J.a0(y.b,"content")
 w.toString
-q=new R.j4(r==null?"":r)
-if(this.go!==q){this.cy.innerHTML=$.aP.c.eL(q)
+q=new R.j7(r==null?"":r)
+if(this.go!==q){this.cy.innerHTML=$.aP.c.eM(q)
 this.go=q}},
 O:function(){var y=this.db
-if(!(y==null))y.at()},
-$asu:function(){return[B.aB]}}
-R.m0.prototype={
-G:function(){var y=R.pD(this,0)
+if(!(y==null))y.ac()},
+$asr:function(){return[B.aE]}}
+R.m3.prototype={
+E:function(){var y=R.pI(this,0)
 this.x=y
 y=y.e
 this.r=y
 this.S(y)
 y=this.c
-y=new B.aB(y.c.D(C.y,y.a.Q),null,!1)
+y=new B.aE(y.c.B(C.x,y.a.Q),null,!1)
 this.y=y
-this.x.a6(0,y,[])
-this.aW(this.r)
+this.x.a5(0,y,[])
+this.ay(this.r)
 return},
 K:function(){var y,x,w
 y=this.b.i(0,"$implicit")
@@ -234,27 +234,27 @@ x=this.z
 if(x==null?y!=null:x!==y){this.y.b=y
 this.z=y
 w=!0}else w=!1
-if(w)this.x.a.sbI(1)
-this.x.Z()},
+if(w)this.x.a.sbJ(1)
+this.x.U()},
 O:function(){var y=this.x
 if(!(y==null))y.N()},
-$asu:function(){return[B.aB]}}
-D.mA.prototype={
-$2:function(n,o){return n+D.qh(o)},
-$S:function(){return{func:1,args:[P.f,P.R]}}}
-D.aG.prototype={
-ax:function(n,o,p){var y=0,x=P.T(),w=this,v
-var $async$ax=P.Y(function(q,r){if(q===1)return P.V(r,x)
+$asr:function(){return[B.aE]}}
+D.mF.prototype={
+$2:function(n,o){return n+D.qm(o)},
+$S:function(){return{func:1,args:[P.f,P.Q]}}}
+D.aI.prototype={
+aA:function(n,o,p){var y=0,x=P.R(),w=this,v
+var $async$aA=P.W(function(q,r){if(q===1)return P.T(r,x)
 while(true)switch(y){case 0:y=2
-return P.C(w.a.bw(0,p.e.i(0,"id")),$async$ax)
+return P.C(w.a.bx(0,p.e.i(0,"id")),$async$aA)
 case 2:v=r
-J.fe(J.S(v,"comments"),D.uP())
+J.fe(J.a0(v,"comments"),D.uU())
 w.b=v
-return P.W(null,x)}})
-return P.X($async$ax,x)},
-$isnz:1}
-E.ko.prototype={
-G:function(){var y,x,w,v
+return P.U(null,x)}})
+return P.V($async$aA,x)},
+$isnE:1}
+E.kr.prototype={
+E:function(){var y,x,w,v
 y=this.bk(this.e)
 x=$.$get$bO()
 w=x.cloneNode(!1)
@@ -262,10 +262,10 @@ this.r=w
 y.appendChild(w)
 v=x.cloneNode(!1)
 y.appendChild(v)
-x=new V.ai(1,null,this,v,null,null,null)
+x=new V.a7(1,null,this,v,null,null,null)
 this.z=x
-this.Q=new K.by(new D.aM(x,E.uQ()),x,!1)
-this.am([],null)
+this.Q=new K.aX(new D.ar(x,E.uV()),x,!1)
+this.ao([],null)
 return},
 K:function(){var y,x,w,v
 y=this.f
@@ -277,68 +277,66 @@ this.S(v)
 v=w.createTextNode("Loading...")
 this.y=v
 this.x.appendChild(v)
-this.bG(this.r,[this.x],!0)}else this.bR([this.x],!0)
-this.ch=x}this.Q.sbP(y.b!=null)
-this.z.au()},
+this.bH(this.r,[this.x],!0)}else this.bR([this.x],!0)
+this.ch=x}this.Q.sb_(y.b!=null)
+this.z.ad()},
 O:function(){var y=this.z
-if(!(y==null))y.at()},
-$asu:function(){return[D.aG]}}
-E.m6.prototype={
-G:function(){var y=L.pE(this,0)
+if(!(y==null))y.ac()},
+$asr:function(){return[D.aI]}}
+E.mb.prototype={
+E:function(){var y=L.pJ(this,0)
 this.x=y
 y=y.e
 this.r=y
 this.S(y)
-y=new X.aF(null,null,null,null,null)
+y=new X.ao(null,null,null,null,null,null)
 this.y=y
-this.x.a6(0,y,[])
+this.x.a5(0,y,[])
 y=$.$get$bO()
 this.z=y.cloneNode(!1)
-y=new V.ai(2,null,this,y.cloneNode(!1),null,null,null)
+y=new V.a7(2,null,this,y.cloneNode(!1),null,null,null)
 this.cx=y
-this.cy=new R.cf(y,null,null,null,new D.aM(y,E.uR()))
-this.am([this.r,this.z,y],null)
+this.cy=new R.cg(y,null,null,null,new D.ar(y,E.uW()))
+this.ao([this.r,this.z,y],null)
 return},
-K:function(){var y,x,w,v,u,t,s,r
+K:function(){var y,x,w,v,u,t,s
 y=this.f
-x=this.a.cy
-w=y.b
-v=this.db
-if(v==null?w!=null:v!==w){this.y.a=w
-this.db=w
-u=!0}else u=!1
-if(u)this.x.a.sbI(1)
-if(x===0)this.y.em()
-t=J.d3(J.S(y.b,"comments"))===!0
-if(this.dx!==t){if(t){s=document
-x=s.createElement("div")
-this.Q=x
-this.S(x)
-x=s.createTextNode("There are no comments yet.")
-this.ch=x
-this.Q.appendChild(x)
-this.bG(this.z,[this.Q],!0)}else this.bR([this.Q],!0)
-this.dx=t}r=J.S(y.b,"comments")
-x=this.dy
-if(x==null?r!=null:x!==r){this.cy.scV(r)
-this.dy=r}this.cy.cU()
-this.cx.au()
-this.x.Z()},
+x=y.b
+w=this.db
+if(w==null?x!=null:w!==x){this.y.seh(0,x)
+this.db=x
+v=!0}else v=!1
+if(v)this.x.a.sbJ(1)
+u=J.bQ(J.a0(y.b,"comments"))===!0
+if(this.dx!==u){if(u){t=document
+w=t.createElement("div")
+this.Q=w
+this.S(w)
+w=t.createTextNode("There are no comments yet.")
+this.ch=w
+this.Q.appendChild(w)
+this.bH(this.z,[this.Q],!0)}else this.bR([this.Q],!0)
+this.dx=u}s=J.a0(y.b,"comments")
+w=this.dy
+if(w==null?s!=null:w!==s){this.cy.scV(s)
+this.dy=s}this.cy.cU()
+this.cx.ad()
+this.x.U()},
 O:function(){var y=this.cx
-if(!(y==null))y.at()
+if(!(y==null))y.ac()
 y=this.x
 if(!(y==null))y.N()},
-$asu:function(){return[D.aG]}}
-E.m7.prototype={
-G:function(){var y=R.pD(this,0)
+$asr:function(){return[D.aI]}}
+E.mc.prototype={
+E:function(){var y=R.pI(this,0)
 this.x=y
 y=y.e
 this.r=y
 this.S(y)
-y=new B.aB(this.c.D(C.y,this.a.Q),null,!1)
+y=new B.aE(this.c.B(C.x,this.a.Q),null,!1)
 this.y=y
-this.x.a6(0,y,[])
-this.aW(this.r)
+this.x.a5(0,y,[])
+this.ay(this.r)
 return},
 K:function(){var y,x,w
 y=this.b.i(0,"$implicit")
@@ -346,53 +344,53 @@ x=this.z
 if(x==null?y!=null:x!==y){this.y.b=y
 this.z=y
 w=!0}else w=!1
-if(w)this.x.a.sbI(1)
-this.x.Z()},
+if(w)this.x.a.sbJ(1)
+this.x.U()},
 O:function(){var y=this.x
 if(!(y==null))y.N()},
-$asu:function(){return[D.aG]}}
-E.m8.prototype={
-G:function(){var y,x
-y=new E.ko(null,null,null,null,null,!1,null,P.I(),this,null,null,null)
-y.a=S.a6(y,3,C.l,0)
+$asr:function(){return[D.aI]}}
+E.md.prototype={
+E:function(){var y,x
+y=new E.kr(null,null,null,null,null,!1,null,P.E(),this,null,null,null)
+y.a=S.a2(y,3,C.l,0)
 x=document.createElement("item-detail")
 y.e=x
-x=$.kp
-if(x==null){x=$.aP.bf("",C.z,C.au)
-$.kp=x}y.b7(x)
+x=$.ks
+if(x==null){x=$.aP.bf("",C.y,C.au)
+$.ks=x}y.b7(x)
 this.r=y
 this.e=y.e
-y=new D.aG(this.D(C.A,this.a.Q),null)
+y=new D.aI(this.B(C.z,this.a.Q),null)
 this.x=y
-this.r.a6(0,y,this.a.e)
-this.aW(this.e)
-return new D.bq(this,0,this.e,this.x)},
-K:function(){this.r.Z()},
+this.r.a5(0,y,this.a.e)
+this.ay(this.e)
+return new D.bt(this,0,this.e,this.x)},
+K:function(){this.r.U()},
 O:function(){var y=this.r
 if(!(y==null))y.N()},
-$asu:function(){}};(function installTearOffs(){f(B.aB.prototype,"giF",0,0,0,null,["$0"],["iG"],1)
-f(R,"uu",1,0,0,null,["$2"],["v4"],2)
-f(D,"uP",1,0,1,null,["$1"],["qh"],3)
-f(E,"uQ",1,0,0,null,["$2"],["va"],0)
-f(E,"uR",1,0,0,null,["$2"],["vb"],0)
-f(E,"uS",1,0,0,null,["$2"],["vc"],4)})();(function inheritance(){var y=P.E
-a(B.aB,y)
-a(D.aG,y)
-y=S.u
-a(R.kj,y)
-a(R.m0,y)
-a(E.ko,y)
-a(E.m6,y)
-a(E.m7,y)
-a(E.m8,y)
-a(D.mA,H.b4)})();(function constants(){C.a8=new D.b5("item-detail",E.uS(),C.e,[D.aG])
+$asr:function(){}};(function installTearOffs(){f(B.aE.prototype,"giI",0,0,0,null,["$0"],["iJ"],1)
+f(R,"uw",1,0,0,null,["$2"],["v9"],2)
+f(D,"uU",1,0,1,null,["$1"],["qm"],3)
+f(E,"uV",1,0,0,null,["$2"],["vh"],0)
+f(E,"uW",1,0,0,null,["$2"],["vi"],0)
+f(E,"uX",1,0,0,null,["$2"],["vj"],4)})();(function inheritance(){var y=P.F
+a(B.aE,y)
+a(D.aI,y)
+y=S.r
+a(R.kn,y)
+a(R.m3,y)
+a(E.kr,y)
+a(E.mb,y)
+a(E.mc,y)
+a(E.md,y)
+a(D.mF,H.b6)})();(function constants(){C.a8=new D.b7("item-detail",E.uX(),C.e,[D.aI])
 C.a4=C.a8
 C.at=d(["._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }"])
 C.ao=d([C.at])
 C.an=d(["._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; }"])
-C.au=d([C.an])})();(function staticFields(){$.o4=null
-$.kp=null})()
-i([{func:1,ret:[S.u,D.aG],args:[S.u,P.f]},{func:1,v:true},{func:1,ret:[S.u,B.aB],args:[S.u,P.f]},{func:1,ret:P.f,args:[P.R]},{func:1,ret:S.u,args:[S.u,P.f]}]);(function nativeSupport(){j({})
+C.au=d([C.an])})();(function staticFields(){$.o9=null
+$.ks=null})()
+i([{func:1,ret:[S.r,D.aI],args:[S.r,P.f]},{func:1,v:true},{func:1,ret:[S.r,B.aE],args:[S.r,P.f]},{func:1,ret:P.f,args:[P.Q]},{func:1,ret:S.r,args:[S.r,P.f]}]);(function nativeSupport(){j({})
 k({})})()}
-$__dart_deferred_initializers__["6vecrvUxghU8ZCcwuAKE8L5FiRs="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["N9QO16r57FgoYUhIgEF/O8SrHs4="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_1.part.js.map

@@ -577,16 +577,6 @@
         ],
         "canonicalUri": "dart:html"
       },
-      "99312219": {
-        "id": "library/99312219",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 248,
-        "children": [
-          "function/199164194"
-        ],
-        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spaceTJ9jsD/web/pwa.dart"
-      },
       "125381488": {
         "id": "library/125381488",
         "kind": "library",
@@ -1398,6 +1388,16 @@
           "class/713066731"
         ],
         "canonicalUri": "dart:math"
+      },
+      "989135188": {
+        "id": "library/989135188",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 248,
+        "children": [
+          "function/991683837"
+        ],
+        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_space8ppuG9/web/pwa.dart"
       },
       "1038137564": {
         "id": "library/1038137564",
@@ -16290,7 +16290,7 @@
         "parameters": [
           {
             "name": "version",
-            "type": "Value([exact=JSString], value: \"2017-10-12T23:40:50.000Z\")",
+            "type": "Value([exact=JSString], value: \"2018-03-22T21:36:19.355Z\")",
             "declaredType": "String"
           }
         ],
@@ -21701,29 +21701,6 @@
         "inlinedCount": 0,
         "code": "function(a,b,c,d,e,f,g,h){var z,y\nif(typeof a!==\"number\"||Math.floor(a)!==a)H.v(H.G(a))\nif(typeof b!==\"number\"||Math.floor(b)!==b)H.v(H.G(b))\nif(typeof c!==\"number\"||Math.floor(c)!==c)H.v(H.G(c))\nif(typeof d!==\"number\"||Math.floor(d)!==d)H.v(H.G(d))\nif(typeof e!==\"number\"||Math.floor(e)!==e)H.v(H.G(e))\nif(typeof f!==\"number\"||Math.floor(f)!==f)H.v(H.G(f))\nz=b-1\nif(0<=a&&a<100){a+=400\nz-=4800}y=h?Date.UTC(a,z,c,d,e,f,g):new Date(a,z,c,d,e,f,g).valueOf()\nif(isNaN(y)||y<-864e13||y>864e13)return\nreturn y}\n",
         "type": "int Function(dynamic,dynamic,dynamic,dynamic,dynamic,dynamic,dynamic,dynamic)",
-        "measurements": null
-      },
-      "199164194": {
-        "id": "function/199164194",
-        "kind": "function",
-        "name": "main",
-        "size": 248,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/99312219",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2017-10-12T23:40:50.000Z\")\nX.lb(x)}\n",
-        "type": "void Function()",
         "measurements": null
       },
       "199520180": {
@@ -48163,6 +48140,29 @@
         "type": "Length Function(int)",
         "measurements": null
       },
+      "991683837": {
+        "id": "function/991683837",
+        "kind": "function",
+        "name": "main",
+        "size": 248,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/989135188",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
+        "type": "void Function()",
+        "measurements": null
+      },
       "991909617": {
         "id": "function/991909617",
         "kind": "function",
@@ -57081,60 +57081,6 @@
       },
       {
         "id": "function/827571674",
-        "mask": "null"
-      }
-    ],
-    "function/199164194": [
-      {
-        "id": "field/227676571",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "null"
-      },
-      {
-        "id": "function/532400125",
-        "mask": "[exact=FetchStrategy]"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/558199338",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      },
-      {
-        "id": "function/608014012",
         "mask": "null"
       }
     ],
@@ -74282,6 +74228,60 @@
         "mask": "null"
       }
     ],
+    "function/991683837": [
+      {
+        "id": "field/227676571",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "null"
+      },
+      {
+        "id": "function/532400125",
+        "mask": "[exact=FetchStrategy]"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/558199338",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      },
+      {
+        "id": "function/608014012",
+        "mask": "null"
+      }
+    ],
     "function/992198936": [
       {
         "id": "function/164775669",
@@ -75529,12 +75529,12 @@
   "deferredFiles": {},
   "dump_minor_version": "0",
   "program": {
-    "entrypoint": "function/199164194",
+    "entrypoint": "function/991683837",
     "size": 189400,
     "dart2jsVersion": "2.0.0-dev.40.0",
-    "compilationMoment": "2018-03-20 18:45:34.135673",
-    "compilationDuration": 2766999,
-    "toJsonDuration": 29000,
+    "compilationMoment": "2018-03-23 12:03:55.610365",
+    "compilationDuration": 2868827,
+    "toJsonDuration": 33000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": true

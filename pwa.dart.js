@@ -2054,7 +2054,7 @@ s=new X.dC([])
 r=new X.f7(s,null,!0,!0,null,null,null)
 r.b=$.$get$jV()
 s.bs("get","https://api.hackernews.io",t.gbq())
-P.d_("Running PWA, version: 2017-10-12T23:40:50.000Z")
+P.d_("Running PWA, version: 2018-03-22T21:36:19.355Z")
 X.lb(r)}}
 var v=[C,H,J,P,W,X,V,S,Q,O,L,K,N]
 setFunctionNamesIfNecessary(v)
