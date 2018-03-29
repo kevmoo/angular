@@ -64,7 +64,6 @@
           "class/89261345",
           "class/90301051",
           "class/96039302",
-          "class/96608627",
           "class/97347480",
           "class/97565466",
           "class/101326390",
@@ -500,6 +499,7 @@
           "class/932959358",
           "class/933811091",
           "class/933890695",
+          "class/934909129",
           "class/935578091",
           "class/937590493",
           "class/938670959",
@@ -609,6 +609,16 @@
           "function/876590309"
         ],
         "canonicalUri": "package:service_worker/src/service_worker_api.dart"
+      },
+      "151754864": {
+        "id": "library/151754864",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 248,
+        "children": [
+          "function/958842635"
+        ],
+        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spaceGfDZLC/web/pwa.dart"
       },
       "174368900": {
         "id": "library/174368900",
@@ -1193,16 +1203,6 @@
         ],
         "canonicalUri": "package:service_worker/src/js_facade/isomorphic_fetch.dart"
       },
-      "917290506": {
-        "id": "library/917290506",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 248,
-        "children": [
-          "function/335714920"
-        ],
-        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spacePDEhOx/web/pwa.dart"
-      },
       "919163266": {
         "id": "library/919163266",
         "kind": "library",
@@ -1429,7 +1429,7 @@
         "id": "library/1052666095",
         "kind": "library",
         "name": "dart.async",
-        "size": 16176,
+        "size": 16175,
         "children": [
           "class/80405414",
           "class/105901179",
@@ -2686,18 +2686,6 @@
         "parent": "library/85591458",
         "modifiers": {
           "abstract": false
-        },
-        "children": []
-      },
-      "96608627": {
-        "id": "class/96608627",
-        "kind": "class",
-        "name": "_ServiceWorker",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/85591458",
-        "modifiers": {
-          "abstract": true
         },
         "children": []
       },
@@ -7221,7 +7209,7 @@
         "id": "class/479944286",
         "kind": "class",
         "name": "_SyncBroadcastStreamController",
-        "size": 612,
+        "size": 611,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1052666095",
         "modifiers": {
@@ -13020,6 +13008,18 @@
         "id": "class/933890695",
         "kind": "class",
         "name": "CssMatrixComponent",
+        "size": 0,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/85591458",
+        "modifiers": {
+          "abstract": false
+        },
+        "children": []
+      },
+      "934909129": {
+        "id": "class/934909129",
+        "kind": "class",
+        "name": "ServiceWorker",
         "size": 0,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/85591458",
@@ -20118,7 +20118,7 @@
         "id": "function/156739564",
         "kind": "function",
         "name": "_sendData",
-        "size": 303,
+        "size": 302,
         "outputUnit": "outputUnit/669725655",
         "parent": "class/479944286",
         "children": [
@@ -26611,29 +26611,6 @@
         "inlinedCount": 19,
         "code": null,
         "type": "void Function(dynamic)",
-        "measurements": null
-      },
-      "335714920": {
-        "id": "function/335714920",
-        "kind": "function",
-        "name": "main",
-        "size": 248,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/917290506",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
-        "type": "void Function()",
         "measurements": null
       },
       "336168458": {
@@ -40077,7 +40054,7 @@
           },
           {
             "name": "other",
-            "type": "[exact=JSString]",
+            "type": "[null|exact=JSString]",
             "declaredType": "String"
           }
         ],
@@ -47190,6 +47167,29 @@
         "type": "Future<dynamic> Function()",
         "measurements": null
       },
+      "958842635": {
+        "id": "function/958842635",
+        "kind": "function",
+        "name": "main",
+        "size": 248,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/151754864",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
+        "type": "void Function()",
+        "measurements": null
+      },
       "958947066": {
         "id": "function/958947066",
         "kind": "function",
@@ -51725,7 +51725,7 @@
         "id": "closure/686680837",
         "kind": "closure",
         "name": "_SyncBroadcastStreamController__sendData_closure",
-        "size": 144,
+        "size": 143,
         "outputUnit": "outputUnit/669725655",
         "parent": "function/156739564",
         "function": "function/203077788"
@@ -60412,60 +60412,6 @@
       {
         "id": "function/507333070",
         "mask": "inlined"
-      }
-    ],
-    "function/335714920": [
-      {
-        "id": "field/227676571",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "null"
-      },
-      {
-        "id": "function/532400125",
-        "mask": "[exact=FetchStrategy]"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/558199338",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      },
-      {
-        "id": "function/608014012",
-        "mask": "null"
       }
     ],
     "function/336168458": [
@@ -73448,6 +73394,60 @@
         "mask": "Union([exact=ArrayIterator], [exact=FixedSizeListIterator], [exact=ListIterator])"
       }
     ],
+    "function/958842635": [
+      {
+        "id": "field/227676571",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "null"
+      },
+      {
+        "id": "function/532400125",
+        "mask": "[exact=FetchStrategy]"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/558199338",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      },
+      {
+        "id": "function/608014012",
+        "mask": "null"
+      }
+    ],
     "function/958947066": [
       {
         "id": "function/261816898",
@@ -75521,7 +75521,7 @@
       "id": "outputUnit/669725655",
       "kind": "outputUnit",
       "name": "main",
-      "size": 189400,
+      "size": 189399,
       "imports": []
     }
   ],
@@ -75529,12 +75529,12 @@
   "deferredFiles": {},
   "dump_minor_version": "0",
   "program": {
-    "entrypoint": "function/335714920",
-    "size": 189400,
-    "dart2jsVersion": "2.0.0-dev.42.0",
-    "compilationMoment": "2018-03-27 15:42:16.530456",
-    "compilationDuration": 2686819,
-    "toJsonDuration": 30000,
+    "entrypoint": "function/958842635",
+    "size": 189399,
+    "dart2jsVersion": "2.0.0-dev.43.0",
+    "compilationMoment": "2018-03-29 13:38:35.785842",
+    "compilationDuration": 2954430,
+    "toJsonDuration": 31000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": true
