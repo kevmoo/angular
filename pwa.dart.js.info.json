@@ -610,16 +610,6 @@
         ],
         "canonicalUri": "package:service_worker/src/service_worker_api.dart"
       },
-      "151754864": {
-        "id": "library/151754864",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 248,
-        "children": [
-          "function/958842635"
-        ],
-        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spaceGfDZLC/web/pwa.dart"
-      },
       "174368900": {
         "id": "library/174368900",
         "kind": "library",
@@ -1149,6 +1139,16 @@
           "class/924812431"
         ],
         "canonicalUri": "dart:web_gl"
+      },
+      "850676837": {
+        "id": "library/850676837",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 248,
+        "children": [
+          "function/747311342"
+        ],
+        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spacecMmnzs/web/pwa.dart"
       },
       "901266531": {
         "id": "library/901266531",
@@ -40399,6 +40399,29 @@
         "type": "String Function()",
         "measurements": null
       },
+      "747311342": {
+        "id": "function/747311342",
+        "kind": "function",
+        "name": "main",
+        "size": 248,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/850676837",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
+        "type": "void Function()",
+        "measurements": null
+      },
       "748173162": {
         "id": "function/748173162",
         "kind": "function",
@@ -47165,29 +47188,6 @@
         "inlinedCount": 0,
         "code": "Y:function(){var z=0,y=P.S(),x=[],w=this,v,u,t,s,r,q,p,o,n,m,l,k\nvar $async$Y=P.a4(function(a,b){if(a===1)return P.a0(b,y)\nwhile(true)switch(z){case 0:q=$.$get$B()\nq=q.gJ(q).a\nv=[]\nu=0\nk=J\nz=2\nreturn P.w(V.I(q.keys.apply(q,[]),null),$async$Y)\ncase 2:q=k.aa(b)\ncase 3:if(!q.n()){z=4\nbreak}t=q.gp(q)\nif(J.ke(t,w.a)){s=J.kf(t,w.a.length)\ntry{r=H.b9(s,null,null)\nif(J.iY(u,r)){u=r\np=w.d\nif(p!=null)J.hP(v,p)\nw.d=t}else J.hP(v,t)}catch(j){H.C(j)\nJ.hP(v,t)}}z=3\nbreak\ncase 4:q=v,p=q.length,n=0\ncase 5:if(!(n<q.length)){z=7\nbreak}t=q[n]\nm=$.$get$B()\nl=m.b\nif(l==null){l=new L.bx(m.a.caches)\nm.b=l\nm=l}else m=l\nm=m.a\nz=8\nreturn P.w(V.I(m.delete.apply(m,[t]),null),$async$Y)\ncase 8:case 6:q.length===p||(0,H.aP)(q),++n\nz=5\nbreak\ncase 7:w.c=!0\nreturn P.a1(null,y)}})\nreturn P.a2($async$Y,y)}\n",
         "type": "Future<dynamic> Function()",
-        "measurements": null
-      },
-      "958842635": {
-        "id": "function/958842635",
-        "kind": "function",
-        "name": "main",
-        "size": 248,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/151754864",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
-        "type": "void Function()",
         "measurements": null
       },
       "958947066": {
@@ -69040,6 +69040,60 @@
         "mask": "null"
       }
     ],
+    "function/747311342": [
+      {
+        "id": "field/227676571",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "null"
+      },
+      {
+        "id": "function/532400125",
+        "mask": "[exact=FetchStrategy]"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/558199338",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      },
+      {
+        "id": "function/608014012",
+        "mask": "null"
+      }
+    ],
     "function/749970393": [
       {
         "id": "function/712365042",
@@ -73394,60 +73448,6 @@
         "mask": "Union([exact=ArrayIterator], [exact=FixedSizeListIterator], [exact=ListIterator])"
       }
     ],
-    "function/958842635": [
-      {
-        "id": "field/227676571",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "null"
-      },
-      {
-        "id": "function/532400125",
-        "mask": "[exact=FetchStrategy]"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/558199338",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      },
-      {
-        "id": "function/608014012",
-        "mask": "null"
-      }
-    ],
     "function/958947066": [
       {
         "id": "function/261816898",
@@ -75529,12 +75529,12 @@
   "deferredFiles": {},
   "dump_minor_version": "0",
   "program": {
-    "entrypoint": "function/958842635",
+    "entrypoint": "function/747311342",
     "size": 189399,
     "dart2jsVersion": "2.0.0-dev.43.0",
-    "compilationMoment": "2018-03-29 13:38:35.785842",
-    "compilationDuration": 2954430,
-    "toJsonDuration": 31000,
+    "compilationMoment": "2018-04-02 09:54:36.383287",
+    "compilationDuration": 3149567,
+    "toJsonDuration": 30000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": true
