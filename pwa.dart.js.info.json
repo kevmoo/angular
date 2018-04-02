@@ -1140,16 +1140,6 @@
         ],
         "canonicalUri": "dart:web_gl"
       },
-      "850676837": {
-        "id": "library/850676837",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 248,
-        "children": [
-          "function/747311342"
-        ],
-        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spacecMmnzs/web/pwa.dart"
-      },
       "901266531": {
         "id": "library/901266531",
         "kind": "library",
@@ -1202,6 +1192,16 @@
           "class/991005319"
         ],
         "canonicalUri": "package:service_worker/src/js_facade/isomorphic_fetch.dart"
+      },
+      "912837986": {
+        "id": "library/912837986",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 248,
+        "children": [
+          "function/953864933"
+        ],
+        "canonicalUri": "file:///private/var/folders/9_/hw8ty6ns5c31y68b55m6v3bw0071_k/T/scratch_spaceGz0AdV/web/pwa.dart"
       },
       "919163266": {
         "id": "library/919163266",
@@ -40399,29 +40399,6 @@
         "type": "String Function()",
         "measurements": null
       },
-      "747311342": {
-        "id": "function/747311342",
-        "kind": "function",
-        "name": "main",
-        "size": 248,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/850676837",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
-        "type": "void Function()",
-        "measurements": null
-      },
       "748173162": {
         "id": "function/748173162",
         "kind": "function",
@@ -47045,6 +47022,29 @@
         "inlinedCount": 0,
         "code": "gah:function(){return this.c<4}\n",
         "type": "bool Function()",
+        "measurements": null
+      },
+      "953864933": {
+        "id": "function/953864933",
+        "kind": "function",
+        "name": "main",
+        "size": 248,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/912837986",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z,y,x\nz=X.j4(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f7(y,null,!0,!0,null,null,null)\nx.b=$.$get$jV()\ny.bs(\"get\",\"https://api.hackernews.io\",z.gbq())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.lb(x)}\n",
+        "type": "void Function()",
         "measurements": null
       },
       "954428895": {
@@ -69040,60 +69040,6 @@
         "mask": "null"
       }
     ],
-    "function/747311342": [
-      {
-        "id": "field/227676571",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "null"
-      },
-      {
-        "id": "function/532400125",
-        "mask": "[exact=FetchStrategy]"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/558199338",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      },
-      {
-        "id": "function/608014012",
-        "mask": "null"
-      }
-    ],
     "function/749970393": [
       {
         "id": "function/712365042",
@@ -73138,6 +73084,60 @@
         "mask": "null"
       }
     ],
+    "function/953864933": [
+      {
+        "id": "field/227676571",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "null"
+      },
+      {
+        "id": "function/532400125",
+        "mask": "[exact=FetchStrategy]"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/558199338",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      },
+      {
+        "id": "function/608014012",
+        "mask": "null"
+      }
+    ],
     "function/954628437": [
       {
         "id": "function/690765464",
@@ -75529,12 +75529,12 @@
   "deferredFiles": {},
   "dump_minor_version": "0",
   "program": {
-    "entrypoint": "function/747311342",
+    "entrypoint": "function/953864933",
     "size": 189399,
     "dart2jsVersion": "2.0.0-dev.43.0",
-    "compilationMoment": "2018-04-02 09:54:36.383287",
-    "compilationDuration": 3149567,
-    "toJsonDuration": 30000,
+    "compilationMoment": "2018-04-02 09:56:21.487613",
+    "compilationDuration": 2965285,
+    "toJsonDuration": 31000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": true
