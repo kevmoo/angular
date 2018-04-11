@@ -918,15 +918,15 @@
         ],
         "canonicalUri": "dart:_js_names"
       },
-      "619015266": {
-        "id": "library/619015266",
+      "573823522": {
+        "id": "library/573823522",
         "kind": "library",
         "name": "<unnamed>",
         "size": 248,
         "children": [
-          "function/357572129"
+          "function/842579196"
         ],
-        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacewNSQXm/web/pwa.dart"
+        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacesbgNTU/web/pwa.dart"
       },
       "631335891": {
         "id": "library/631335891",
@@ -18045,7 +18045,7 @@
         "returnType": "dynamic",
         "inferredReturnType": "[exact=_Future]",
         "parameters": [],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "sideEffects": "SideEffects(reads static; writes nothing)",
         "inlinedCount": 8,
         "code": null,
         "type": "dynamic Function()",
@@ -22950,13 +22950,13 @@
           {
             "name": "_match",
             "type": "[null|exact=JSExtendableArray]",
-            "declaredType": "List<String>"
+            "declaredType": "JSArray<dynamic>"
           }
         ],
         "sideEffects": "SideEffects(reads nothing; writes nothing)",
         "inlinedCount": 1,
         "code": null,
-        "type": "dynamic Function(Pattern,List<String>)",
+        "type": "dynamic Function(Pattern,JSArray<dynamic>)",
         "measurements": null
       },
       "240626512": {
@@ -27505,29 +27505,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "int Function()",
-        "measurements": null
-      },
-      "357572129": {
-        "id": "function/357572129",
-        "kind": "function",
-        "name": "main",
-        "size": 248,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/619015266",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z,y,x\nz=X.j6(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f8(y,null,!0,!0,null,null,null)\nx.b=$.$get$jY()\ny.bu(\"get\",\"https://api.hackernews.io\",z.gbs())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.le(x)}\n",
-        "type": "void Function()",
         "measurements": null
       },
       "357627841": {
@@ -43690,6 +43667,29 @@
         "inlinedCount": 0,
         "code": "j:function(a,b,c){throw H.b(P.i(\"Cannot assign element of immutable List.\"))}\n",
         "type": "void Function(int,Rectangle<dynamic>)",
+        "measurements": null
+      },
+      "842579196": {
+        "id": "function/842579196",
+        "kind": "function",
+        "name": "main",
+        "size": 248,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/573823522",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z,y,x\nz=X.j6(\"hacker-news-service\",C.n,20,null,!1)\ny=new X.dC([])\nx=new X.f8(y,null,!0,!0,null,null,null)\nx.b=$.$get$jY()\ny.bu(\"get\",\"https://api.hackernews.io\",z.gbs())\nP.d_(\"Running PWA, version: 2018-03-22T21:36:19.355Z\")\nX.le(x)}\n",
+        "type": "void Function()",
         "measurements": null
       },
       "843997665": {
@@ -61440,60 +61440,6 @@
         "mask": "[null|subclass=Object]"
       }
     ],
-    "function/357572129": [
-      {
-        "id": "field/227676571",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/473220730",
-        "mask": "null"
-      },
-      {
-        "id": "function/532400125",
-        "mask": "[exact=FetchStrategy]"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/558199338",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      },
-      {
-        "id": "function/608014012",
-        "mask": "null"
-      }
-    ],
     "function/357627841": [
       {
         "id": "function/188708191",
@@ -71396,6 +71342,60 @@
         "mask": "null"
       }
     ],
+    "function/842579196": [
+      {
+        "id": "field/227676571",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/473220730",
+        "mask": "null"
+      },
+      {
+        "id": "function/532400125",
+        "mask": "[exact=FetchStrategy]"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/558199338",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      },
+      {
+        "id": "function/608014012",
+        "mask": "null"
+      }
+    ],
     "function/848250874": [
       {
         "id": "function/1023065687",
@@ -75681,16 +75681,20 @@
   ],
   "dump_version": 5,
   "deferredFiles": {},
-  "dump_minor_version": "0",
+  "dump_minor_version": 1,
   "program": {
-    "entrypoint": "function/357572129",
+    "entrypoint": "function/842579196",
     "size": 190018,
-    "dart2jsVersion": "2.0.0-dev.46.0",
-    "compilationMoment": "2018-04-10 12:49:00.678974",
-    "compilationDuration": 2951532,
-    "toJsonDuration": 29000,
+    "dart2jsVersion": "2.0.0-dev.47.0",
+    "compilationMoment": "2018-04-11 13:32:51.355713",
+    "compilationDuration": 2663556,
+    "toJsonDuration": 51000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
+    "isRuntimeTypeUsed": false,
+    "isIsolateInUse": true,
+    "isFunctionApplyUsed": true,
+    "isMirrorsUsed": false,
     "minified": true
   }
 }
