@@ -775,7 +775,7 @@
         "id": "library/182997290",
         "kind": "library",
         "name": "<unnamed>",
-        "size": 5436,
+        "size": 5429,
         "children": [
           "class/42539992",
           "class/377293875",
@@ -943,17 +943,6 @@
           "class/581853079"
         ],
         "canonicalUri": "package:angular/src/core/application_ref.dart"
-      },
-      "251140134": {
-        "id": "library/251140134",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 830,
-        "children": [
-          "class/1049281213",
-          "function/938490984"
-        ],
-        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spaceHN2QbN/web/main.template.dart"
       },
       "253487430": {
         "id": "library/253487430",
@@ -1579,6 +1568,17 @@
         ],
         "canonicalUri": "package:angular/src/core/linker/component_factory.dart"
       },
+      "663007064": {
+        "id": "library/663007064",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 830,
+        "children": [
+          "class/94292735",
+          "function/626988449"
+        ],
+        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacezbTsbp/web/main.template.dart"
+      },
       "668272463": {
         "id": "library/668272463",
         "kind": "library",
@@ -2036,6 +2036,18 @@
         ],
         "canonicalUri": "package:angular_router/src/location/path_location_strategy.dart"
       },
+      "949978825": {
+        "id": "library/949978825",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 462,
+        "children": [
+          "field/83023401",
+          "function/303051658",
+          "function/451952164"
+        ],
+        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacezbTsbp/web/main.dart"
+      },
       "950781010": {
         "id": "library/950781010",
         "kind": "library",
@@ -2407,18 +2419,6 @@
           "function/1044017991"
         ],
         "canonicalUri": "package:angular_router/src/location/location.dart"
-      },
-      "1059406096": {
-        "id": "library/1059406096",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 462,
-        "children": [
-          "field/391889250",
-          "function/9932880",
-          "function/572736070"
-        ],
-        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spaceHN2QbN/web/main.dart"
       }
     },
     "class": {
@@ -2995,7 +2995,7 @@
         "id": "class/42539992",
         "kind": "class",
         "name": "_ViewFeedComponentHost0",
-        "size": 585,
+        "size": 615,
         "outputUnit": "outputUnit/669725656",
         "parent": "library/182997290",
         "modifiers": {
@@ -3815,6 +3815,27 @@
         "children": [
           "function/150705146",
           "function/681643548"
+        ]
+      },
+      "94292735": {
+        "id": "class/94292735",
+        "kind": "class",
+        "name": "_Injector$hackerNewsApp",
+        "size": 774,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/663007064",
+        "modifiers": {
+          "abstract": false
+        },
+        "children": [
+          "function/171079043",
+          "function/205365462",
+          "function/748840325",
+          "function/771549486",
+          "function/827266615",
+          "function/870314496",
+          "function/943848855",
+          "function/982989130"
         ]
       },
       "95966760": {
@@ -7985,7 +8006,7 @@
         "id": "class/377293875",
         "kind": "class",
         "name": "_ViewFeedComponent3",
-        "size": 1023,
+        "size": 472,
         "outputUnit": "outputUnit/669725656",
         "parent": "library/182997290",
         "modifiers": {
@@ -13129,7 +13150,7 @@
         "id": "class/723546661",
         "kind": "class",
         "name": "ViewFeedComponent0",
-        "size": 1076,
+        "size": 1620,
         "outputUnit": "outputUnit/669725656",
         "parent": "library/182997290",
         "modifiers": {
@@ -18375,27 +18396,6 @@
         },
         "children": []
       },
-      "1049281213": {
-        "id": "class/1049281213",
-        "kind": "class",
-        "name": "_Injector$hackerNewsApp",
-        "size": 774,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/251140134",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/185819048",
-          "function/202769844",
-          "function/308829153",
-          "function/342062558",
-          "function/391134031",
-          "function/652434576",
-          "function/697956919",
-          "function/822358631"
-        ]
-      },
       "1050367254": {
         "id": "class/1050367254",
         "kind": "class",
@@ -19046,7 +19046,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "du:function(a,b,c,d){var z,y\nif(a==null)z=this.x\nelse{z=a.f\nthis.d7(this.cD(a))}y=this.d\na=y==null?null:y.at(0,c,d)\nif(a!=null){y=a.a\nif(y==null?b!=null:y!==b)this.c2(a,b)\nthis.cD(a)\nthis.cq(a,z,d)\nthis.c4(a,d)}else{y=this.e\na=y==null?null:y.S(0,c)\nif(a!=null){y=a.a\nif(y==null?b!=null:y!==b)this.c2(a,b)\nthis.dH(a,z,d)}else{a=new R.dl(b,c,null,null,null,null,null,null,null,null,null,null,null,null)\nthis.cq(a,z,d)\ny=this.z\nif(y==null){this.y=a\nthis.z=a}else{y.ch=a\nthis.z=a}}}return a}\n",
+        "code": "du:function(a,b,c,d){var z,y\nif(a==null)z=this.x\nelse{z=a.f\nthis.d7(this.cD(a))}y=this.d\na=y==null?null:y.as(0,c,d)\nif(a!=null){y=a.a\nif(y==null?b!=null:y!==b)this.c2(a,b)\nthis.cD(a)\nthis.cq(a,z,d)\nthis.c4(a,d)}else{y=this.e\na=y==null?null:y.S(0,c)\nif(a!=null){y=a.a\nif(y==null?b!=null:y!==b)this.c2(a,b)\nthis.dH(a,z,d)}else{a=new R.dl(b,c,null,null,null,null,null,null,null,null,null,null,null,null)\nthis.cq(a,z,d)\ny=this.z\nif(y==null){this.y=a\nthis.z=a}else{y.ch=a\nthis.z=a}}}return a}\n",
         "type": "CollectionChangeRecord Function(CollectionChangeRecord,dynamic,dynamic,int)",
         "measurements": null
       },
@@ -19100,29 +19100,6 @@
         "inlinedCount": 0,
         "code": "ic:function(a){if(a==null)a=P.uv()\nthis.a=this.d.b_(a)}\n",
         "type": "void Function(void Function(_BufferingStreamSubscription.T))",
-        "measurements": null
-      },
-      "9932880": {
-        "id": "function/9932880",
-        "kind": "function",
-        "name": "getNewsService",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/1059406096",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "HackerNewsService",
-        "inferredReturnType": "[null|exact=HackerNewsService]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads static; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "HackerNewsService Function()",
         "measurements": null
       },
       "10149927": {
@@ -19208,7 +19185,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){var z,y\nz=this.a\nif(z==null)y=a\nelse y=a!=null?z.$1(a):null\nthis.b.ax(0,y)}\n\"call*\":\"$1\"\n$R:1\n",
+        "code": "$1:function(a){var z,y\nz=this.a\nif(z==null)y=a\nelse y=a!=null?z.$1(a):null\nthis.b.aw(0,y)}\n\"call*\":\"$1\"\n$R:1\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -19576,7 +19553,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aj:function(a,b){var z,y,x\nz=this.d\nif(z==null){z=P.oB()\nthis.d=z}y=this.ab(b)\nx=z[y]\nif(x==null)z[y]=[this.cj(b)]\nelse{if(this.ac(x,b)>=0)return!1\nx.push(this.cj(b))}return!0}\n",
+        "code": "aj:function(a,b){var z,y,x\nz=this.d\nif(z==null){z=P.oB()\nthis.d=z}y=this.ac(b)\nx=z[y]\nif(x==null)z[y]=[this.cj(b)]\nelse{if(this.ad(x,b)>=0)return!1\nx.push(this.cj(b))}return!0}\n",
         "type": "bool Function(_LinkedHashSet.E)",
         "measurements": null
       },
@@ -19859,7 +19836,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "c3:function(a){var z,y\nz=this.a\nif(z<=1){a.a=this.c\nthis.c=a}else{if(z===2){z=this.c\ny=z.a\nif(y<4){z.c3(a)\nreturn}this.a=y\nthis.c=z.c}this.b.au(new P.lg(this,a))}}\n",
+        "code": "c3:function(a){var z,y\nz=this.a\nif(z<=1){a.a=this.c\nthis.c=a}else{if(z===2){z=this.c\ny=z.a\nif(y<4){z.c3(a)\nreturn}this.a=y\nthis.c=z.c}this.b.at(new P.lg(this,a))}}\n",
         "type": "void Function(_FutureListener<dynamic,dynamic>)",
         "measurements": null
       },
@@ -20065,7 +20042,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){return J.a7(this.a)}\n",
+        "code": "gh:function(a){return J.a8(this.a)}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -20667,7 +20644,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createTextNode(\"\\n       | \")\nx=z.createElement(\"a\")\nthis.r=x\nthis.T(x)\nx=this.c\nw=x.c\nthis.x=new G.ar(G.b0(w.B(C.e,x.a.Q),w.B(C.j,x.a.Q),null,this.r),null,null,null,null,!1)\nz=z.createTextNode(\"\")\nthis.y=z\nthis.r.appendChild(z)\nz=this.r\nx=this.x.e;(z&&C.m).a6(z,\"click\",this.an(x.gaq(x)))\nthis.ap([y,this.r],null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createTextNode(\"\\n       | \")\nx=z.createElement(\"a\")\nthis.r=x\nthis.T(x)\nx=this.c\nw=x.c\nthis.x=new G.ar(G.b0(w.B(C.e,x.a.Q),w.B(C.j,x.a.Q),null,this.r),null,null,null,null,!1)\nz=z.createTextNode(\"\")\nthis.y=z\nthis.r.appendChild(z)\nz=this.r\nx=this.x.e;(z&&C.m).a6(z,\"click\",this.an(x.gap(x)))\nthis.az([y,this.r],null)\nreturn}\n",
         "type": "ComponentRef<ItemComponent> Function()",
         "measurements": null
       },
@@ -21112,7 +21089,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k\nif(c==null)c=a.length\nz=new P.kr(a)\ny=new P.ks(z,a)\nif(a.length<2)z.$1(\"address is too short\")\nx=[]\nfor(w=b,v=w,u=!1,t=!1;w<c;++w){s=C.a.G(a,w)\nif(s===58){if(w===b){++w\nif(C.a.G(a,w)!==58)z.$2(\"invalid start colon.\",w)\nv=w}if(w===v){if(u)z.$2(\"only one wildcard `::` is allowed\",w)\nx.push(-1)\nu=!0}else x.push(y.$2(v,w))\nv=w+1}else if(s===46)t=!0}if(x.length===0)z.$1(\"too few parts\")\nr=v===c\nq=C.b.gR(x)\nif(r&&q!==-1)z.$2(\"expected a part after last `:`\",c)\nif(!r)if(!t)x.push(y.$2(v,c))\nelse{p=P.tq(a,v,c)\nx.push((p[0]<<8|p[1])>>>0)\nx.push((p[2]<<8|p[3])>>>0)}if(u){if(x.length>7)z.$1(\"an address with a wildcard must have less than 7 parts\")}else if(x.length!==8)z.$1(\"an address without a wildcard must contain exactly 8 parts\")\no=new Uint8Array(16)\nfor(q=x.length,n=9-q,w=0,m=0;w<q;++w){l=x[w]\nif(l===-1)for(k=0;k<n;++k){o[m]=0\no[m+1]=0\nm+=2}else{o[m]=C.d.aw(l,8)\no[m+1]=l&255\nm+=2}}return o}\n",
+        "code": "function(a,b,c){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k\nif(c==null)c=a.length\nz=new P.kr(a)\ny=new P.ks(z,a)\nif(a.length<2)z.$1(\"address is too short\")\nx=[]\nfor(w=b,v=w,u=!1,t=!1;w<c;++w){s=C.a.G(a,w)\nif(s===58){if(w===b){++w\nif(C.a.G(a,w)!==58)z.$2(\"invalid start colon.\",w)\nv=w}if(w===v){if(u)z.$2(\"only one wildcard `::` is allowed\",w)\nx.push(-1)\nu=!0}else x.push(y.$2(v,w))\nv=w+1}else if(s===46)t=!0}if(x.length===0)z.$1(\"too few parts\")\nr=v===c\nq=C.b.gR(x)\nif(r&&q!==-1)z.$2(\"expected a part after last `:`\",c)\nif(!r)if(!t)x.push(y.$2(v,c))\nelse{p=P.tq(a,v,c)\nx.push((p[0]<<8|p[1])>>>0)\nx.push((p[2]<<8|p[3])>>>0)}if(u){if(x.length>7)z.$1(\"an address with a wildcard must have less than 7 parts\")}else if(x.length!==8)z.$1(\"an address without a wildcard must contain exactly 8 parts\")\no=new Uint8Array(16)\nfor(q=x.length,n=9-q,w=0,m=0;w<q;++w){l=x[w]\nif(l===-1)for(k=0;k<n;++k){o[m]=0\no[m+1]=0\nm+=2}else{o[m]=C.d.av(l,8)\no[m+1]=l&255\nm+=2}}return o}\n",
         "type": "List<int> Function(String,[int,int])",
         "measurements": null
       },
@@ -21628,7 +21605,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 1,
-        "code": "j:function(a){return this.aa(0)}\n",
+        "code": "j:function(a){return this.ab(0)}\n",
         "type": "String Function()",
         "measurements": null
       },
@@ -21703,7 +21680,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){return new H.bp(!0,[]).ay(new H.aB(!1,P.b4(null,P.i)).a3(a))}\n",
+        "code": "function(a){return new H.bp(!0,[]).ax(new H.aB(!1,P.b4(null,P.i)).a3(a))}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -21886,7 +21863,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "hD:function(a){var z,y,x,w,v\nz=a[1]\ny=a[2]\nx=P.B()\nthis.b.push(x)\nz=J.nw(z,this.ghB()).a9(0)\nfor(w=J.E(y),v=0;v<z.length;++v)x.k(0,z[v],this.ay(w.i(y,v)))\nreturn x}\n",
+        "code": "hD:function(a){var z,y,x,w,v\nz=a[1]\ny=a[2]\nx=P.B()\nthis.b.push(x)\nz=J.nw(z,this.ghB()).aa(0)\nfor(w=J.E(y),v=0;v<z.length;++v)x.k(0,z[v],this.ax(w.i(y,v)))\nreturn x}\n",
         "type": "Map<dynamic,dynamic> Function(dynamic)",
         "measurements": null
       },
@@ -21928,7 +21905,7 @@
         "id": "function/49459642",
         "kind": "function",
         "name": "destroyInternal",
-        "size": 48,
+        "size": 110,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/723546661",
         "children": [],
@@ -21943,7 +21920,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "K:function(){var z=this.cx\nif(!(z==null))z.a1()}\n",
+        "code": "K:function(){var z=this.cx\nif(!(z==null))z.a1()\nz=this.dy\nif(!(z==null))z.a1()\nz=this.fx\nif(!(z==null))z.a1()}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -22119,7 +22096,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 3,
-        "code": "M:function(a,b){return P.ce(this,b,H.a6(this,\"d\",0))}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){return P.ce(this,b,H.a7(this,\"d\",0))}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<Iterable.E> Function({bool growable})",
         "measurements": null
       },
@@ -22342,7 +22319,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o\nz={}\ny=init.deferredLibraryParts[a]\nif(y==null){x=new P.A(0,$.p,null,[null])\nx.av(null)\nreturn x}x=[P.h]\nw=H.u([],x)\nv=H.u([],x)\nu=init.deferredPartUris\nt=init.deferredPartHashes\nfor(s=0;s<y.length;++s){r=y[s]\nw.push(u[r])\nv.push(t[r])}q=v.length\np=P.rY(q,!0,!1,null)\nz.a=0\no=init.isHunkLoaded\nx=new H.ni(z,q,p,w,v,init.isHunkInitialized,o,init.initializeLoadedHunk)\nreturn P.rI(P.py(q,new H.nj(o,v,p,w,x),!0,null),null,!1).ar(0,new H.nh(z,x,q,a))}\n",
+        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o\nz={}\ny=init.deferredLibraryParts[a]\nif(y==null){x=new P.A(0,$.p,null,[null])\nx.au(null)\nreturn x}x=[P.h]\nw=H.u([],x)\nv=H.u([],x)\nu=init.deferredPartUris\nt=init.deferredPartHashes\nfor(s=0;s<y.length;++s){r=y[s]\nw.push(u[r])\nv.push(t[r])}q=v.length\np=P.rY(q,!0,!1,null)\nz.a=0\no=init.isHunkLoaded\nx=new H.ni(z,q,p,w,v,init.isHunkInitialized,o,init.initializeLoadedHunk)\nreturn P.rI(P.py(q,new H.nj(o,v,p,w,x),!0,null),null,!1).aq(0,new H.nh(z,x,q,a))}\n",
         "type": "Future<Null> Function(String)",
         "measurements": null
       },
@@ -23355,7 +23332,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "hQ:function(a){var z,y\nz=this.e\ny=this.b.b\nif(H.db(z,{func:1,args:[P.C,P.a8]}))return y.es(z,a.a,a.b)\nelse return y.b0(z,a.a)}\n",
+        "code": "hQ:function(a){var z,y\nz=this.e\ny=this.b.b\nif(H.db(z,{func:1,args:[P.C,P.a9]}))return y.es(z,a.a,a.b)\nelse return y.b0(z,a.a)}\n",
         "type": "dynamic Function(AsyncError)",
         "measurements": null
       },
@@ -24224,7 +24201,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fJ:function(a){var z,y,x\nz=this.d\nif(z==null)return\ny=z[this.ab(a)]\nx=this.ac(y,a)\nif(x<0)return\nreturn J.U(y,x).gfw()}\n",
+        "code": "fJ:function(a){var z,y,x\nz=this.d\nif(z==null)return\ny=z[this.ac(a)]\nx=this.ad(y,a)\nif(x<0)return\nreturn J.U(y,x).gfw()}\n",
         "type": "_LinkedHashSet.E Function(Object)",
         "measurements": null
       },
@@ -25035,7 +25012,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ax:function(a,b){var z=this.a\nif(z.a!==0)throw H.b(P.bk(\"Future already completed\"))\nz.ak(b)}\n",
+        "code": "aw:function(a,b){var z=this.a\nif(z.a!==0)throw H.b(P.bk(\"Future already completed\"))\nz.ak(b)}\n",
         "type": "void Function([dynamic])",
         "measurements": null
       },
@@ -25146,7 +25123,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "cl:function(a,b){var z=this.x.ar(0,new Z.j9(this,a,b))\nthis.x=z\nreturn z}\n",
+        "code": "cl:function(a,b){var z=this.x.aq(0,new Z.j9(this,a,b))\nthis.x=z\nreturn z}\n",
         "type": "Future<NavigationResult> Function(String,NavigationParams)",
         "measurements": null
       },
@@ -25198,7 +25175,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ax:function(a,b){var z=this.a\nif(z.a!==0)throw H.b(P.bk(\"Future already completed\"))\nz.av(b)}\n",
+        "code": "aw:function(a,b){var z=this.a\nif(z.a!==0)throw H.b(P.bk(\"Future already completed\"))\nz.au(b)}\n",
         "type": "void Function([dynamic])",
         "measurements": null
       },
@@ -25347,7 +25324,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$2:function(a,b){var z,y\nz=this.a.a\ny=this.b.as(b)\nJ.fk(z,a,y)\nreturn y}\n",
+        "code": "$2:function(a,b){var z,y\nz=this.a.a\ny=this.b.ar(b)\nJ.fk(z,a,y)\nreturn y}\n",
         "type": "dynamic Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -25916,7 +25893,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ab:function(a){return H.oY(a)&0x3ffffff}\n",
+        "code": "ac:function(a){return H.oY(a)&0x3ffffff}\n",
         "type": "int Function(dynamic)",
         "measurements": null
       },
@@ -26164,7 +26141,7 @@
         "id": "function/121553341",
         "kind": "function",
         "name": "detectChangesInternal",
-        "size": 523,
+        "size": 617,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/723546661",
         "children": [],
@@ -26179,7 +26156,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "I:function(){var z,y,x,w,v,u\nz=this.f\ny=z.b==null\nif(this.db!==y){if(y){x=document\nw=x.createElement(\"div\")\nthis.x=w\nv=x.createTextNode(\"Loading...\")\nthis.y=v\nw.appendChild(v)\nthis.bD(this.r,[this.x],!0)}else this.bR([this.x],!0)\nthis.db=y}w=z.b\nu=w!=null&&J.bW(w)\nif(this.dx!==u){if(u){x=document\nw=x.createElement(\"div\")\nthis.Q=w\nv=x.createTextNode(\"There are no more items.\")\nthis.ch=v\nw.appendChild(v)\nthis.bD(this.z,[this.Q],!0)}else this.bR([this.Q],!0)\nthis.dx=u}w=this.cy\nv=z.b\nw.saB(v!=null&&J.nv(v))\nthis.cx.a2()}\n",
+        "code": "I:function(){var z,y,x,w,v,u\nz=this.f\ny=z.b==null\nif(this.go!==y){if(y){x=document\nw=x.createElement(\"div\")\nthis.x=w\nw.className=\"loading\"\nv=x.createTextNode(\"Loading...\")\nthis.y=v\nw.appendChild(v)\nthis.bD(this.r,[this.x],!0)}else this.bR([this.x],!0)\nthis.go=y}w=z.b\nu=w!=null&&J.bW(w)\nif(this.id!==u){if(u){x=document\nw=x.createElement(\"div\")\nthis.Q=w\nv=x.createTextNode(\"There are no more items.\")\nthis.ch=v\nw.appendChild(v)\nthis.bD(this.z,[this.Q],!0)}else this.bR([this.Q],!0)\nthis.id=u}w=this.cy\nv=z.b\nw.saB(v!=null&&J.nv(v))\nthis.fr.saB(z.d!=null)\nthis.fy.saB(z.c!=null)\nthis.cx.a2()\nthis.dy.a2()\nthis.fx.a2()}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -26567,7 +26544,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "c0:function(a,b){return H.tj(this,b,H.a6(this,\"d\",0))}\n",
+        "code": "c0:function(a,b){return H.tj(this,b,H.a7(this,\"d\",0))}\n",
         "type": "Iterable<Iterable.E> Function(int)",
         "measurements": null
       },
@@ -26728,7 +26705,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fo:function(a){var z=this.d\nif(z==null)return!1\nreturn this.ac(z[this.ab(a)],a)>=0}\n",
+        "code": "fo:function(a){var z=this.d\nif(z==null)return!1\nreturn this.ad(z[this.ac(a)],a)>=0}\n",
         "type": "bool Function(Object)",
         "measurements": null
       },
@@ -26791,7 +26768,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fD:function(a,b){var z,y,x\nz=this.d\nif(z==null)return\ny=z[this.ab(b)]\nx=this.ac(y,b)\nreturn x<0?null:y[x+1]}\n",
+        "code": "fD:function(a,b){var z,y,x\nz=this.d\nif(z==null)return\ny=z[this.ac(b)]\nx=this.ad(y,b)\nreturn x<0?null:y[x+1]}\n",
         "type": "_HashMap.V Function(Object)",
         "measurements": null
       },
@@ -26900,7 +26877,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "at:function(a,b,c){var z,y,x\nfor(z=this.a,y=c!=null;z!=null;z=z.y){if(!y||c<z.c){x=z.b\nx=x==null?b==null:x===b}else x=!1\nif(x)return z}return}\n",
+        "code": "as:function(a,b,c){var z,y,x\nfor(z=this.a,y=c!=null;z!=null;z=z.y){if(!y||c<z.c){x=z.b\nx=x==null?b==null:x===b}else x=!1\nif(x)return z}return}\n",
         "type": "CollectionChangeRecord Function(dynamic,int)",
         "measurements": null
       },
@@ -27103,7 +27080,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "au:function(a){var z,y,x\nz=this.x\ny=z.a\nx=P.a0(y)\nreturn z.b.$4(y,x,this,a)}\n",
+        "code": "at:function(a){var z,y,x\nz=this.x\ny=z.a\nx=P.a0(y)\nreturn z.b.$4(y,x,this,a)}\n",
         "type": "void Function(void Function())",
         "measurements": null
       },
@@ -27732,7 +27709,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aV:function(a,b,c){var z\nif(c<0||c>a.length)throw H.b(P.J(c,0,a.length,null,null))\nz=a.indexOf(b,c)\nreturn z}\naz:function(a,b){return this.aV(a,b,0)}\n",
+        "code": "aV:function(a,b,c){var z\nif(c<0||c>a.length)throw H.b(P.J(c,0,a.length,null,null))\nz=a.indexOf(b,c)\nreturn z}\nay:function(a,b){return this.aV(a,b,0)}\n",
         "type": "int Function(Pattern,[int])",
         "measurements": null
       },
@@ -28117,7 +28094,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){if(J.S(a).a_(a,\".\"))return!0\nreturn C.a.az(a,\"/.\")!==-1}\n",
+        "code": "function(a){if(J.S(a).a_(a,\".\"))return!0\nreturn C.a.ay(a,\"/.\")!==-1}\n",
         "type": "bool Function(String)",
         "measurements": null
       },
@@ -28361,7 +28338,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ghe:function(){var z,y\nz=J.a7(this.a)\ny=this.b\nif(y>z)return z\nreturn y}\n",
+        "code": "ghe:function(){var z,y\nz=J.a8(this.a)\ny=this.b\nif(y>z)return z\nreturn y}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -28700,7 +28677,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){return J.a7(this.a)}\n",
+        "code": "gh:function(a){return J.a8(this.a)}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -28792,7 +28769,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ac:function(a,b){var z,y,x\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;++y){x=a[y].a\nif(x==null?b==null:x===b)return y}return-1}\n",
+        "code": "ad:function(a,b){var z,y,x\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;++y){x=a[y].a\nif(x==null?b==null:x===b)return y}return-1}\n",
         "type": "int Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -29217,7 +29194,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ay:function(a){var z,y,x,w\nif(H.oD(a))return a\nif(typeof a!==\"object\"||a===null||a.constructor!==Array)throw H.b(P.b7(\"Bad serialized message: \"+H.c(a)))\nswitch(C.b.ge8(a)){case\"ref\":return this.b[a[1]]\ncase\"buffer\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"typed\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"fixed\":z=a[1]\nthis.b.push(z)\nreturn J.aN(H.u(this.bb(z),[null]))\ncase\"extendable\":z=a[1]\nthis.b.push(z)\nreturn H.u(this.bb(z),[null])\ncase\"mutable\":z=a[1]\nthis.b.push(z)\nreturn this.bb(z)\ncase\"const\":z=a[1]\nthis.b.push(z)\nreturn J.aN(H.u(this.bb(z),[null]))\ncase\"map\":return this.hD(a)\ncase\"sendport\":return this.hE(a)\ncase\"raw sendport\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"js-object\":return this.hC(a)\ncase\"function\":z=init.staticFunctionNameToClosure(a[1])\nthis.b.push(z)\nreturn z\ncase\"capability\":return new H.b8(a[1])\ncase\"dart\":y=a[1]\nx=a[2]\nw=init.instanceFromClassId(y)\nthis.b.push(w)\nthis.bb(x)\nreturn init.initializeEmptyInstance(y,w,x)\ndefault:throw H.b(\"couldn't deserialize: \"+H.c(a))}}\n",
+        "code": "ax:function(a){var z,y,x,w\nif(H.oD(a))return a\nif(typeof a!==\"object\"||a===null||a.constructor!==Array)throw H.b(P.b7(\"Bad serialized message: \"+H.c(a)))\nswitch(C.b.ge8(a)){case\"ref\":return this.b[a[1]]\ncase\"buffer\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"typed\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"fixed\":z=a[1]\nthis.b.push(z)\nreturn J.aN(H.u(this.bb(z),[null]))\ncase\"extendable\":z=a[1]\nthis.b.push(z)\nreturn H.u(this.bb(z),[null])\ncase\"mutable\":z=a[1]\nthis.b.push(z)\nreturn this.bb(z)\ncase\"const\":z=a[1]\nthis.b.push(z)\nreturn J.aN(H.u(this.bb(z),[null]))\ncase\"map\":return this.hD(a)\ncase\"sendport\":return this.hE(a)\ncase\"raw sendport\":z=a[1]\nthis.b.push(z)\nreturn z\ncase\"js-object\":return this.hC(a)\ncase\"function\":z=init.staticFunctionNameToClosure(a[1])\nthis.b.push(z)\nreturn z\ncase\"capability\":return new H.b8(a[1])\ncase\"dart\":y=a[1]\nx=a[2]\nw=init.instanceFromClassId(y)\nthis.b.push(w)\nthis.bb(x)\nreturn init.initializeEmptyInstance(y,w,x)\ndefault:throw H.b(\"couldn't deserialize: \"+H.c(a))}}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -29447,7 +29424,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x\nz=this.bg(this.e)\ny=$.$get$bS()\nx=y.cloneNode(!1)\nthis.r=x\nz.appendChild(x)\ny=y.cloneNode(!1)\nz.appendChild(y)\ny=new V.a_(1,null,this,y,null,null,null)\nthis.z=y\nthis.Q=new K.aw(new D.ad(y,E.ve()),y,!1)\nthis.ap([],null)\nreturn}\n",
+        "code": "D:function(){var z,y,x\nz=this.bg(this.e)\ny=$.$get$bS()\nx=y.cloneNode(!1)\nthis.r=x\nz.appendChild(x)\ny=y.cloneNode(!1)\nz.appendChild(y)\ny=new V.a_(1,null,this,y,null,null,null)\nthis.z=y\nthis.Q=new K.aw(new D.ad(y,E.ve()),y,!1)\nthis.az([],null)\nreturn}\n",
         "type": "ComponentRef<ItemDetailComponent> Function()",
         "measurements": null
       },
@@ -29739,6 +29716,29 @@
         "type": "int Function(num)",
         "measurements": null
       },
+      "171079043": {
+        "id": "function/171079043",
+        "kind": "function",
+        "name": "_getLocation$3",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Location",
+        "inferredReturnType": "[exact=Location]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "Location Function()",
+        "measurements": null
+      },
       "171287121": {
         "id": "function/171287121",
         "kind": "function",
@@ -29962,7 +29962,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){return this.X().M(0,!0)}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){return this.X().M(0,!0)}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<String> Function({bool growable})",
         "measurements": null
       },
@@ -29996,7 +29996,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aV:function(a,b,c){var z\nfor(z=c;z<this.gh(a);++z)if(J.aa(this.i(a,z),b))return z\nreturn-1}\naz:function(a,b){return this.aV(a,b,0)}\n",
+        "code": "aV:function(a,b,c){var z\nfor(z=c;z<this.gh(a);++z)if(J.aa(this.i(a,z),b))return z\nreturn-1}\nay:function(a,b){return this.aV(a,b,0)}\n",
         "type": "int Function(Object,[int])",
         "measurements": null
       },
@@ -30750,29 +30750,6 @@
         "type": "dynamic Function()",
         "measurements": null
       },
-      "185819048": {
-        "id": "function/185819048",
-        "kind": "function",
-        "name": "_getInjector$5",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Injector",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "Injector Function()",
-        "measurements": null
-      },
       "186251211": {
         "id": "function/186251211",
         "kind": "function",
@@ -30969,7 +30946,7 @@
         "id": "function/188886425",
         "kind": "function",
         "name": "build",
-        "size": 386,
+        "size": 416,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/42539992",
         "children": [],
@@ -30984,7 +30961,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y\nz=new Q.kE(null,null,null,null,null,null,null,null,!1,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"feed\")\nz.e=y\ny=$.cK\nif(y==null){y=$.aD.ba(\"\",C.a_,C.as)\n$.cK=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new T.ap(this.B(C.A,this.a.Q),null,null,null,null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.ag(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
+        "code": "D:function(){var z,y\nz=new Q.kE(null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"feed\")\nz.e=y\ny=$.cK\nif(y==null){y=$.aD.ba(\"\",C.a_,C.al)\n$.cK=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new T.ap(this.B(C.A,this.a.Q),null,null,null,null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.a9(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
         "type": "ComponentRef<dynamic> Function()",
         "measurements": null
       },
@@ -31569,7 +31546,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "it:function(a,b,c,d,e){var z,y\nz=d+(e.length===0||C.a.a_(e,\"?\")?e:\"?\"+e)\ny=V.dH(this.b,z)\nz=this.a.b\nz.toString\nz.replaceState(new P.d_([],[]).as(b),c,y)}\n",
+        "code": "it:function(a,b,c,d,e){var z,y\nz=d+(e.length===0||C.a.a_(e,\"?\")?e:\"?\"+e)\ny=V.dH(this.b,z)\nz=this.a.b\nz.toString\nz.replaceState(new P.d_([],[]).ar(b),c,y)}\n",
         "type": "void Function(dynamic,String,String,String)",
         "measurements": null
       },
@@ -31594,7 +31571,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aa:function(a){var z,y,x\nz=this.b\ny=this.c\nx=y.gH(y)\nif(x)z=P.jV(z+\"?\",J.nw(y.gC(y),new F.kw(this)),\"&\")\ny=this.a\nif(y.length!==0)z=z+\"#\"+y\nreturn z.charCodeAt(0)==0?z:z}\n",
+        "code": "ab:function(a){var z,y,x\nz=this.b\ny=this.c\nx=y.gH(y)\nif(x)z=P.jV(z+\"?\",J.nw(y.gC(y),new F.kw(this)),\"&\")\ny=this.a\nif(y.length!==0)z=z+\"#\"+y\nreturn z.charCodeAt(0)==0?z:z}\n",
         "type": "String Function()",
         "measurements": null
       },
@@ -31926,29 +31903,6 @@
         "type": "dynamic Function(dynamic Function())",
         "measurements": null
       },
-      "202769844": {
-        "id": "function/202769844",
-        "kind": "function",
-        "name": "_getLocation$3",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Location",
-        "inferredReturnType": "[exact=Location]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "Location Function()",
-        "measurements": null
-      },
       "203077789": {
         "id": "function/203077789",
         "kind": "function",
@@ -32178,6 +32132,29 @@
         "inlinedCount": 0,
         "code": "function(a,b){if(H.db(a,{func:1,args:[P.Z,P.Z]}))return b.cW(a)\nelse return b.b_(a)}\n",
         "type": "Function Function(Function,Zone)",
+        "measurements": null
+      },
+      "205365462": {
+        "id": "function/205365462",
+        "kind": "function",
+        "name": "_getPathLocationStrategy$1",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "PathLocationStrategy",
+        "inferredReturnType": "[exact=PathLocationStrategy]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "PathLocationStrategy Function()",
         "measurements": null
       },
       "205799201": {
@@ -33453,7 +33430,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){return W.rK(a,null,null,b,null,null,null,c).ar(0,new W.hQ())}\n",
+        "code": "function(a,b,c){return W.rK(a,null,null,b,null,null,null,c).aq(0,new W.hQ())}\n",
         "type": "Future<String> Function(String,{void Function(ProgressEvent) onProgress,bool withCredentials})",
         "measurements": null
       },
@@ -34064,7 +34041,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ab:function(a){return J.aE(a)&0x3ffffff}\n",
+        "code": "ac:function(a){return J.aE(a)&0x3ffffff}\n",
         "type": "int Function(dynamic)",
         "measurements": null
       },
@@ -34929,7 +34906,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fY:function(a,b){return this.aS(this.r,a).ar(0,new Z.jb(this,a,b))}\n",
+        "code": "fY:function(a,b){return this.aS(this.r,a).aq(0,new Z.jb(this,a,b))}\n",
         "type": "Future<MutableRouterState> Function(String,NavigationParams)",
         "measurements": null
       },
@@ -35127,7 +35104,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "at:function(a,b,c){var z\nA.n3(b)\nz=this.aA(b,c)\nif(z===C.l)return M.r_(this,b)\nA.n4(b)\nreturn z}\nS:function(a,b){return this.at(a,b,C.l)}\n",
+        "code": "as:function(a,b,c){var z\nA.n3(b)\nz=this.aA(b,c)\nif(z===C.l)return M.r_(this,b)\nA.n4(b)\nreturn z}\nS:function(a,b){return this.as(a,b,C.l)}\n",
         "type": "dynamic Function(Object,[Object])",
         "measurements": null
       },
@@ -35213,7 +35190,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "az:function(a,b){var z=this.e\nreturn(z&&C.b).az(z,b.giJ())}\n",
+        "code": "ay:function(a,b){var z=this.e\nreturn(z&&C.b).ay(z,b.giJ())}\n",
         "type": "int Function(ViewRef)",
         "measurements": null
       },
@@ -35329,7 +35306,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){var z,y\nz=H.u([],[H.a6(this,\"be\",0)])\nC.b.sh(z,this.gh(this))\nfor(y=0;y<this.gh(this);++y)z[y]=this.t(0,y)\nreturn z}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z,y\nz=H.u([],[H.a7(this,\"be\",0)])\nC.b.sh(z,this.gh(this))\nfor(y=0;y<this.gh(this);++y)z[y]=this.t(0,y)\nreturn z}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<ListIterable.E> Function({bool growable})",
         "measurements": null
       },
@@ -36101,7 +36078,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w\nz=this.bg(this.e)\ny=document\nx=S.fi(y,z)\nthis.r=x\nthis.T(x)\nx=S.fi(y,this.r)\nthis.x=x\nx.className=\"primary\"\nthis.T(x)\nx=$.$get$bS()\nw=x.cloneNode(!1)\nthis.x.appendChild(w)\nw=new V.a_(2,1,this,w,null,null,null)\nthis.y=w\nthis.z=new K.aw(new D.ad(w,L.v9()),w,!1)\nw=x.cloneNode(!1)\nthis.x.appendChild(w)\nw=new V.a_(3,1,this,w,null,null,null)\nthis.Q=w\nthis.ch=new K.aw(new D.ad(w,L.va()),w,!1)\nw=S.oM(y,this.r)\nthis.cx=w\nw.className=\"secondary\"\nthis.dZ(w)\nw=x.cloneNode(!1)\nthis.cx.appendChild(w)\nw=new V.a_(5,4,this,w,null,null,null)\nthis.cy=w\nthis.db=new K.aw(new D.ad(w,L.vb()),w,!1)\nw=y.createTextNode(\"\")\nthis.dx=w\nthis.cx.appendChild(w)\nx=x.cloneNode(!1)\nthis.cx.appendChild(x)\nx=new V.a_(7,4,this,x,null,null,null)\nthis.dy=x\nthis.fr=new K.aw(new D.ad(x,L.vc()),x,!1)\nthis.ap(C.f,null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=this.bg(this.e)\ny=document\nx=S.fi(y,z)\nthis.r=x\nthis.T(x)\nx=S.fi(y,this.r)\nthis.x=x\nx.className=\"primary\"\nthis.T(x)\nx=$.$get$bS()\nw=x.cloneNode(!1)\nthis.x.appendChild(w)\nw=new V.a_(2,1,this,w,null,null,null)\nthis.y=w\nthis.z=new K.aw(new D.ad(w,L.v9()),w,!1)\nw=x.cloneNode(!1)\nthis.x.appendChild(w)\nw=new V.a_(3,1,this,w,null,null,null)\nthis.Q=w\nthis.ch=new K.aw(new D.ad(w,L.va()),w,!1)\nw=S.oM(y,this.r)\nthis.cx=w\nw.className=\"secondary\"\nthis.dZ(w)\nw=x.cloneNode(!1)\nthis.cx.appendChild(w)\nw=new V.a_(5,4,this,w,null,null,null)\nthis.cy=w\nthis.db=new K.aw(new D.ad(w,L.vb()),w,!1)\nw=y.createTextNode(\"\")\nthis.dx=w\nthis.cx.appendChild(w)\nx=x.cloneNode(!1)\nthis.cx.appendChild(x)\nx=new V.a_(7,4,this,x,null,null,null)\nthis.dy=x\nthis.fr=new K.aw(new D.ad(x,L.vc()),x,!1)\nthis.az(C.f,null)\nreturn}\n",
         "type": "ComponentRef<ItemComponent> Function()",
         "measurements": null
       },
@@ -36323,7 +36300,7 @@
         ],
         "sideEffects": "SideEffects(reads nothing; writes nothing)",
         "inlinedCount": 3,
-        "code": "aJ:function(a,b){return H.dK(this,b,H.a6(this,\"d\",0),null)}\n",
+        "code": "aJ:function(a,b){return H.dK(this,b,H.a7(this,\"d\",0),null)}\n",
         "type": "Iterable<map.T> Function(map.T Function(Iterable.E))",
         "measurements": null
       },
@@ -36359,7 +36336,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ca:function(a,b){this.a=1\nthis.b.au(new P.lh(this,a,b))}\n",
+        "code": "ca:function(a,b){this.a=1\nthis.b.at(new P.lh(this,a,b))}\n",
         "type": "void Function(dynamic,StackTrace)",
         "measurements": null
       },
@@ -36510,7 +36487,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l\nz=new H.nt(a)\nif(a==null)return\nif(a instanceof H.c4)return z.$1(a.a)\nif(typeof a!==\"object\")return a\nif(\"dartException\" in a)return z.$1(a.dartException)\nelse if(!(\"message\" in a))return a\ny=a.message\nif(\"number\" in a&&typeof a.number==\"number\"){x=a.number\nw=x&65535\nif((C.d.aw(x,16)&8191)===10)switch(w){case 438:return z.$1(H.nT(H.c(y)+\" (Error \"+w+\")\",null))\ncase 445:case 5007:return z.$1(H.pA(H.c(y)+\" (Error \"+w+\")\",null))}}if(a instanceof TypeError){v=$.$get$pM()\nu=$.$get$pN()\nt=$.$get$pO()\ns=$.$get$pP()\nr=$.$get$pT()\nq=$.$get$pU()\np=$.$get$pR()\n$.$get$pQ()\no=$.$get$pW()\nn=$.$get$pV()\nm=v.ah(y)\nif(m!=null)return z.$1(H.nT(y,m))\nelse{m=u.ah(y)\nif(m!=null){m.method=\"call\"\nreturn z.$1(H.nT(y,m))}else{m=t.ah(y)\nif(m==null){m=s.ah(y)\nif(m==null){m=r.ah(y)\nif(m==null){m=q.ah(y)\nif(m==null){m=p.ah(y)\nif(m==null){m=s.ah(y)\nif(m==null){m=o.ah(y)\nif(m==null){m=n.ah(y)\nl=m!=null}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0\nif(l)return z.$1(H.pA(y,m))}}return z.$1(new H.kn(typeof y===\"string\"?y:\"\"))}if(a instanceof RangeError){if(typeof y===\"string\"&&y.indexOf(\"call stack\")!==-1)return new P.e3()\ny=function(b){try{return String(b)}catch(k){}return null}(a)\nreturn z.$1(new P.ao(!1,null,null,typeof y===\"string\"?y.replace(/^RangeError:\\s*/,\"\"):y))}if(typeof InternalError==\"function\"&&a instanceof InternalError)if(typeof y===\"string\"&&y===\"too much recursion\")return new P.e3()\nreturn a}\n",
+        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l\nz=new H.nt(a)\nif(a==null)return\nif(a instanceof H.c4)return z.$1(a.a)\nif(typeof a!==\"object\")return a\nif(\"dartException\" in a)return z.$1(a.dartException)\nelse if(!(\"message\" in a))return a\ny=a.message\nif(\"number\" in a&&typeof a.number==\"number\"){x=a.number\nw=x&65535\nif((C.d.av(x,16)&8191)===10)switch(w){case 438:return z.$1(H.nT(H.c(y)+\" (Error \"+w+\")\",null))\ncase 445:case 5007:return z.$1(H.pA(H.c(y)+\" (Error \"+w+\")\",null))}}if(a instanceof TypeError){v=$.$get$pM()\nu=$.$get$pN()\nt=$.$get$pO()\ns=$.$get$pP()\nr=$.$get$pT()\nq=$.$get$pU()\np=$.$get$pR()\n$.$get$pQ()\no=$.$get$pW()\nn=$.$get$pV()\nm=v.ah(y)\nif(m!=null)return z.$1(H.nT(y,m))\nelse{m=u.ah(y)\nif(m!=null){m.method=\"call\"\nreturn z.$1(H.nT(y,m))}else{m=t.ah(y)\nif(m==null){m=s.ah(y)\nif(m==null){m=r.ah(y)\nif(m==null){m=q.ah(y)\nif(m==null){m=p.ah(y)\nif(m==null){m=s.ah(y)\nif(m==null){m=o.ah(y)\nif(m==null){m=n.ah(y)\nl=m!=null}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0}else l=!0\nif(l)return z.$1(H.pA(y,m))}}return z.$1(new H.kn(typeof y===\"string\"?y:\"\"))}if(a instanceof RangeError){if(typeof y===\"string\"&&y.indexOf(\"call stack\")!==-1)return new P.e3()\ny=function(b){try{return String(b)}catch(k){}return null}(a)\nreturn z.$1(new P.ao(!1,null,null,typeof y===\"string\"?y.replace(/^RangeError:\\s*/,\"\"):y))}if(typeof InternalError==\"function\"&&a instanceof InternalError)if(typeof y===\"string\"&&y===\"too much recursion\")return new P.e3()\nreturn a}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -36675,7 +36652,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b){b.ax(0,a)}\n",
+        "code": "function(a,b){b.aw(0,a)}\n",
         "type": "dynamic Function(dynamic,Completer<dynamic>)",
         "measurements": null
       },
@@ -37795,7 +37772,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){var z,y\nz=H.u([],[H.n6(this,a,\"o\",0)])\nC.b.sh(z,this.gh(a))\nfor(y=0;y<this.gh(a);++y)z[y]=this.i(a,y)\nreturn z}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z,y\nz=H.u([],[H.n6(this,a,\"o\",0)])\nC.b.sh(z,this.gh(a))\nfor(y=0;y<this.gh(a);++y)z[y]=this.i(a,y)\nreturn z}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<ListMixin.E> Function({bool growable})",
         "measurements": null
       },
@@ -37990,7 +37967,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "iy:function(a,b,c){var z,y,x\nz={}\nz.a=c\nif(this.a>=4){z=new P.A(0,$.p,null,[null])\nz.av(this)\nreturn z}y=$.p\nx=new P.A(0,y,null,this.$ti)\nz.b=null\nz.a=y.aL(c)\nz.b=P.pL(b,new P.lt(z,x,y))\nthis.bo(0,new P.lu(z,this,x),new P.lv(z,x))\nreturn x}\n",
+        "code": "iy:function(a,b,c){var z,y,x\nz={}\nz.a=c\nif(this.a>=4){z=new P.A(0,$.p,null,[null])\nz.au(this)\nreturn z}y=$.p\nx=new P.A(0,y,null,this.$ti)\nz.b=null\nz.a=y.aL(c)\nz.b=P.pL(b,new P.lt(z,x,y))\nthis.bo(0,new P.lu(z,this,x),new P.lv(z,x))\nreturn x}\n",
         "type": "Future<_Future.T> Function(Duration,{dynamic Function() onTimeout})",
         "measurements": null
       },
@@ -38205,7 +38182,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "dz:function(a){var z,y,x,w,v,u\nz={}\nz.a=a\nif(a==null)return\ny=this.a\nif(y<=1){x=this.c\nthis.c=a\nif(x!=null){for(w=a;v=w.a,v!=null;w=v);w.a=x}}else{if(y===2){y=this.c\nu=y.a\nif(u<4){y.dz(a)\nreturn}this.a=u\nthis.c=y.c}z.a=this.by(a)\nthis.b.au(new P.lo(z,this))}}\n",
+        "code": "dz:function(a){var z,y,x,w,v,u\nz={}\nz.a=a\nif(a==null)return\ny=this.a\nif(y<=1){x=this.c\nthis.c=a\nif(x!=null){for(w=a;v=w.a,v!=null;w=v);w.a=x}}else{if(y===2){y=this.c\nu=y.a\nif(u<4){y.dz(a)\nreturn}this.a=u\nthis.c=y.c}z.a=this.by(a)\nthis.b.at(new P.lo(z,this))}}\n",
         "type": "void Function(_FutureListener<dynamic,dynamic>)",
         "measurements": null
       },
@@ -38497,7 +38474,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ap:function(a,b){var z=this.a\nz.y=a\nz.r=b\nz.a\nreturn}\n",
+        "code": "az:function(a,b){var z=this.a\nz.y=a\nz.r=b\nz.a\nreturn}\n",
         "type": "void Function(List<dynamic>,List<dynamic>)",
         "measurements": null
       },
@@ -38713,6 +38690,29 @@
         "inlinedCount": 0,
         "code": "function(a){var z=J.r(a)\nif(!!z.$isba)return z.j(a)\nreturn\"Instance of '\"+H.cr(a)+\"'\"}\n",
         "type": "String Function(Object)",
+        "measurements": null
+      },
+      "303051658": {
+        "id": "function/303051658",
+        "kind": "function",
+        "name": "main",
+        "size": 462,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/949978825",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[exact=_Future]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z=0,y=P.a1(),x,w,v\nvar $async$nl=P.a5(function(a,b){if(a===1)return P.a2(b,y)\nwhile(true)switch(z){case 0:$.oJ=new Q.dA(\"https://api.hnpwa.com/v0\",null,null)\nx=window.location.pathname\nif(window.location.search.length===0&&!J.aU(x,\"/item\")){w=C.b.gR(x.split(\"/\"))\nif(J.bW(w))w=\"news\"\nv=$.oJ.b2(w,1)}else v=null\nU.tB(\"./pwa.dart.js\")\nz=2\nreturn P.Q(v,$async$nl)\ncase 2:G.up(K.vl()).S(0,C.R).ht(C.a8)\nreturn P.a3(null,y)}})\nreturn P.a4($async$nl,y)}\n",
+        "type": "void Function()",
         "measurements": null
       },
       "303222685": {
@@ -39028,35 +39028,6 @@
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
-      "308829153": {
-        "id": "function/308829153",
-        "kind": "function",
-        "name": "_Injector$hackerNewsApp._",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [
-          {
-            "name": "parent",
-            "type": "[exact=_LazyInjector]",
-            "declaredType": "Injector"
-          }
-        ],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "dynamic Function([Injector])",
-        "measurements": null
-      },
       "308862943": {
         "id": "function/308862943",
         "kind": "function",
@@ -39238,7 +39209,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$0:function(){var z,y,x,w,v,u,t,s,r,q\nz={}\ny=this.b\nx=this.a\nw=y.a8(0,x.b,C.f)\nv=document\nu=v.querySelector(y.a)\nz.a=null\nif(u!=null){t=w.c\ny=t.id\nif(y==null||y.length===0)t.id=u.id\nJ.rk(u,t)\nz.a=t\ny=t}else{y=v.body\nv=w.c\ny.appendChild(v)\ny=v}v=w.a\ns=v.a.b.a.a\nr=s.x\nif(r==null){r=H.u([],[{func:1,v:true}])\ns.x=r\ns=r}else s=r\ns.push(new Y.fw(z,x,w))\nz=w.b\nq=new G.au(v,z,null,C.i).at(0,C.Z,null)\nif(q!=null)new G.au(v,z,null,C.i).S(0,C.Y).io(y,q)\nx.e$.push(v.a.b)\nx.ew()\nx.d.push(w)\nreturn w}\n",
+        "code": "$0:function(){var z,y,x,w,v,u,t,s,r,q\nz={}\ny=this.b\nx=this.a\nw=y.a8(0,x.b,C.f)\nv=document\nu=v.querySelector(y.a)\nz.a=null\nif(u!=null){t=w.c\ny=t.id\nif(y==null||y.length===0)t.id=u.id\nJ.rk(u,t)\nz.a=t\ny=t}else{y=v.body\nv=w.c\ny.appendChild(v)\ny=v}v=w.a\ns=v.a.b.a.a\nr=s.x\nif(r==null){r=H.u([],[{func:1,v:true}])\ns.x=r\ns=r}else s=r\ns.push(new Y.fw(z,x,w))\nz=w.b\nq=new G.au(v,z,null,C.i).as(0,C.Z,null)\nif(q!=null)new G.au(v,z,null,C.i).S(0,C.Y).io(y,q)\nx.e$.push(v.a.b)\nx.ew()\nx.d.push(w)\nreturn w}\n",
         "type": "dynamic Function()",
         "measurements": null
       },
@@ -39332,7 +39303,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "as:function(a){var z,y,x,w,v,u,t,s,r,q\nz={}\nif(a==null)return a\nif(typeof a===\"boolean\")return a\nif(typeof a===\"number\")return a\nif(typeof a===\"string\")return a\nif(a instanceof Date){y=a.getTime()\nx=new P.bB(y,!0)\nx.d3(y,!0)\nreturn x}if(a instanceof RegExp)throw H.b(P.cI(\"structured clone of RegExp\"))\nif(typeof Promise!=\"undefined\"&&a instanceof Promise)return P.uP(a)\nw=Object.getPrototypeOf(a)\nif(w===Object.prototype||w===null){v=this.be(a)\nx=this.b\nu=x[v]\nz.a=u\nif(u!=null)return u\nu=P.B()\nz.a=u\nx[v]=u\nthis.hN(a,new P.kN(z,this))\nreturn z.a}if(a instanceof Array){t=a\nv=this.be(t)\nx=this.b\nu=x[v]\nif(u!=null)return u\ns=J.E(t)\nr=s.gh(t)\nu=this.c?new Array(r):t\nx[v]=u\nfor(x=J.at(u),q=0;q<r;++q)x.k(u,q,this.as(s.i(t,q)))\nreturn u}return a}\n",
+        "code": "ar:function(a){var z,y,x,w,v,u,t,s,r,q\nz={}\nif(a==null)return a\nif(typeof a===\"boolean\")return a\nif(typeof a===\"number\")return a\nif(typeof a===\"string\")return a\nif(a instanceof Date){y=a.getTime()\nx=new P.bB(y,!0)\nx.d3(y,!0)\nreturn x}if(a instanceof RegExp)throw H.b(P.cI(\"structured clone of RegExp\"))\nif(typeof Promise!=\"undefined\"&&a instanceof Promise)return P.uP(a)\nw=Object.getPrototypeOf(a)\nif(w===Object.prototype||w===null){v=this.be(a)\nx=this.b\nu=x[v]\nz.a=u\nif(u!=null)return u\nu=P.B()\nz.a=u\nx[v]=u\nthis.hN(a,new P.kN(z,this))\nreturn z.a}if(a instanceof Array){t=a\nv=this.be(t)\nx=this.b\nu=x[v]\nif(u!=null)return u\ns=J.E(t)\nr=s.gh(t)\nu=this.c?new Array(r):t\nx[v]=u\nfor(x=J.at(u),q=0;q<r;++q)x.k(u,q,this.ar(s.i(t,q)))\nreturn u}return a}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -39412,7 +39383,7 @@
         ],
         "sideEffects": "SideEffects(reads nothing; writes nothing)",
         "inlinedCount": 0,
-        "code": "ar:function(a,b){return a.then(b)}\nix:function(a,b,c){return a.then(b,c)}\n",
+        "code": "aq:function(a,b){return a.then(b)}\nix:function(a,b,c){return a.then(b,c)}\n",
         "type": "Thenable<dynamic> Function([void Function(Thenable.T),void Function(dynamic)])",
         "measurements": null
       },
@@ -39996,7 +39967,7 @@
           }
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 21,
+        "inlinedCount": 20,
         "code": null,
         "type": "dynamic Function(String)",
         "measurements": null
@@ -40057,7 +40028,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fk:function(a){var z=H.mZ(a,\"$isA\",this.$ti,null)\nif(z){if(a.a===8){this.a=1\nthis.b.au(new P.ln(this,a))}else P.lj(a,this)\nreturn}P.q7(a,this)}\n",
+        "code": "fk:function(a){var z=H.mZ(a,\"$isA\",this.$ti,null)\nif(z){if(a.a===8){this.a=1\nthis.b.at(new P.ln(this,a))}else P.lj(a,this)\nreturn}P.q7(a,this)}\n",
         "type": "void Function(Future<_Future.T>)",
         "measurements": null
       },
@@ -40302,7 +40273,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k,j\nz={}\ns=$.$get$oG()\nr=s.i(0,a)\nq=$.$get$bP()\nq.push(\" - _loadHunk: \"+a)\nif(r!=null){q.push(\"reuse: \"+a)\nreturn r.ar(0,new H.mK())}p=$.$get$nO()\nz.a=p\np=C.a.n(p,0,J.p8(p,\"/\")+1)+a\nz.a=p\nq.push(\" - download: \"+a+\" from \"+p)\ny=self.dartDeferredLibraryLoader\nq=P.Z\no=new P.A(0,$.p,null,[q])\nn=new P.bn(o,[q])\nq=new H.mR(a,n)\nx=new H.mQ(z,a,n)\nw=H.af(q,0)\nv=H.af(new H.mL(x),1)\nif(typeof y===\"function\")try{y(z.a,w,v)}catch(m){u=H.F(m)\nt=H.K(m)\nx.$3(u,\"invoking dartDeferredLibraryLoader hook\",t)}else if(init.globalState.x){H.da()\no.br(new H.mM())\nl=J.p8(z.a,\"/\")\nz.a=J.aF(z.a,0,l+1)+a\nk=new XMLHttpRequest()\nk.open(\"GET\",z.a)\nk.addEventListener(\"load\",H.af(new H.mN(k,x,q),1),false)\nk.addEventListener(\"error\",new H.mO(x),false)\nk.addEventListener(\"abort\",new H.mP(x),false)\nk.send()}else{j=document.createElement(\"script\")\nj.type=\"text/javascript\"\nj.src=z.a\nj.addEventListener(\"load\",w,false)\nj.addEventListener(\"error\",v,false)\ndocument.body.appendChild(j)}s.k(0,a,o)\nreturn o}\n",
+        "code": "function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k,j\nz={}\ns=$.$get$oG()\nr=s.i(0,a)\nq=$.$get$bP()\nq.push(\" - _loadHunk: \"+a)\nif(r!=null){q.push(\"reuse: \"+a)\nreturn r.aq(0,new H.mK())}p=$.$get$nO()\nz.a=p\np=C.a.n(p,0,J.p8(p,\"/\")+1)+a\nz.a=p\nq.push(\" - download: \"+a+\" from \"+p)\ny=self.dartDeferredLibraryLoader\nq=P.Z\no=new P.A(0,$.p,null,[q])\nn=new P.bn(o,[q])\nq=new H.mR(a,n)\nx=new H.mQ(z,a,n)\nw=H.af(q,0)\nv=H.af(new H.mL(x),1)\nif(typeof y===\"function\")try{y(z.a,w,v)}catch(m){u=H.F(m)\nt=H.K(m)\nx.$3(u,\"invoking dartDeferredLibraryLoader hook\",t)}else if(init.globalState.x){H.da()\no.br(new H.mM())\nl=J.p8(z.a,\"/\")\nz.a=J.aF(z.a,0,l+1)+a\nk=new XMLHttpRequest()\nk.open(\"GET\",z.a)\nk.addEventListener(\"load\",H.af(new H.mN(k,x,q),1),false)\nk.addEventListener(\"error\",new H.mO(x),false)\nk.addEventListener(\"abort\",new H.mP(x),false)\nk.send()}else{j=document.createElement(\"script\")\nj.type=\"text/javascript\"\nj.src=z.a\nj.addEventListener(\"load\",w,false)\nj.addEventListener(\"error\",v,false)\ndocument.body.appendChild(j)}s.k(0,a,o)\nreturn o}\n",
         "type": "Future<Null> Function(String)",
         "measurements": null
       },
@@ -40964,7 +40935,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y\nz=$.p\nif(C.c===z){P.mU(null,null,C.c,a)\nreturn}if(C.c===z.gbz().a)y=C.c.gaG()===z.gaG()\nelse y=!1\nif(y){P.mU(null,null,z,z.aL(a))\nreturn}y=$.p\ny.au(y.bE(a))}\n",
+        "code": "function(a){var z,y\nz=$.p\nif(C.c===z){P.mU(null,null,C.c,a)\nreturn}if(C.c===z.gbz().a)y=C.c.gaG()===z.gaG()\nelse y=!1\nif(y){P.mU(null,null,z,z.aL(a))\nreturn}y=$.p\ny.at(y.bE(a))}\n",
         "type": "void Function(void Function())",
         "measurements": null
       },
@@ -41056,7 +41027,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ab:function(a){return J.aE(a)&0x3ffffff}\n",
+        "code": "ac:function(a){return J.aE(a)&0x3ffffff}\n",
         "type": "int Function(dynamic)",
         "measurements": null
       },
@@ -41288,7 +41259,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z=L.q5(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=new X.aq(null,null,null,null,null,null)\nthis.y=z\nthis.x.a8(0,z,[])\nz=$.$get$bS()\nthis.z=z.cloneNode(!1)\nz=new V.a_(2,null,this,z.cloneNode(!1),null,null,null)\nthis.cx=z\nthis.cy=new R.cn(z,null,null,null,new D.ad(z,E.vf()))\nthis.ap([this.r,this.z,z],null)\nreturn}\n",
+        "code": "D:function(){var z=L.q5(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=new X.aq(null,null,null,null,null,null)\nthis.y=z\nthis.x.a8(0,z,[])\nz=$.$get$bS()\nthis.z=z.cloneNode(!1)\nz=new V.a_(2,null,this,z.cloneNode(!1),null,null,null)\nthis.cx=z\nthis.cy=new R.cn(z,null,null,null,new D.ad(z,E.vf()))\nthis.az([this.r,this.z,z],null)\nreturn}\n",
         "type": "ComponentRef<ItemDetailComponent> Function()",
         "measurements": null
       },
@@ -41523,29 +41494,6 @@
         "type": "String Function(String,bool)",
         "measurements": null
       },
-      "342062558": {
-        "id": "function/342062558",
-        "kind": "function",
-        "name": "_getRouterImpl$4",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "RouterImpl",
-        "inferredReturnType": "[exact=RouterImpl]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "RouterImpl Function()",
-        "measurements": null
-      },
       "342335847": {
         "id": "function/342335847",
         "kind": "function",
@@ -41749,7 +41697,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){var z=J.a7(this.a)-this.b\nif(z>=0)return z\nreturn 0}\n",
+        "code": "gh:function(a){var z=J.a8(this.a)-this.b\nif(z>=0)return z\nreturn 0}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -42542,7 +42490,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ac:function(a,b){var z,y\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;y+=2)if(J.aa(a[y],b))return y\nreturn-1}\n",
+        "code": "ad:function(a,b){var z,y\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;y+=2)if(J.aa(a[y],b))return y\nreturn-1}\n",
         "type": "int Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -42716,7 +42664,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gaY:function(a){var z=$.$get$oe().hr(0,this.a)\nreturn H.dK(z,new N.j6(),H.a6(z,\"d\",0),null)}\n",
+        "code": "gaY:function(a){var z=$.$get$oe().hr(0,this.a)\nreturn H.dK(z,new N.j6(),H.a7(z,\"d\",0),null)}\n",
         "type": "Iterable<String> Function()",
         "measurements": null
       },
@@ -42791,7 +42739,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w,v,u,t,s,r\nz=this.bg(this.e)\ny=document\nx=S.a9(y,\"header\",z)\nthis.r=x\nx=S.a9(y,\"nav\",x)\nthis.x=x\nx=S.a9(y,\"a\",x)\nthis.y=x\nx.setAttribute(\"href\",\"https://webdev.dartlang.org/angular\")\nx=S.a9(y,\"img\",this.y)\nthis.z=x\nx.setAttribute(\"alt\",\"AngularDart logo\")\nthis.z.setAttribute(\"src\",\"/images/logo.svg\")\nx=S.a9(y,\"a\",this.x)\nthis.Q=x\nx.setAttribute(\"routerLinkActive\",\"active\")\nx=this.c\nthis.ch=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.Q),null,null,null,null,!1)\nthis.cx=new O.b1(this.Q,x.B(C.e,this.a.Q),null,null,null)\nw=y.createTextNode(\"top\")\nthis.Q.appendChild(w)\nthis.cx.e=[this.ch.e]\nv=S.a9(y,\"a\",this.x)\nthis.db=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.dx=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.db),null,null,null,null,!1)\nthis.dy=new O.b1(this.db,x.B(C.e,this.a.Q),null,null,null)\nu=y.createTextNode(\"new\")\nthis.db.appendChild(u)\nthis.dy.e=[this.dx.e]\nv=S.a9(y,\"a\",this.x)\nthis.fx=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.fy=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.fx),null,null,null,null,!1)\nthis.go=new O.b1(this.fx,x.B(C.e,this.a.Q),null,null,null)\nt=y.createTextNode(\"show\")\nthis.fx.appendChild(t)\nthis.go.e=[this.fy.e]\nv=S.a9(y,\"a\",this.x)\nthis.k1=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.k2=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.k1),null,null,null,null,!1)\nthis.k3=new O.b1(this.k1,x.B(C.e,this.a.Q),null,null,null)\ns=y.createTextNode(\"ask\")\nthis.k1.appendChild(s)\nthis.k3.e=[this.k2.e]\nv=S.a9(y,\"a\",this.x)\nthis.r1=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.r2=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.r1),null,null,null,null,!1)\nthis.rx=new O.b1(this.r1,x.B(C.e,this.a.Q),null,null,null)\nr=y.createTextNode(\"jobs\")\nthis.r1.appendChild(r)\nthis.rx.e=[this.r2.e]\nv=S.a9(y,\"main\",z)\nthis.x1=v\nv=S.a9(y,\"router-outlet\",v)\nthis.x2=v\nthis.y1=new V.a_(15,14,this,v,null,null,null)\nv=x.bh(C.o,this.a.Q,null)\nx=new Z.jd(this.y1,x.B(C.e,this.a.Q),x.bh(C.W,this.a.Q,null),P.dD(D.by,D.bz),null,C.f)\nif(!(v==null))v.a=x\nthis.y2=x\nx=this.Q\nv=this.ch.e;(x&&C.m).a6(x,\"click\",this.an(v.gaq(v)))\nv=this.db\nx=this.dx.e;(v&&C.m).a6(v,\"click\",this.an(x.gaq(x)))\nx=this.fx\nv=this.fy.e;(x&&C.m).a6(x,\"click\",this.an(v.gaq(v)))\nv=this.k1\nx=this.k2.e;(v&&C.m).a6(v,\"click\",this.an(x.gaq(x)))\nx=this.r1\nv=this.r2.e;(x&&C.m).a6(x,\"click\",this.an(v.gaq(v)))\nthis.ap(C.f,null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w,v,u,t,s,r\nz=this.bg(this.e)\ny=document\nx=S.a6(y,\"header\",z)\nthis.r=x\nx=S.a6(y,\"nav\",x)\nthis.x=x\nx=S.a6(y,\"a\",x)\nthis.y=x\nx.setAttribute(\"href\",\"https://webdev.dartlang.org/angular\")\nx=S.a6(y,\"img\",this.y)\nthis.z=x\nx.setAttribute(\"alt\",\"AngularDart logo\")\nthis.z.setAttribute(\"src\",\"/images/logo.svg\")\nx=S.a6(y,\"a\",this.x)\nthis.Q=x\nx.setAttribute(\"routerLinkActive\",\"active\")\nx=this.c\nthis.ch=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.Q),null,null,null,null,!1)\nthis.cx=new O.b1(this.Q,x.B(C.e,this.a.Q),null,null,null)\nw=y.createTextNode(\"top\")\nthis.Q.appendChild(w)\nthis.cx.e=[this.ch.e]\nv=S.a6(y,\"a\",this.x)\nthis.db=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.dx=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.db),null,null,null,null,!1)\nthis.dy=new O.b1(this.db,x.B(C.e,this.a.Q),null,null,null)\nu=y.createTextNode(\"new\")\nthis.db.appendChild(u)\nthis.dy.e=[this.dx.e]\nv=S.a6(y,\"a\",this.x)\nthis.fx=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.fy=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.fx),null,null,null,null,!1)\nthis.go=new O.b1(this.fx,x.B(C.e,this.a.Q),null,null,null)\nt=y.createTextNode(\"show\")\nthis.fx.appendChild(t)\nthis.go.e=[this.fy.e]\nv=S.a6(y,\"a\",this.x)\nthis.k1=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.k2=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.k1),null,null,null,null,!1)\nthis.k3=new O.b1(this.k1,x.B(C.e,this.a.Q),null,null,null)\ns=y.createTextNode(\"ask\")\nthis.k1.appendChild(s)\nthis.k3.e=[this.k2.e]\nv=S.a6(y,\"a\",this.x)\nthis.r1=v\nv.setAttribute(\"routerLinkActive\",\"active\")\nthis.r2=new G.ar(G.b0(x.B(C.e,this.a.Q),x.B(C.j,this.a.Q),null,this.r1),null,null,null,null,!1)\nthis.rx=new O.b1(this.r1,x.B(C.e,this.a.Q),null,null,null)\nr=y.createTextNode(\"jobs\")\nthis.r1.appendChild(r)\nthis.rx.e=[this.r2.e]\nv=S.a6(y,\"main\",z)\nthis.x1=v\nv=S.a6(y,\"router-outlet\",v)\nthis.x2=v\nthis.y1=new V.a_(15,14,this,v,null,null,null)\nv=x.bh(C.o,this.a.Q,null)\nx=new Z.jd(this.y1,x.B(C.e,this.a.Q),x.bh(C.W,this.a.Q,null),P.dD(D.by,D.bz),null,C.f)\nif(!(v==null))v.a=x\nthis.y2=x\nx=this.Q\nv=this.ch.e;(x&&C.m).a6(x,\"click\",this.an(v.gap(v)))\nv=this.db\nx=this.dx.e;(v&&C.m).a6(v,\"click\",this.an(x.gap(x)))\nx=this.fx\nv=this.fy.e;(x&&C.m).a6(x,\"click\",this.an(v.gap(v)))\nv=this.k1\nx=this.k2.e;(v&&C.m).a6(v,\"click\",this.an(x.gap(x)))\nx=this.r1\nv=this.r2.e;(x&&C.m).a6(x,\"click\",this.an(v.gap(v)))\nthis.az(C.f,null)\nreturn}\n",
         "type": "ComponentRef<AppComponent> Function()",
         "measurements": null
       },
@@ -43096,7 +43044,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){this.a.ax(0,a)}\n\"call*\":\"$1\"\n$R:1\n",
+        "code": "$1:function(a){this.a.aw(0,a)}\n\"call*\":\"$1\"\n$R:1\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -43164,7 +43112,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y,x\nz=a.length\nfor(y=b,x=0;x<z;++x){y=c.$2(y,a[x])\nif(a.length!==z)throw H.b(P.P(a))}return y}\n",
+        "code": "ag:function(a,b,c){var z,y,x\nz=a.length\nfor(y=b,x=0;x<z;++x){y=c.$2(y,a[x])\nif(a.length!==z)throw H.b(P.P(a))}return y}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,JSArray.E))",
         "measurements": null
       },
@@ -43567,7 +43515,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){var z,y,x,w,v,u\nz=this.a\ny=z.b\nx=y.a\nw=x.aK(0)\ny=y.c\nv=F.ot(V.bE(V.d8(y,V.bR(w))))\nu=$.kv?v.a:F.q0(V.bE(V.d8(y,V.bR(x.a.a.hash))))\nz.cl(v.b,Q.nY(u,v.c,!1,!1,!1)).ar(0,new Z.j8(z))}\n\"call*\":\"$1\"\n$R:1\n",
+        "code": "$1:function(a){var z,y,x,w,v,u\nz=this.a\ny=z.b\nx=y.a\nw=x.aK(0)\ny=y.c\nv=F.ot(V.bE(V.d8(y,V.bR(w))))\nu=$.kv?v.a:F.q0(V.bE(V.d8(y,V.bR(x.a.a.hash))))\nz.cl(v.b,Q.nY(u,v.c,!1,!1,!1)).aq(0,new Z.j8(z))}\n\"call*\":\"$1\"\n$R:1\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -44386,7 +44334,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "h7:function(){if((this.b&2)!==0)return\nthis.a.au(this.gh8())\nthis.b=(this.b|2)>>>0}\n",
+        "code": "h7:function(){if((this.b&2)!==0)return\nthis.a.at(this.gh8())\nthis.b=(this.b|2)>>>0}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -44443,7 +44391,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y\nz=new E.kG(null,null,null,null,null,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"item-detail\")\nz.e=y\ny=$.kH\nif(y==null){y=$.aD.ba(\"\",C.z,C.av)\n$.kH=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new D.aM(this.B(C.A,this.a.Q),null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.ag(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
+        "code": "D:function(){var z,y\nz=new E.kG(null,null,null,null,null,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"item-detail\")\nz.e=y\ny=$.kH\nif(y==null){y=$.aD.ba(\"\",C.z,C.av)\n$.kH=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new D.aM(this.B(C.A,this.a.Q),null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.a9(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
         "type": "ComponentRef<dynamic> Function()",
         "measurements": null
       },
@@ -44809,7 +44757,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x,w,v,u,t,s,r,q,p,o\nz={}\ny=new P.A(0,$.p,null,[P.l])\nz.a=null\nz.b=0\nz.c=null\nz.d=null\nx=new P.hL(z,b,!1,y)\ntry{for(s=a.length,r=0,q=0;r<a.length;a.length===s||(0,H.an)(a),++r){w=a[r]\nv=q\nJ.pa(w,new P.hK(z,v,y,b,!1),x)\nq=++z.b}if(q===0){s=new P.A(0,$.p,null,[null])\ns.av(C.f)\nreturn s}p=new Array(q)\np.fixed$length=Array\nz.a=p}catch(o){u=H.F(o)\nt=H.K(o)\nif(z.b===0||!1)return P.ps(u,t,null)\nelse{z.c=u\nz.d=t}}return y}\n",
+        "code": "function(a,b,c){var z,y,x,w,v,u,t,s,r,q,p,o\nz={}\ny=new P.A(0,$.p,null,[P.l])\nz.a=null\nz.b=0\nz.c=null\nz.d=null\nx=new P.hL(z,b,!1,y)\ntry{for(s=a.length,r=0,q=0;r<a.length;a.length===s||(0,H.an)(a),++r){w=a[r]\nv=q\nJ.pa(w,new P.hK(z,v,y,b,!1),x)\nq=++z.b}if(q===0){s=new P.A(0,$.p,null,[null])\ns.au(C.f)\nreturn s}p=new Array(q)\np.fixed$length=Array\nz.a=p}catch(o){u=H.F(o)\nt=H.K(o)\nif(z.b===0||!1)return P.ps(u,t,null)\nelse{z.c=u\nz.d=t}}return y}\n",
         "type": "Future<List<wait.T>> Function(Iterable<Future<wait.T>>,{void Function(wait.T) cleanUp,bool eagerError})",
         "measurements": null
       },
@@ -44866,7 +44814,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$0:function(){var z=this.a.a\nz=z.gbW(z)\nz=P.ce(z,!0,H.a6(z,\"d\",0))\nreturn new H.bg(z,new K.fM(),[H.N(z,0),null]).a9(0)}\n\"call*\":\"$0\"\n$R:0\n",
+        "code": "$0:function(){var z=this.a.a\nz=z.gbW(z)\nz=P.ce(z,!0,H.a7(z,\"d\",0))\nreturn new H.bg(z,new K.fM(),[H.N(z,0),null]).aa(0)}\n\"call*\":\"$0\"\n$R:0\n",
         "type": "dynamic Function()",
         "measurements": null
       },
@@ -45174,29 +45122,6 @@
         "type": "void Function(Object)",
         "measurements": null
       },
-      "391134031": {
-        "id": "function/391134031",
-        "kind": "function",
-        "name": "_getdynamic$0",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[null|exact=HackerNewsService]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads field, static; writes field)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "dynamic Function()",
-        "measurements": null
-      },
       "392481976": {
         "id": "function/392481976",
         "kind": "function",
@@ -45274,7 +45199,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){this.b.ax(0,new P.kM([],[],!1).as(this.a.result))}\n",
+        "code": "$1:function(a){this.b.aw(0,new P.kM([],[],!1).ar(this.a.result))}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -45701,7 +45626,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createElement(\"div\")\nthis.r=y\nthis.x=S.a9(z,\"a\",y)\ny=this.c\nx=y.c\nthis.y=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.x),null,null,null,null,!1)\nw=z.createTextNode(\"Previous\")\nthis.x.appendChild(w)\ny=this.x\nx=this.y.e;(y&&C.m).a6(y,\"click\",this.an(x.gaq(x)))\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createElement(\"div\")\nthis.r=y\nthis.x=S.a6(z,\"a\",y)\ny=this.c\nx=y.c\nthis.y=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.x),null,null,null,null,!1)\nw=z.createTextNode(\"Previous\")\nthis.x.appendChild(w)\ny=this.x\nx=this.y.e;(y&&C.m).a6(y,\"click\",this.an(x.gap(x)))\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<FeedComponent> Function()",
         "measurements": null
       },
@@ -46114,7 +46039,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ad:function(a,b,c){var z=0,y=P.a1(),x,w=this,v,u,t,s,r,q,p,o,n\nvar $async$ad=P.a5(function(d,e){if(d===1)return P.a2(e,y)\nwhile(true)switch(z){case 0:z=!c?3:4\nbreak\ncase 3:z=5\nreturn P.Q(w.ce(),$async$ad)\ncase 5:if(!e){x=C.w\nz=1\nbreak}case 4:if(!(b==null))b.e_()\nz=6\nreturn P.Q(null,$async$ad)\ncase 6:v=e\na=F.q1(v==null?a:v,!1)\nz=7\nreturn P.Q(null,$async$ad)\ncase 7:u=e\nb=u==null?b:u\nt=b==null\nif(!t)b.e_()\ns=t?null:b.a\nif(s==null)s=P.B()\nr=w.d\nif(r!=null)if(a===r.b){q=t?null:b.b\nif(q==null)q=\"\"\nr=q===r.a&&C.L.e7(s,r.c)}else r=!1\nelse r=!1\nif(r){x=C.N\nz=1\nbreak}z=8\nreturn P.Q(w.fY(a,b),$async$ad)\ncase 8:p=e\nif(p==null){x=C.aF\nz=1\nbreak}r=p.d\nif(r.length!==0)C.b.gR(r)\nz=9\nreturn P.Q(w.cd(p),$async$ad)\ncase 9:if(!e){x=C.w\nz=1\nbreak}z=10\nreturn P.Q(w.cc(p),$async$ad)\ncase 10:if(!e){x=C.w\nz=1\nbreak}z=11\nreturn P.Q(w.bu(p),$async$ad)\ncase 11:if(t||b.e){o=p.D().aa(0)\nt=w.b.a\nn=V.dH(t.b,o)\nt=t.a.b\nt.toString\nt.pushState(new P.d_([],[]).as(null),\"\",n)}x=C.N\nz=1\nbreak\ncase 1:return P.a3(x,y)}})\nreturn P.a4($async$ad,y)}\nfL:function(a,b){return this.ad(a,b,!1)}\n",
+        "code": "ae:function(a,b,c){var z=0,y=P.a1(),x,w=this,v,u,t,s,r,q,p,o,n\nvar $async$ae=P.a5(function(d,e){if(d===1)return P.a2(e,y)\nwhile(true)switch(z){case 0:z=!c?3:4\nbreak\ncase 3:z=5\nreturn P.Q(w.ce(),$async$ae)\ncase 5:if(!e){x=C.w\nz=1\nbreak}case 4:if(!(b==null))b.e_()\nz=6\nreturn P.Q(null,$async$ae)\ncase 6:v=e\na=F.q1(v==null?a:v,!1)\nz=7\nreturn P.Q(null,$async$ae)\ncase 7:u=e\nb=u==null?b:u\nt=b==null\nif(!t)b.e_()\ns=t?null:b.a\nif(s==null)s=P.B()\nr=w.d\nif(r!=null)if(a===r.b){q=t?null:b.b\nif(q==null)q=\"\"\nr=q===r.a&&C.L.e7(s,r.c)}else r=!1\nelse r=!1\nif(r){x=C.N\nz=1\nbreak}z=8\nreturn P.Q(w.fY(a,b),$async$ae)\ncase 8:p=e\nif(p==null){x=C.aF\nz=1\nbreak}r=p.d\nif(r.length!==0)C.b.gR(r)\nz=9\nreturn P.Q(w.cd(p),$async$ae)\ncase 9:if(!e){x=C.w\nz=1\nbreak}z=10\nreturn P.Q(w.cc(p),$async$ae)\ncase 10:if(!e){x=C.w\nz=1\nbreak}z=11\nreturn P.Q(w.bu(p),$async$ae)\ncase 11:if(t||b.e){o=p.D().ab(0)\nt=w.b.a\nn=V.dH(t.b,o)\nt=t.a.b\nt.toString\nt.pushState(new P.d_([],[]).ar(null),\"\",n)}x=C.N\nz=1\nbreak\ncase 1:return P.a3(x,y)}})\nreturn P.a4($async$ae,y)}\nfL:function(a,b){return this.ae(a,b,!1)}\n",
         "type": "Future<NavigationResult> Function(String,NavigationParams,{bool isRedirect})",
         "measurements": null
       },
@@ -46671,7 +46596,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "a3:function(a){var z,y,x,w,v\nif(H.oD(a))return a\nz=this.b\ny=z.i(0,a)\nif(y!=null)return[\"ref\",y]\nz.k(0,a,z.gh(z))\nz=J.r(a)\nif(!!z.$isbF)return[\"buffer\",a]\nif(!!z.$isaZ)return[\"typed\",a]\nif(!!z.$isx)return this.eM(a)\nif(!!z.$isrL){x=this.geJ()\nw=z.gC(a)\nw=H.dK(w,x,H.a6(w,\"d\",0),null)\nw=P.ce(w,!0,H.a6(w,\"d\",0))\nz=z.gbW(a)\nz=H.dK(z,x,H.a6(z,\"d\",0),null)\nreturn[\"map\",w,P.ce(z,!0,H.a6(z,\"d\",0))]}if(!!z.$ispw)return this.eN(a)\nif(!!z.$isa)this.eA(a)\nif(!!z.$iste)this.bq(a,\"RawReceivePorts can't be transmitted:\")\nif(!!z.$isbO)return this.eO(a)\nif(!!z.$isd5)return this.eP(a)\nif(!!z.$isba){v=a.$static_name\nif(v==null)this.bq(a,\"Closures can't be transmitted:\")\nreturn[\"function\",v]}if(!!z.$isb8)return[\"capability\",a.a]\nif(!(a instanceof P.C))this.eA(a)\nreturn[\"dart\",init.classIdExtractor(a),this.eL(init.classFieldsExtractor(a))]}\n",
+        "code": "a3:function(a){var z,y,x,w,v\nif(H.oD(a))return a\nz=this.b\ny=z.i(0,a)\nif(y!=null)return[\"ref\",y]\nz.k(0,a,z.gh(z))\nz=J.r(a)\nif(!!z.$isbF)return[\"buffer\",a]\nif(!!z.$isaZ)return[\"typed\",a]\nif(!!z.$isx)return this.eM(a)\nif(!!z.$isrL){x=this.geJ()\nw=z.gC(a)\nw=H.dK(w,x,H.a7(w,\"d\",0),null)\nw=P.ce(w,!0,H.a7(w,\"d\",0))\nz=z.gbW(a)\nz=H.dK(z,x,H.a7(z,\"d\",0),null)\nreturn[\"map\",w,P.ce(z,!0,H.a7(z,\"d\",0))]}if(!!z.$ispw)return this.eN(a)\nif(!!z.$isa)this.eA(a)\nif(!!z.$iste)this.bq(a,\"RawReceivePorts can't be transmitted:\")\nif(!!z.$isbO)return this.eO(a)\nif(!!z.$isd5)return this.eP(a)\nif(!!z.$isba){v=a.$static_name\nif(v==null)this.bq(a,\"Closures can't be transmitted:\")\nreturn[\"function\",v]}if(!!z.$isb8)return[\"capability\",a.a]\nif(!(a instanceof P.C))this.eA(a)\nreturn[\"dart\",init.classIdExtractor(a),this.eL(init.classFieldsExtractor(a))]}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -46835,7 +46760,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "cM:function(){var z,y\nz=this.a.d\nif(!(z==null)){y=z.e\nz.bH((y&&C.b).az(y,this))}this.O()}\n",
+        "code": "cM:function(){var z,y\nz=this.a.d\nif(!(z==null)){y=z.e\nz.bH((y&&C.b).ay(y,this))}this.O()}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -47099,7 +47024,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){var z,y,x,w,v\nz=this.a\ny=z.status\nx=y>=200&&y<300\nw=y>307&&y<400\ny=x||y===0||y===304||w\nv=this.b\nif(y)v.ax(0,z)\nelse v.bG(a)}\n",
+        "code": "$1:function(a){var z,y,x,w,v\nz=this.a\ny=z.status\nx=y>=200&&y<300\nw=y>307&&y<400\ny=x||y===0||y===304||w\nv=this.b\nif(y)v.aw(0,z)\nelse v.bG(a)}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -47266,7 +47191,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y,x,w,v\nz=J.a7(a)\nif(z<=500)return String.fromCharCode.apply(null,a)\nfor(y=\"\",x=0;x<z;x=w){w=x+500\nv=w<z?w:z\ny+=String.fromCharCode.apply(null,a.slice(x,v))}return y}\n",
+        "code": "function(a){var z,y,x,w,v\nz=J.a8(a)\nif(z<=500)return String.fromCharCode.apply(null,a)\nfor(y=\"\",x=0;x<z;x=w){w=x+500\nv=w<z?w:z\ny+=String.fromCharCode.apply(null,a.slice(x,v))}return y}\n",
         "type": "String Function(List<dynamic>)",
         "measurements": null
       },
@@ -47516,7 +47441,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){var z=H.u([],this.$ti)\nC.b.sh(z,this.gh(this))\nthis.hm(z)\nreturn z}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z=H.u([],this.$ti)\nC.b.sh(z,this.gh(this))\nthis.hm(z)\nreturn z}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<ListQueue.E> Function({bool growable})",
         "measurements": null
       },
@@ -49170,6 +49095,29 @@
         "type": "String Function(String)",
         "measurements": null
       },
+      "451952164": {
+        "id": "function/451952164",
+        "kind": "function",
+        "name": "getNewsService",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/949978825",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "HackerNewsService",
+        "inferredReturnType": "[null|exact=HackerNewsService]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads static; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "HackerNewsService Function()",
+        "measurements": null
+      },
       "453447959": {
         "id": "function/453447959",
         "kind": "function",
@@ -49253,7 +49201,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aJ:function(a,b){var z=this.X()\nreturn new H.c2(z,b,[H.a6(z,\"bj\",0),null])}\n",
+        "code": "aJ:function(a,b){var z=this.X()\nreturn new H.c2(z,b,[H.a7(z,\"bj\",0),null])}\n",
         "type": "Iterable<map.T> Function(map.T Function(String))",
         "measurements": null
       },
@@ -49490,7 +49438,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){var z,y\nif(J.aa(a,C.w)){z=this.a\ny=z.d.aa(0)\nz.b.a.it(0,null,\"\",y,\"\")}}\n\"call*\":\"$1\"\n$R:1\n",
+        "code": "$1:function(a){var z,y\nif(J.aa(a,C.w)){z=this.a\ny=z.d.ab(0)\nz.b.a.it(0,null,\"\",y,\"\")}}\n\"call*\":\"$1\"\n$R:1\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -50737,7 +50685,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y\nfor(z=this.gv(this),y=b;z.l();)y=c.$2(y,z.d)\nreturn y}\n",
+        "code": "ag:function(a,b,c){var z,y\nfor(z=this.gv(this),y=b;z.l();)y=c.$2(y,z.d)\nreturn y}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,SetMixin.E))",
         "measurements": null
       },
@@ -50828,7 +50776,7 @@
         "id": "function/473262074",
         "kind": "function",
         "name": "destroyInternal",
-        "size": 108,
+        "size": 47,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/377293875",
         "children": [],
@@ -50843,7 +50791,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "K:function(){var z=this.r\nif(!(z==null))z.a1()\nz=this.Q\nif(!(z==null))z.a1()\nz=this.cx\nif(!(z==null))z.a1()}\n",
+        "code": "K:function(){var z=this.r\nif(!(z==null))z.a1()}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -51546,7 +51494,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createElement(\"div\")\nthis.r=y\ny.className=\"next\"\nthis.x=S.a9(z,\"a\",y)\ny=this.c\nx=y.c\nthis.y=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.x),null,null,null,null,!1)\nw=z.createTextNode(\"Next\")\nthis.x.appendChild(w)\ny=this.x\nx=this.y.e;(y&&C.m).a6(y,\"click\",this.an(x.gaq(x)))\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createElement(\"div\")\nthis.r=y\ny.className=\"next\"\nthis.x=S.a6(z,\"a\",y)\ny=this.c\nx=y.c\nthis.y=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.x),null,null,null,null,!1)\nw=z.createTextNode(\"Next\")\nthis.x.appendChild(w)\ny=this.x\nx=this.y.e;(y&&C.m).a6(y,\"click\",this.an(x.gap(x)))\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<FeedComponent> Function()",
         "measurements": null
       },
@@ -51598,7 +51546,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$0:function(){var z=this.a.c\nif(z!=null&&z.a===0)z.av(null)}\n\"call*\":\"$0\"\n$R:0\n",
+        "code": "$0:function(){var z=this.a.c\nif(z!=null&&z.a===0)z.au(null)}\n\"call*\":\"$0\"\n$R:0\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -51920,7 +51868,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z=R.q4(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=new B.aH(this.c.B(C.x,this.a.Q),null,!1)\nthis.y=z\nthis.x.a8(0,z,[])\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z=R.q4(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=new B.aH(this.c.B(C.x,this.a.Q),null,!1)\nthis.y=z\nthis.x.a8(0,z,[])\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<ItemDetailComponent> Function()",
         "measurements": null
       },
@@ -52156,7 +52104,7 @@
         "id": "function/490402070",
         "kind": "function",
         "name": "detectChangesInternal",
-        "size": 193,
+        "size": 114,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/377293875",
         "children": [],
@@ -52171,7 +52119,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "I:function(){var z,y,x\nz=this.f\ny=z.b\nx=this.db\nif(x==null?y!=null:x!==y){this.x.scT(y)\nthis.db=y}this.x.cS()\nthis.ch.saB(z.d!=null)\nthis.cy.saB(z.c!=null)\nthis.r.a2()\nthis.Q.a2()\nthis.cx.a2()}\n",
+        "code": "I:function(){var z,y\nz=this.f.b\ny=this.y\nif(y==null?z!=null:y!==z){this.x.scT(z)\nthis.y=z}this.x.cS()\nthis.r.a2()}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -52473,7 +52421,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y,x\nz=this.gh(a)\nfor(y=b,x=0;x<z;++x){y=c.$2(y,this.i(a,x))\nif(z!==this.gh(a))throw H.b(P.P(a))}return y}\n",
+        "code": "ag:function(a,b,c){var z,y,x\nz=this.gh(a)\nfor(y=b,x=0;x<z;++x){y=c.$2(y,this.i(a,x))\nif(z!==this.gh(a))throw H.b(P.P(a))}return y}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,ListMixin.E))",
         "measurements": null
       },
@@ -52496,7 +52444,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gfz:function(){var z,y\nz=J.a7(this.a)\ny=this.c\nif(y==null||y>z)return z\nreturn y}\n",
+        "code": "gfz:function(){var z,y\nz=J.a8(this.a)\ny=this.c\nif(y==null||y>z)return z\nreturn y}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -52711,7 +52659,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fE:function(a,b){var z\nif(C.a.a_(a,\"./\")){z=b.d\nreturn V.dH(H.cC(z,0,z.length-1,H.N(z,0)).af(0,\"\",new Z.ja(b)),C.a.a4(a,2))}return a}\n",
+        "code": "fE:function(a,b){var z\nif(C.a.a_(a,\"./\")){z=b.d\nreturn V.dH(H.cC(z,0,z.length-1,H.N(z,0)).ag(0,\"\",new Z.ja(b)),C.a.a4(a,2))}return a}\n",
         "type": "String Function(String,RouterState)",
         "measurements": null
       },
@@ -53047,7 +52995,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y\nz=document\ny=z.createElement(\"a\")\nthis.r=y\nthis.T(y)\ny=z.createTextNode(\"\")\nthis.x=y\nthis.r.appendChild(y)\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z,y\nz=document\ny=z.createElement(\"a\")\nthis.r=y\nthis.T(y)\ny=z.createTextNode(\"\")\nthis.x=y\nthis.r.appendChild(y)\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<ItemComponent> Function()",
         "measurements": null
       },
@@ -53321,7 +53269,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){return J.nw(a,new L.jr()).a9(0)}\n",
+        "code": "$1:function(a){return J.nw(a,new L.jr()).aa(0)}\n",
         "type": "dynamic Function(List<dynamic>)",
         "measurements": null
       },
@@ -54899,7 +54847,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x\nz={}\nz.a=0\ny=[]\nx=[]\nif(b!=null){z.a=J.a7(b)\nC.b.bC(y,b)}z.b=\"\"\nif(c!=null&&!c.gu(c))c.w(0,new H.j2(z,x,y))\nreturn J.ri(a,new H.i1(C.aH,\"\"+\"$\"+z.a+z.b,0,null,y,x,0,null))}\n",
+        "code": "function(a,b,c){var z,y,x\nz={}\nz.a=0\ny=[]\nx=[]\nif(b!=null){z.a=J.a8(b)\nC.b.bC(y,b)}z.b=\"\"\nif(c!=null&&!c.gu(c))c.w(0,new H.j2(z,x,y))\nreturn J.ri(a,new H.i1(C.aH,\"\"+\"$\"+z.a+z.b,0,null,y,x,0,null))}\n",
         "type": "dynamic Function(dynamic,List<dynamic>,Map<String,dynamic>)",
         "measurements": null
       },
@@ -55499,7 +55447,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$2:function(a,b){var z,y,x,w\nz=J.E(b)\ny=z.az(b,\"=\")\nif(y===-1){if(!z.F(b,\"\"))J.fk(a,P.d4(b,0,b.length,this.a,!0),\"\")}else if(y!==0){x=z.n(b,0,y)\nw=z.a4(b,y+1)\nz=this.a\nJ.fk(a,P.d4(x,0,x.length,z,!0),P.d4(w,0,w.length,z,!0))}return a}\n",
+        "code": "$2:function(a,b){var z,y,x,w\nz=J.E(b)\ny=z.ay(b,\"=\")\nif(y===-1){if(!z.F(b,\"\"))J.fk(a,P.d4(b,0,b.length,this.a,!0),\"\")}else if(y!==0){x=z.n(b,0,y)\nw=z.a4(b,y+1)\nz=this.a\nJ.fk(a,P.d4(x,0,x.length,z,!0),P.d4(w,0,w.length,z,!0))}return a}\n",
         "type": "dynamic Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -56985,7 +56933,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gE:function(a){var z=this.a\nz=C.d.aw(z,0)^C.d.aF(z,4294967296)\nz=(~z>>>0)+(z<<15>>>0)&4294967295\nz=((z^z>>>12)>>>0)*5&4294967295\nz=((z^z>>>4)>>>0)*2057&4294967295\nreturn(z^z>>>16)>>>0}\n",
+        "code": "gE:function(a){var z=this.a\nz=C.d.av(z,0)^C.d.aF(z,4294967296)\nz=(~z>>>0)+(z<<15>>>0)&4294967295\nz=((z^z>>>12)>>>0)*5&4294967295\nz=((z^z>>>4)>>>0)*2057&4294967295\nreturn(z^z>>>16)>>>0}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -57701,29 +57649,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "void Function(int)",
-        "measurements": null
-      },
-      "572736070": {
-        "id": "function/572736070",
-        "kind": "function",
-        "name": "main",
-        "size": 462,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/1059406096",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[exact=_Future]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z=0,y=P.a1(),x,w,v\nvar $async$nl=P.a5(function(a,b){if(a===1)return P.a2(b,y)\nwhile(true)switch(z){case 0:$.oJ=new Q.dA(\"https://api.hnpwa.com/v0\",null,null)\nx=window.location.pathname\nif(window.location.search.length===0&&!J.aU(x,\"/item\")){w=C.b.gR(x.split(\"/\"))\nif(J.bW(w))w=\"news\"\nv=$.oJ.b2(w,1)}else v=null\nU.tB(\"./pwa.dart.js\")\nz=2\nreturn P.Q(v,$async$nl)\ncase 2:G.up(K.vl()).S(0,C.R).ht(C.a8)\nreturn P.a3(null,y)}})\nreturn P.a4($async$nl,y)}\n",
-        "type": "void Function()",
         "measurements": null
       },
       "573360720": {
@@ -58586,7 +58511,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fp:function(a){var z=this.d\nif(z==null)return!1\nreturn this.ac(z[this.ab(a)],a)>=0}\n",
+        "code": "fp:function(a){var z=this.d\nif(z==null)return!1\nreturn this.ad(z[this.ac(a)],a)>=0}\n",
         "type": "bool Function(Object)",
         "measurements": null
       },
@@ -58976,7 +58901,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 1,
-        "code": "M:function(a,b){var z=H.u(a.slice(0),[H.N(a,0)])\nreturn z}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z=H.u(a.slice(0),[H.N(a,0)])\nreturn z}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<JSArray.E> Function({bool growable})",
         "measurements": null
       },
@@ -59334,7 +59259,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "cX:function(a,b,c,d){var z,y,x,w,v,u\nz=this.b\ny=z!=null?z.aa(0):\"/\"\nx=V.dH(y,this.a)\nif(c!=null)for(z=c.gC(c),z=z.gv(z);z.l();){w=z.gq(z)\nv=\":\"+H.c(w)\nu=P.f2(C.v,c.i(0,w),C.h,!1)\nx.toString\nif(typeof u!==\"string\")H.w(H.D(u))\nx.length\nx=H.qZ(x,v,u,0)}return F.q_(x,b,d).aa(0)}\nex:function(a,b){return this.cX(a,null,null,b)}\naa:function(a){return this.cX(a,null,null,null)}\niA:function(a,b){return this.cX(a,null,b,null)}\n",
+        "code": "cX:function(a,b,c,d){var z,y,x,w,v,u\nz=this.b\ny=z!=null?z.ab(0):\"/\"\nx=V.dH(y,this.a)\nif(c!=null)for(z=c.gC(c),z=z.gv(z);z.l();){w=z.gq(z)\nv=\":\"+H.c(w)\nu=P.f2(C.v,c.i(0,w),C.h,!1)\nx.toString\nif(typeof u!==\"string\")H.w(H.D(u))\nx.length\nx=H.qZ(x,v,u,0)}return F.q_(x,b,d).ab(0)}\nex:function(a,b){return this.cX(a,null,null,b)}\nab:function(a){return this.cX(a,null,null,null)}\niA:function(a,b){return this.cX(a,null,b,null)}\n",
         "type": "String Function({String fragment,Map<String,String> parameters,Map<String,String> queryParameters})",
         "measurements": null
       },
@@ -60378,7 +60303,7 @@
         "id": "function/618493965",
         "kind": "function",
         "name": "build",
-        "size": 295,
+        "size": 625,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/723546661",
         "children": [],
@@ -60393,7 +60318,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x\nz=this.bg(this.e)\ny=$.$get$bS()\nx=y.cloneNode(!1)\nthis.r=x\nz.appendChild(x)\nx=y.cloneNode(!1)\nthis.z=x\nz.appendChild(x)\ny=y.cloneNode(!1)\nz.appendChild(y)\ny=new V.a_(2,null,this,y,null,null,null)\nthis.cx=y\nthis.cy=new K.aw(new D.ad(y,Q.uW()),y,!1)\nthis.ap([],null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=this.bg(this.e)\ny=$.$get$bS()\nx=y.cloneNode(!1)\nthis.r=x\nz.appendChild(x)\nx=y.cloneNode(!1)\nthis.z=x\nz.appendChild(x)\nx=y.cloneNode(!1)\nz.appendChild(x)\nx=new V.a_(2,null,this,x,null,null,null)\nthis.cx=x\nthis.cy=new K.aw(new D.ad(x,Q.uW()),x,!1)\nw=document\nx=S.a6(w,\"footer\",z)\nthis.db=x\nthis.dx=S.a6(w,\"nav\",x)\nx=y.cloneNode(!1)\nthis.dx.appendChild(x)\nx=new V.a_(5,4,this,x,null,null,null)\nthis.dy=x\nthis.fr=new K.aw(new D.ad(x,Q.uY()),x,!1)\ny=y.cloneNode(!1)\nthis.dx.appendChild(y)\ny=new V.a_(6,4,this,y,null,null,null)\nthis.fx=y\nthis.fy=new K.aw(new D.ad(y,Q.uZ()),y,!1)\nthis.az([],null)\nreturn}\n",
         "type": "ComponentRef<FeedComponent> Function()",
         "measurements": null
       },
@@ -60928,6 +60853,35 @@
         "inlinedCount": 1,
         "code": null,
         "type": "dynamic Function(int,{bool isUtc})",
+        "measurements": null
+      },
+      "626988449": {
+        "id": "function/626988449",
+        "kind": "function",
+        "name": "hackerNewsApp$Injector",
+        "size": 56,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/663007064",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Injector",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [
+          {
+            "name": "parent",
+            "type": "[exact=_LazyInjector]",
+            "declaredType": "Injector"
+          }
+        ],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 0,
+        "code": "function(a){return new K.lB(null,null,null,null,null,a)}\n",
+        "type": "Injector Function([Injector])",
         "measurements": null
       },
       "628002765": {
@@ -61891,7 +61845,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$0:function(){$.$get$bP().push(\" - download success: \"+this.a)\nthis.b.ax(0,null)}\n\"call*\":\"$0\"\n$R:0\n",
+        "code": "$0:function(){$.$get$bP().push(\" - download success: \"+this.a)\nthis.b.aw(0,null)}\n\"call*\":\"$0\"\n$R:0\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -62022,7 +61976,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "au:function(a){P.mU(null,null,this,a)}\n",
+        "code": "at:function(a){P.mU(null,null,this,a)}\n",
         "type": "void Function(void Function())",
         "measurements": null
       },
@@ -62304,7 +62258,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "at:function(a,b,c){var z=this.a.i(0,b)\nreturn z==null?null:J.rf(z,b,c)}\nS:function(a,b){return this.at(a,b,null)}\n",
+        "code": "as:function(a,b,c){var z=this.a.i(0,b)\nreturn z==null?null:J.rf(z,b,c)}\nS:function(a,b){return this.as(a,b,null)}\n",
         "type": "CollectionChangeRecord Function(dynamic,[int])",
         "measurements": null
       },
@@ -62458,7 +62412,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x,w,v,u\nz=b+2\nif(z>=a.length)return\"%\"\ny=J.S(a).G(a,b+1)\nx=C.a.G(a,z)\nw=H.n7(y)\nv=H.n7(x)\nif(w<0||v<0)return\"%\"\nu=w*16+v\nif(u<127&&(C.at[C.d.aw(u,4)]&1<<(u&15))!==0)return H.dU(c&&65<=u&&90>=u?(u|32)>>>0:u)\nif(y>=97||x>=97)return C.a.n(a,b,b+3).toUpperCase()\nreturn}\n",
+        "code": "function(a,b,c){var z,y,x,w,v,u\nz=b+2\nif(z>=a.length)return\"%\"\ny=J.S(a).G(a,b+1)\nx=C.a.G(a,z)\nw=H.n7(y)\nv=H.n7(x)\nif(w<0||v<0)return\"%\"\nu=w*16+v\nif(u<127&&(C.at[C.d.av(u,4)]&1<<(u&15))!==0)return H.dU(c&&65<=u&&90>=u?(u|32)>>>0:u)\nif(y>=97||x>=97)return C.a.n(a,b,b+3).toUpperCase()\nreturn}\n",
         "type": "String Function(String,int,bool)",
         "measurements": null
       },
@@ -62577,29 +62531,6 @@
         "inlinedCount": 0,
         "code": "d_:function(a,b){var z,y\nif(0>=b)return\"\"\nif(b===1||a.length===0)return a\nif(b!==b>>>0)throw H.b(C.a4)\nfor(z=a,y=\"\";!0;){if((b&1)===1)y=z+y\nb=b>>>1\nif(b===0)break\nz+=z}return y}\n",
         "type": "String Function(int)",
-        "measurements": null
-      },
-      "652434576": {
-        "id": "function/652434576",
-        "kind": "function",
-        "name": "_getBrowserPlatformLocation$2",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "BrowserPlatformLocation",
-        "inferredReturnType": "[exact=BrowserPlatformLocation]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "BrowserPlatformLocation Function()",
         "measurements": null
       },
       "652708416": {
@@ -62800,7 +62731,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fU:function(a,b){var z,y,x\nz=this.d\nif(z==null)return!1\ny=z[this.ab(b)]\nx=this.ac(y,b)\nif(x<0)return!1\nthis.dd(y.splice(x,1)[0])\nreturn!0}\n",
+        "code": "fU:function(a,b){var z,y,x\nz=this.d\nif(z==null)return!1\ny=z[this.ac(b)]\nx=this.ad(y,b)\nif(x<0)return!1\nthis.dd(y.splice(x,1)[0])\nreturn!0}\n",
         "type": "bool Function(Object)",
         "measurements": null
       },
@@ -63220,7 +63151,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "av:function(a){var z=H.mZ(a,\"$isW\",this.$ti,\"$asW\")\nif(z){this.fk(a)\nreturn}this.a=1\nthis.b.au(new P.li(this,a))}\n",
+        "code": "au:function(a){var z=H.mZ(a,\"$isW\",this.$ti,\"$asW\")\nif(z){this.fk(a)\nreturn}this.a=1\nthis.b.at(new P.li(this,a))}\n",
         "type": "void Function(dynamic)",
         "measurements": null
       },
@@ -64001,7 +63932,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "hC:function(a){var z,y,x,w,v,u\nz=a[1]\ny=a[2]\nx={}\nthis.b.push(x)\nfor(w=J.E(z),v=J.E(y),u=0;u<w.gh(z);++u)x[w.i(z,u)]=this.ay(v.i(y,u))\nreturn x}\n",
+        "code": "hC:function(a){var z,y,x,w,v,u\nz=a[1]\ny=a[2]\nx={}\nthis.b.push(x)\nfor(w=J.E(z),v=J.E(y),u=0;u<w.gh(z);++u)x[w.i(z,u)]=this.ax(v.i(y,u))\nreturn x}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -64034,7 +63965,7 @@
           }
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 21,
+        "inlinedCount": 20,
         "code": null,
         "type": "Element Function(String,[String])",
         "measurements": null
@@ -64330,7 +64261,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b){return C.b.af(H.u(a.split(\"&\"),[P.h]),P.B(),new P.kt(b))}\n",
+        "code": "function(a,b){return C.b.ag(H.u(a.split(\"&\"),[P.h]),P.B(),new P.kt(b))}\n",
         "type": "Map<String,String> Function(String,{Encoding encoding})",
         "measurements": null
       },
@@ -64949,29 +64880,6 @@
         "type": "dynamic Function(AppView<dynamic>)",
         "measurements": null
       },
-      "697956919": {
-        "id": "function/697956919",
-        "kind": "function",
-        "name": "_getPathLocationStrategy$1",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "PathLocationStrategy",
-        "inferredReturnType": "[exact=PathLocationStrategy]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "PathLocationStrategy Function()",
-        "measurements": null
-      },
       "698206677": {
         "id": "function/698206677",
         "kind": "function",
@@ -65537,7 +65445,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){return J.a7(this.a)}\n",
+        "code": "gh:function(a){return J.a8(this.a)}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -66136,7 +66044,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x\nz=document\ny=z.createElement(\"a\")\nthis.r=y\nthis.T(y)\ny=this.c\nx=y.c\nthis.x=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.r),null,null,null,null,!1)\ny=z.createTextNode(\"\")\nthis.y=y\nthis.r.appendChild(y)\ny=this.r\nx=this.x.e;(y&&C.m).a6(y,\"click\",this.an(x.gaq(x)))\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z,y,x\nz=document\ny=z.createElement(\"a\")\nthis.r=y\nthis.T(y)\ny=this.c\nx=y.c\nthis.x=new G.ar(G.b0(x.B(C.e,y.a.Q),x.B(C.j,y.a.Q),null,this.r),null,null,null,null,!1)\ny=z.createTextNode(\"\")\nthis.y=y\nthis.r.appendChild(y)\ny=this.r\nx=this.x.e;(y&&C.m).a6(y,\"click\",this.an(x.gap(x)))\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<ItemComponent> Function()",
         "measurements": null
       },
@@ -66170,7 +66078,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b){var z\nif(typeof b!==\"number\"||Math.floor(b)!==b)return new P.ao(!0,b,\"index\",null)\nz=J.a7(a)\nif(b<0||b>=z)return P.L(b,a,\"index\",null,z)\nreturn P.bI(b,\"index\",null)}\n",
+        "code": "function(a,b){var z\nif(typeof b!==\"number\"||Math.floor(b)!==b)return new P.ao(!0,b,\"index\",null)\nz=J.a8(a)\nif(b<0||b>=z)return P.L(b,a,\"index\",null,z)\nreturn P.bI(b,\"index\",null)}\n",
         "type": "Error Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -67615,7 +67523,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ha:function(a,b){var z,y,x,w\nz=this.d\nif(z==null){z=P.oz()\nthis.d=z}y=this.ab(a)\nx=z[y]\nif(x==null){P.oA(z,y,[a,b]);++this.a\nthis.e=null}else{w=this.ac(x,a)\nif(w>=0)x[w+1]=b\nelse{x.push(a,b);++this.a\nthis.e=null}}}\n",
+        "code": "ha:function(a,b){var z,y,x,w\nz=this.d\nif(z==null){z=P.oz()\nthis.d=z}y=this.ac(a)\nx=z[y]\nif(x==null){P.oA(z,y,[a,b]);++this.a\nthis.e=null}else{w=this.ad(x,a)\nif(w>=0)x[w+1]=b\nelse{x.push(a,b);++this.a\nthis.e=null}}}\n",
         "type": "void Function(_HashMap.K,_HashMap.V)",
         "measurements": null
       },
@@ -67933,7 +67841,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){var z\nif(this.a(this.b[a])){this.c[a]=!1\nz=new P.A(0,$.p,null,[null])\nz.av(null)\nreturn z}return H.u7(this.d[a]).ar(0,new H.nk(this.c,a,this.e))}\n",
+        "code": "$1:function(a){var z\nif(this.a(this.b[a])){this.c[a]=!1\nz=new P.A(0,$.p,null,[null])\nz.au(null)\nreturn z}return H.u7(this.d[a]).aq(0,new H.nk(this.c,a,this.e))}\n",
         "type": "Future<dynamic> Function(int)",
         "measurements": null
       },
@@ -68309,6 +68217,29 @@
         "type": "void Function(ViewContainer)",
         "measurements": null
       },
+      "748840325": {
+        "id": "function/748840325",
+        "kind": "function",
+        "name": "_getInjector$5",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Injector",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "Injector Function()",
+        "measurements": null
+      },
       "749621527": {
         "id": "function/749621527",
         "kind": "function",
@@ -68517,7 +68448,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aw:function(a,b){var z\nif(a>0)z=this.dN(a,b)\nelse{z=b>31?31:b\nz=a>>z>>>0}return z}\n",
+        "code": "av:function(a,b){var z\nif(a>0)z=this.dN(a,b)\nelse{z=b>31?31:b\nz=a>>z>>>0}return z}\n",
         "type": "num Function(num)",
         "measurements": null
       },
@@ -68609,7 +68540,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$1:function(a){return this.a.ax(0,a)}\n\"call*\":\"$1\"\n$R:1\n",
+        "code": "$1:function(a){return this.a.aw(0,a)}\n\"call*\":\"$1\"\n$R:1\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -69097,7 +69028,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ac:function(a,b){var z,y,x\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;y+=2){x=a[y]\nif(x==null?b==null:x===b)return y}return-1}\n",
+        "code": "ad:function(a,b){var z,y,x\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;y+=2){x=a[y]\nif(x==null?b==null:x===b)return y}return-1}\n",
         "type": "int Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -69489,6 +69420,29 @@
         "type": "CollectionChangeRecord Function(CollectionChangeRecord)",
         "measurements": null
       },
+      "771549486": {
+        "id": "function/771549486",
+        "kind": "function",
+        "name": "_getRouterImpl$4",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "RouterImpl",
+        "inferredReturnType": "[exact=RouterImpl]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "RouterImpl Function()",
+        "measurements": null
+      },
       "772250195": {
         "id": "function/772250195",
         "kind": "function",
@@ -69627,7 +69581,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y\nz={}\ny=new P.A(0,$.p,null,[null])\nz.a=b\nz.b=null\nz.b=this.aX(new P.jL(z,this,c,y),!0,new P.jM(z,y),y.gbv())\nreturn y}\n",
+        "code": "ag:function(a,b,c){var z,y\nz={}\ny=new P.A(0,$.p,null,[null])\nz.a=b\nz.b=null\nz.b=this.aX(new P.jL(z,this,c,y),!0,new P.jM(z,y),y.gbv())\nreturn y}\n",
         "type": "Future<fold.S> Function(fold.S,fold.S Function(fold.S,Stream.T))",
         "measurements": null
       },
@@ -70261,7 +70215,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){var z,y,x\nz=J.a7(this.a)\ny=this.b\nif(y>=z)return 0\nx=this.c\nif(x==null||x>=z)return z-y\nreturn x-y}\n",
+        "code": "gh:function(a){var z,y,x\nz=J.a8(this.a)\ny=this.b\nif(y>=z)return 0\nx=this.c\nif(x==null||x>=z)return z-y\nreturn x-y}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -70672,7 +70626,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "bh:function(a,b,c){var z,y,x\nA.n3(a)\nfor(z=C.l,y=this;z===C.l;){if(b!=null){y.toString\nz=C.l}if(z===C.l){x=y.a.f\nif(x!=null)z=x.at(0,a,c)}b=y.a.Q\ny=y.c}A.n4(a)\nreturn z}\nB:function(a,b){return this.bh(a,b,C.l)}\n",
+        "code": "bh:function(a,b,c){var z,y,x\nA.n3(a)\nfor(z=C.l,y=this;z===C.l;){if(b!=null){y.toString\nz=C.l}if(z===C.l){x=y.a.f\nif(x!=null)z=x.as(0,a,c)}b=y.a.Q\ny=y.c}A.n4(a)\nreturn z}\nB:function(a,b){return this.bh(a,b,C.l)}\n",
         "type": "dynamic Function(dynamic,int,[dynamic])",
         "measurements": null
       },
@@ -71963,7 +71917,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y\nfor(z=this.gv(this),y=b;z.l();)y=c.$2(y,z.gq(z))\nreturn y}\n",
+        "code": "ag:function(a,b,c){var z,y\nfor(z=this.gv(this),y=b;z.l();)y=c.$2(y,z.gq(z))\nreturn y}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,Iterable.E))",
         "measurements": null
       },
@@ -72181,7 +72135,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w,v,u\nz=this.bg(this.e)\ny=document\nx=S.fi(y,z)\nthis.r=x\nx.className=\"header\"\nthis.T(x)\nx=S.a9(y,\"button\",this.r)\nthis.x=x\nthis.T(x)\nw=y.createTextNode(\"[\")\nthis.x.appendChild(w)\nx=y.createTextNode(\"\")\nthis.y=x\nthis.x.appendChild(x)\nv=y.createTextNode(\"]\")\nthis.x.appendChild(v)\nx=S.oM(y,this.r)\nthis.z=x\nthis.dZ(x)\nx=y.createTextNode(\"\")\nthis.Q=x\nthis.z.appendChild(x)\nu=y.createTextNode(\" \")\nthis.z.appendChild(u)\nx=y.createTextNode(\"\")\nthis.ch=x\nthis.z.appendChild(x)\nx=S.fi(y,z)\nthis.cx=x\nthis.T(x)\nx=S.fi(y,this.cx)\nthis.cy=x\nx.className=\"content\"\nthis.T(x)\nx=$.$get$bS().cloneNode(!1)\nthis.cx.appendChild(x)\nx=new V.a_(11,9,this,x,null,null,null)\nthis.db=x\nthis.dx=new R.cn(x,null,null,null,new D.ad(x,R.uO()))\nx=this.x;(x&&C.a2).a6(x,\"click\",this.hH(this.f.giC()))\nthis.ap(C.f,null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w,v,u\nz=this.bg(this.e)\ny=document\nx=S.fi(y,z)\nthis.r=x\nx.className=\"header\"\nthis.T(x)\nx=S.a6(y,\"button\",this.r)\nthis.x=x\nthis.T(x)\nw=y.createTextNode(\"[\")\nthis.x.appendChild(w)\nx=y.createTextNode(\"\")\nthis.y=x\nthis.x.appendChild(x)\nv=y.createTextNode(\"]\")\nthis.x.appendChild(v)\nx=S.oM(y,this.r)\nthis.z=x\nthis.dZ(x)\nx=y.createTextNode(\"\")\nthis.Q=x\nthis.z.appendChild(x)\nu=y.createTextNode(\" \")\nthis.z.appendChild(u)\nx=y.createTextNode(\"\")\nthis.ch=x\nthis.z.appendChild(x)\nx=S.fi(y,z)\nthis.cx=x\nthis.T(x)\nx=S.fi(y,this.cx)\nthis.cy=x\nx.className=\"content\"\nthis.T(x)\nx=$.$get$bS().cloneNode(!1)\nthis.cx.appendChild(x)\nx=new V.a_(11,9,this,x,null,null,null)\nthis.db=x\nthis.dx=new R.cn(x,null,null,null,new D.ad(x,R.uO()))\nx=this.x;(x&&C.a2).a6(x,\"click\",this.hH(this.f.giC()))\nthis.az(C.f,null)\nreturn}\n",
         "type": "ComponentRef<CommentComponent> Function()",
         "measurements": null
       },
@@ -72388,42 +72342,8 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ab:function(a){return H.oY(a)&0x3ffffff}\n",
+        "code": "ac:function(a){return H.oY(a)&0x3ffffff}\n",
         "type": "int Function(dynamic)",
-        "measurements": null
-      },
-      "822358631": {
-        "id": "function/822358631",
-        "kind": "function",
-        "name": "injectFromSelfOptional",
-        "size": 684,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/1049281213",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Object",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [
-          {
-            "name": "token",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          },
-          {
-            "name": "orElse",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          }
-        ],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "aW:function(a,b){var z,y,x\nif(a===C.A){z=this.b\nif(z==null){z=$.oJ\nthis.b=z}return z}if(a===C.U){z=this.c\nif(z==null){z=this.aH(C.V)\ny=this.aA(C.aG,null)\nx=new X.dR(z,null)\nif(y==null){z.toString\ny=$.qI.$0()}if(y==null)H.w(P.b7(\"No base href set. Please provide a value for the appBaseHref token or add a base element to the document.\"))\nx.b=y\nthis.c=x\nz=x}return z}if(a===C.V){z=this.d\nif(z==null){z=new M.fT(null,null)\n$.qI=O.uM()\nz.a=window.location\nz.b=window.history\nthis.d=z}return z}if(a===C.j){z=this.e\nif(z==null){z=V.t_(this.aH(C.U))\nthis.e=z}return z}if(a===C.e){z=this.f\nif(z==null){z=Z.tg(this.aH(C.j),this.aA(C.W,null))\nthis.f=z}return z}if(a===C.r)return this\nreturn b}\n",
-        "type": "Object Function(Object,[Object])",
         "measurements": null
       },
       "822905418": {
@@ -72817,7 +72737,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){return this.X().af(0,b,c)}\n",
+        "code": "ag:function(a,b,c){return this.X().ag(0,b,c)}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,String))",
         "measurements": null
       },
@@ -72942,8 +72862,37 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "fH:function(a,b,c){return a.add(new P.d_([],[]).as(b))}\nfG:function(a,b){return this.fH(a,b,null)}\n",
+        "code": "fH:function(a,b,c){return a.add(new P.d_([],[]).ar(b))}\nfG:function(a,b){return this.fH(a,b,null)}\n",
         "type": "Request Function(dynamic,[dynamic])",
+        "measurements": null
+      },
+      "827266615": {
+        "id": "function/827266615",
+        "kind": "function",
+        "name": "_Injector$hackerNewsApp._",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "dynamic",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [
+          {
+            "name": "parent",
+            "type": "[exact=_LazyInjector]",
+            "declaredType": "Injector"
+          }
+        ],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "dynamic Function([Injector])",
         "measurements": null
       },
       "827571675": {
@@ -73481,7 +73430,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x,w\nif(b<0)throw H.b(P.J(b,0,J.a7(a),null,null))\nz=c==null\nif(!z&&c<b)throw H.b(P.J(c,b,J.a7(a),null,null))\ny=J.ag(a)\nfor(x=0;x<b;++x)if(!y.l())throw H.b(P.J(b,0,x,null,null))\nw=[]\nif(z)for(;y.l();)w.push(y.gq(y))\nelse for(x=b;x<c;++x){if(!y.l())throw H.b(P.J(c,b,x,null,null))\nw.push(y.gq(y))}return H.pG(w)}\n",
+        "code": "function(a,b,c){var z,y,x,w\nif(b<0)throw H.b(P.J(b,0,J.a8(a),null,null))\nz=c==null\nif(!z&&c<b)throw H.b(P.J(c,b,J.a8(a),null,null))\ny=J.ag(a)\nfor(x=0;x<b;++x)if(!y.l())throw H.b(P.J(b,0,x,null,null))\nw=[]\nif(z)for(;y.l();)w.push(y.gq(y))\nelse for(x=b;x<c;++x){if(!y.l())throw H.b(P.J(c,b,x,null,null))\nw.push(y.gq(y))}return H.pG(w)}\n",
         "type": "String Function(Iterable<int>,int,int)",
         "measurements": null
       },
@@ -73923,7 +73872,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "aV:function(a,b,c){var z\nif(c>=a.length)return-1\nfor(z=c;z<a.length;++z)if(J.aa(a[z],b))return z\nreturn-1}\naz:function(a,b){return this.aV(a,b,0)}\n",
+        "code": "aV:function(a,b,c){var z\nif(c>=a.length)return-1\nfor(z=c;z<a.length;++z)if(J.aa(a[z],b))return z\nreturn-1}\nay:function(a,b){return this.aV(a,b,0)}\n",
         "type": "int Function(Object,[int])",
         "measurements": null
       },
@@ -74017,7 +73966,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "$2:function(a,b){this.a.a[a]=this.b.as(b)}\n",
+        "code": "$2:function(a,b){this.a.a[a]=this.b.ar(b)}\n",
         "type": "dynamic Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -74324,7 +74273,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z\nif(0<=a){if(a<=65535)return String.fromCharCode(a)\nif(a<=1114111){z=a-65536\nreturn String.fromCharCode((55296|C.d.aw(z,10))>>>0,56320|z&1023)}}throw H.b(P.J(a,0,1114111,null,null))}\n",
+        "code": "function(a){var z\nif(0<=a){if(a<=65535)return String.fromCharCode(a)\nif(a<=1114111){z=a-65536\nreturn String.fromCharCode((55296|C.d.av(z,10))>>>0,56320|z&1023)}}throw H.b(P.J(a,0,1114111,null,null))}\n",
         "type": "String Function(dynamic)",
         "measurements": null
       },
@@ -74542,7 +74491,7 @@
         ],
         "sideEffects": "SideEffects(reads nothing; writes nothing)",
         "inlinedCount": 1,
-        "code": "aJ:function(a,b){return new H.c2(this,b,[H.a6(this,\"bj\",0),null])}\n",
+        "code": "aJ:function(a,b){return new H.c2(this,b,[H.a7(this,\"bj\",0),null])}\n",
         "type": "Iterable<map.T> Function(map.T Function(SetMixin.E))",
         "measurements": null
       },
@@ -74855,7 +74804,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createTextNode(\"\")\nthis.r=y\nx=z.createTextNode(\" by \")\nw=z.createTextNode(\"\")\nthis.x=w\nthis.ap([y,x,w,z.createTextNode(\" \")],null)\nreturn}\n",
+        "code": "D:function(){var z,y,x,w\nz=document\ny=z.createTextNode(\"\")\nthis.r=y\nx=z.createTextNode(\" by \")\nw=z.createTextNode(\"\")\nthis.x=w\nthis.az([y,x,w,z.createTextNode(\" \")],null)\nreturn}\n",
         "type": "ComponentRef<ItemComponent> Function()",
         "measurements": null
       },
@@ -75532,6 +75481,40 @@
         "type": "MapView.V Function(Object)",
         "measurements": null
       },
+      "870314496": {
+        "id": "function/870314496",
+        "kind": "function",
+        "name": "injectFromSelfOptional",
+        "size": 684,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Object",
+        "inferredReturnType": "[null|subclass=Object]",
+        "parameters": [
+          {
+            "name": "token",
+            "type": "[null|subclass=Object]",
+            "declaredType": "Object"
+          },
+          {
+            "name": "orElse",
+            "type": "[null|subclass=Object]",
+            "declaredType": "Object"
+          }
+        ],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "aW:function(a,b){var z,y,x\nif(a===C.A){z=this.b\nif(z==null){z=$.oJ\nthis.b=z}return z}if(a===C.U){z=this.c\nif(z==null){z=this.aH(C.V)\ny=this.aA(C.aG,null)\nx=new X.dR(z,null)\nif(y==null){z.toString\ny=$.qI.$0()}if(y==null)H.w(P.b7(\"No base href set. Please provide a value for the appBaseHref token or add a base element to the document.\"))\nx.b=y\nthis.c=x\nz=x}return z}if(a===C.V){z=this.d\nif(z==null){z=new M.fT(null,null)\n$.qI=O.uM()\nz.a=window.location\nz.b=window.history\nthis.d=z}return z}if(a===C.j){z=this.e\nif(z==null){z=V.t_(this.aH(C.U))\nthis.e=z}return z}if(a===C.e){z=this.f\nif(z==null){z=Z.tg(this.aH(C.j),this.aA(C.W,null))\nthis.f=z}return z}if(a===C.r)return this\nreturn b}\n",
+        "type": "Object Function(Object,[Object])",
+        "measurements": null
+      },
       "870367820": {
         "id": "function/870367820",
         "kind": "function",
@@ -75758,13 +75741,13 @@
         "parameters": [
           {
             "name": "e",
-            "type": "[null|subclass=Element]",
+            "type": "Union([null|exact=ViewContainer], [null|subclass=Element])",
             "declaredType": "dynamic"
           }
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ag:function(a){var z=this.a\nz.y=[a]\nz.a\nreturn}\n",
+        "code": "a9:function(a){var z=this.a\nz.y=[a]\nz.a\nreturn}\n",
         "type": "void Function(dynamic)",
         "measurements": null
       },
@@ -76004,7 +75987,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a){var z,y,x,w\nz=H.u([],[P.i])\nfor(y=a.length,x=0;x<a.length;a.length===y||(0,H.an)(a),++x){w=a[x]\nif(typeof w!==\"number\"||Math.floor(w)!==w)throw H.b(H.D(w))\nif(w<=65535)z.push(w)\nelse if(w<=1114111){z.push(55296+(C.d.aw(w-65536,10)&1023))\nz.push(56320+(w&1023))}else throw H.b(H.D(w))}return H.pC(z)}\n",
+        "code": "function(a){var z,y,x,w\nz=H.u([],[P.i])\nfor(y=a.length,x=0;x<a.length;a.length===y||(0,H.an)(a),++x){w=a[x]\nif(typeof w!==\"number\"||Math.floor(w)!==w)throw H.b(H.D(w))\nif(w<=65535)z.push(w)\nelse if(w<=1114111){z.push(55296+(C.d.av(w-65536,10)&1023))\nz.push(56320+(w&1023))}else throw H.b(H.D(w))}return H.pC(z)}\n",
         "type": "String Function(dynamic)",
         "measurements": null
       },
@@ -76374,7 +76357,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "i8:function(a,b){var z,y,x,w\nif(b===-1)return\nz=a.a\ny=this.e\nx=(y&&C.b).az(y,z)\nif(z.a.a===C.n)H.w(P.c5(\"Component views can't be moved!\"))\nC.b.eq(y,x)\nC.b.aI(y,b,z)\nw=b>0?y[b-1].geh():this.d\nif(w!=null){S.oV(w,S.mJ(z.a.y,H.u([],[W.z])))\n$.oO=!0}return a}\n",
+        "code": "i8:function(a,b){var z,y,x,w\nif(b===-1)return\nz=a.a\ny=this.e\nx=(y&&C.b).ay(y,z)\nif(z.a.a===C.n)H.w(P.c5(\"Component views can't be moved!\"))\nC.b.eq(y,x)\nC.b.aI(y,b,z)\nw=b>0?y[b-1].geh():this.d\nif(w!=null){S.oV(w,S.mJ(z.a.y,H.u([],[W.z])))\n$.oO=!0}return a}\n",
         "type": "ViewRef Function(ViewRef,int)",
         "measurements": null
       },
@@ -76486,7 +76469,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c,d,e){var z,y,x,w,v,u\nz=$.$get$qA()\nfor(y=J.S(a),x=b;x<c;++x){w=z[d]\nv=y.A(a,x)^96\nu=J.U(w,v>95?31:v)\nd=u&31\ne[C.d.aw(u,5)]=x}return d}\n",
+        "code": "function(a,b,c,d,e){var z,y,x,w,v,u\nz=$.$get$qA()\nfor(y=J.S(a),x=b;x<c;++x){w=z[d]\nv=y.A(a,x)^96\nu=J.U(w,v>95?31:v)\nd=u&31\ne[C.d.av(u,5)]=x}return d}\n",
         "type": "int Function(String,int,int,int,List<int>)",
         "measurements": null
       },
@@ -76676,7 +76659,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "hw:function(a,b){var z,y,x,w\nz=J.E(a)\ny=z.gh(a)\nx=new Array(y)\nthis.b[b]=x\nfor(w=0;w<y;++w)x[w]=this.as(z.i(a,w))\nreturn x}\n",
+        "code": "hw:function(a,b){var z,y,x,w\nz=J.E(a)\ny=z.gh(a)\nx=new Array(y)\nthis.b[b]=x\nfor(w=0;w<y;++w)x[w]=this.ar(z.i(a,w))\nreturn x}\n",
         "type": "List<dynamic> Function(List<dynamic>,int)",
         "measurements": null
       },
@@ -78624,7 +78607,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b){var z=new P.A(0,$.p,null,[null])\nz.av(null)\nz=new Z.j7(new P.bs(null,null,0,null,null,null,null,[M.bi]),a,b,null,[],null,null,z)\nz.f4(a,b)\nreturn z}\n",
+        "code": "function(a,b){var z=new P.A(0,$.p,null,[null])\nz.au(null)\nz=new Z.j7(new P.bs(null,null,0,null,null,null,null,[M.bi]),a,b,null,[],null,null,z)\nz.f4(a,b)\nreturn z}\n",
         "type": "dynamic Function(Location,RouterHook)",
         "measurements": null
       },
@@ -79122,7 +79105,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "ac:function(a,b){var z,y\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;++y)if(J.aa(a[y].a,b))return y\nreturn-1}\n",
+        "code": "ad:function(a,b){var z,y\nif(a==null)return-1\nz=a.length\nfor(y=0;y<z;++y)if(J.aa(a[y].a,b))return y\nreturn-1}\n",
         "type": "int Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -79509,7 +79492,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){if(a==null)return\"\"\nreturn P.d3(a,b,c,C.ar)}\n",
+        "code": "function(a,b,c){if(a==null)return\"\"\nreturn P.d3(a,b,c,C.as)}\n",
         "type": "String Function(String,int,int)",
         "measurements": null
       },
@@ -79700,35 +79683,6 @@
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
-      "938490984": {
-        "id": "function/938490984",
-        "kind": "function",
-        "name": "hackerNewsApp$Injector",
-        "size": 56,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/251140134",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Injector",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [
-          {
-            "name": "parent",
-            "type": "[exact=_LazyInjector]",
-            "declaredType": "Injector"
-          }
-        ],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 0,
-        "code": "function(a){return new K.lB(null,null,null,null,null,a)}\n",
-        "type": "Injector Function([Injector])",
-        "measurements": null
-      },
       "938516961": {
         "id": "function/938516961",
         "kind": "function",
@@ -79853,7 +79807,7 @@
         "id": "function/940489236",
         "kind": "function",
         "name": "viewFactory_FeedComponent3",
-        "size": 140,
+        "size": 110,
         "outputUnit": "outputUnit/669725656",
         "parent": "library/182997290",
         "children": [],
@@ -79879,7 +79833,7 @@
         ],
         "sideEffects": "SideEffects(reads static; writes field)",
         "inlinedCount": 0,
-        "code": "function(a,b){var z=new Q.ml(null,null,null,null,null,null,null,null,null,null,P.B(),a,null,null,null)\nz.a=S.V(z,3,C.k,b)\nz.d=$.cK\nreturn z}\n",
+        "code": "function(a,b){var z=new Q.ml(null,null,null,null,P.B(),a,null,null,null)\nz.a=S.V(z,3,C.k,b)\nz.d=$.cK\nreturn z}\n",
         "type": "AppView<FeedComponent> Function(AppView<dynamic>,int)",
         "measurements": null
       },
@@ -80135,6 +80089,29 @@
         "type": "LinkedHashMap<LinkedHashMap.K,LinkedHashMap.V> Function({bool Function(LinkedHashMap.K,LinkedHashMap.K) equals,int Function(LinkedHashMap.K) hashCode,bool Function(dynamic) isValidKey})",
         "measurements": null
       },
+      "943848855": {
+        "id": "function/943848855",
+        "kind": "function",
+        "name": "_getBrowserPlatformLocation$2",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "BrowserPlatformLocation",
+        "inferredReturnType": "[exact=BrowserPlatformLocation]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "BrowserPlatformLocation Function()",
+        "measurements": null
+      },
       "943902272": {
         "id": "function/943902272",
         "kind": "function",
@@ -80258,7 +80235,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b){var z,y,x,w,v,u,t,s,r,q,p,o\nz=b.data\nif(!H.u5(z))return\ny=new H.bp(!0,[]).ay(z)\nx=J.r(y)\nif(!x.$ispw&&!x.$isO)return\nswitch(x.i(y,\"command\")){case\"start\":init.globalState.b=x.i(y,\"id\")\nw=x.i(y,\"functionName\")\nv=w==null?init.globalState.cx:init.staticFunctionNameToClosure(w)\nu=x.i(y,\"args\")\nt=new H.bp(!0,[]).ay(x.i(y,\"msg\"))\ns=x.i(y,\"isSpawnUri\")\nr=x.i(y,\"startPaused\")\nq=new H.bp(!0,[]).ay(x.i(y,\"replyTo\"))\np=H.q9()\ninit.globalState.f.a.aj(0,new H.bq(p,new H.hU(v,u,t,s,r,q),\"worker-start\"))\ninit.globalState.d=p\ninit.globalState.f.bn()\nbreak\ncase\"spawn-worker\":break\ncase\"message\":if(x.i(y,\"port\")!=null)J.rl(x.i(y,\"port\"),x.i(y,\"msg\"))\ninit.globalState.f.bn()\nbreak\ncase\"close\":init.globalState.ch.J(0,$.$get$pu().i(0,a))\na.terminate()\ninit.globalState.f.bn()\nbreak\ncase\"log\":H.rM(x.i(y,\"msg\"))\nbreak\ncase\"print\":if(init.globalState.x){x=init.globalState.Q\no=P.X([\"command\",\"print\",\"msg\",y])\no=new H.aB(!0,P.b4(null,P.i)).a3(o)\nx.toString\nself.postMessage(o)}else P.oZ(x.i(y,\"msg\"))\nbreak\ncase\"error\":throw H.b(x.i(y,\"msg\"))}}\n",
+        "code": "function(a,b){var z,y,x,w,v,u,t,s,r,q,p,o\nz=b.data\nif(!H.u5(z))return\ny=new H.bp(!0,[]).ax(z)\nx=J.r(y)\nif(!x.$ispw&&!x.$isO)return\nswitch(x.i(y,\"command\")){case\"start\":init.globalState.b=x.i(y,\"id\")\nw=x.i(y,\"functionName\")\nv=w==null?init.globalState.cx:init.staticFunctionNameToClosure(w)\nu=x.i(y,\"args\")\nt=new H.bp(!0,[]).ax(x.i(y,\"msg\"))\ns=x.i(y,\"isSpawnUri\")\nr=x.i(y,\"startPaused\")\nq=new H.bp(!0,[]).ax(x.i(y,\"replyTo\"))\np=H.q9()\ninit.globalState.f.a.aj(0,new H.bq(p,new H.hU(v,u,t,s,r,q),\"worker-start\"))\ninit.globalState.d=p\ninit.globalState.f.bn()\nbreak\ncase\"spawn-worker\":break\ncase\"message\":if(x.i(y,\"port\")!=null)J.rl(x.i(y,\"port\"),x.i(y,\"msg\"))\ninit.globalState.f.bn()\nbreak\ncase\"close\":init.globalState.ch.J(0,$.$get$pu().i(0,a))\na.terminate()\ninit.globalState.f.bn()\nbreak\ncase\"log\":H.rM(x.i(y,\"msg\"))\nbreak\ncase\"print\":if(init.globalState.x){x=init.globalState.Q\no=P.X([\"command\",\"print\",\"msg\",y])\no=new H.aB(!0,P.b4(null,P.i)).a3(o)\nx.toString\nself.postMessage(o)}else P.oZ(x.i(y,\"msg\"))\nbreak\ncase\"error\":throw H.b(x.i(y,\"msg\"))}}\n",
         "type": "void Function(dynamic,dynamic)",
         "measurements": null
       },
@@ -81376,7 +81353,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "cb:function(){if((this.c&4)!==0&&this.r.a===0)this.r.av(null)\nP.fh(this.b)}\n",
+        "code": "cb:function(){if((this.c&4)!==0&&this.r.a===0)this.r.au(null)\nP.fh(this.b)}\n",
         "type": "void Function()",
         "measurements": null
       },
@@ -81702,7 +81679,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "as:function(a){var z,y,x,w,v\nz={}\nif(a==null)return a\nif(typeof a===\"boolean\")return a\nif(typeof a===\"number\")return a\nif(typeof a===\"string\")return a\ny=J.r(a)\nif(!!y.$isbB)return new Date(a.a)\nif(!!y.$isdW)throw H.b(P.cI(\"structured clone of RegExp\"))\nif(!!y.$isai)return a\nif(!!y.$isbx)return a\nif(!!y.$isc6)return a\nif(!!y.$isca)return a\nif(!!y.$isbF||!!y.$isaZ)return a\nif(!!y.$isO){x=this.be(a)\nw=this.b\nv=w[x]\nz.a=v\nif(v!=null)return v\nv={}\nz.a=v\nw[x]=v\ny.w(a,new P.m8(z,this))\nreturn z.a}if(!!y.$isl){x=this.be(a)\nv=this.b[x]\nif(v!=null)return v\nreturn this.hw(a,x)}throw H.b(P.cI(\"structured clone of other type\"))}\n",
+        "code": "ar:function(a){var z,y,x,w,v\nz={}\nif(a==null)return a\nif(typeof a===\"boolean\")return a\nif(typeof a===\"number\")return a\nif(typeof a===\"string\")return a\ny=J.r(a)\nif(!!y.$isbB)return new Date(a.a)\nif(!!y.$isdW)throw H.b(P.cI(\"structured clone of RegExp\"))\nif(!!y.$isai)return a\nif(!!y.$isbx)return a\nif(!!y.$isc6)return a\nif(!!y.$isca)return a\nif(!!y.$isbF||!!y.$isaZ)return a\nif(!!y.$isO){x=this.be(a)\nw=this.b\nv=w[x]\nz.a=v\nif(v!=null)return v\nv={}\nz.a=v\nw[x]=v\ny.w(a,new P.m8(z,this))\nreturn z.a}if(!!y.$isl){x=this.be(a)\nv=this.b[x]\nif(v!=null)return v\nreturn this.hw(a,x)}throw H.b(P.cI(\"structured clone of other type\"))}\n",
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
@@ -81844,7 +81821,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y\nz=new V.kC(null,null,null,null,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,null,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"app\")\nz.e=y\ny=$.q3\nif(y==null){y=$.aD.ba(\"\",C.a_,C.f)\n$.q3=y}z.b3(y)\nthis.r=z\nthis.e=z.e\ny=new Q.bX()\nthis.x=y\nz.a8(0,y,this.a.e)\nthis.ag(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
+        "code": "D:function(){var z,y\nz=new V.kC(null,null,null,null,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,!0,null,null,null,null,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"app\")\nz.e=y\ny=$.q3\nif(y==null){y=$.aD.ba(\"\",C.a_,C.f)\n$.q3=y}z.b3(y)\nthis.r=z\nthis.e=z.e\ny=new Q.bX()\nthis.x=y\nz.a8(0,y,this.a.e)\nthis.a9(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
         "type": "ComponentRef<dynamic> Function()",
         "measurements": null
       },
@@ -82445,8 +82422,31 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "b9:function(a,b,c){var z,y,x,w,v\nz=P.ts(!1,a,b,c)\nif(z!=null)return z\ny=J.a7(a)\nP.ay(b,c,y,null,null,null)\nx=new P.ak(\"\")\nw=new P.mf(!1,x,!0,0,0,0)\nw.b9(a,b,y)\nw.hL(0,a,y)\nv=x.a\nreturn v.charCodeAt(0)==0?v:v}\ncK:function(a){return this.b9(a,0,null)}\n",
+        "code": "b9:function(a,b,c){var z,y,x,w,v\nz=P.ts(!1,a,b,c)\nif(z!=null)return z\ny=J.a8(a)\nP.ay(b,c,y,null,null,null)\nx=new P.ak(\"\")\nw=new P.mf(!1,x,!0,0,0,0)\nw.b9(a,b,y)\nw.hL(0,a,y)\nv=x.a\nreturn v.charCodeAt(0)==0?v:v}\ncK:function(a){return this.b9(a,0,null)}\n",
         "type": "String Function(List<int>,[int,int])",
+        "measurements": null
+      },
+      "982989130": {
+        "id": "function/982989130",
+        "kind": "function",
+        "name": "_getdynamic$0",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/94292735",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "dynamic",
+        "inferredReturnType": "[null|exact=HackerNewsService]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads field, static; writes field)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "dynamic Function()",
         "measurements": null
       },
       "983564686": {
@@ -82671,7 +82671,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c,d,e){var z=e!=null?e:J.a7(b)\nreturn new P.hS(b,z,!0,a,c,\"Index out of range\")}\n",
+        "code": "function(a,b,c,d,e){var z=e!=null?e:J.a8(b)\nreturn new P.hS(b,z,!0,a,c,\"Index out of range\")}\n",
         "type": "dynamic Function(int,dynamic,[String,String,int])",
         "measurements": null
       },
@@ -84108,7 +84108,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "af:function(a,b,c){var z,y,x\nz=this.gh(this)\nfor(y=b,x=0;x<z;++x){y=c.$2(y,this.t(0,x))\nif(z!==this.gh(this))throw H.b(P.P(this))}return y}\n",
+        "code": "ag:function(a,b,c){var z,y,x\nz=this.gh(this)\nfor(y=b,x=0;x<z;++x){y=c.$2(y,this.t(0,x))\nif(z!==this.gh(this))throw H.b(P.P(this))}return y}\n",
         "type": "fold.T Function(fold.T,fold.T Function(fold.T,ListIterable.E))",
         "measurements": null
       },
@@ -84160,7 +84160,7 @@
         ],
         "sideEffects": "SideEffects(reads nothing; writes nothing)",
         "inlinedCount": 0,
-        "code": "aJ:function(a,b){return new H.bg(this,b,[H.a6(this,\"be\",0),null])}\n",
+        "code": "aJ:function(a,b){return new H.bg(this,b,[H.a7(this,\"be\",0),null])}\n",
         "type": "Iterable<map.T> Function(map.T Function(ListIterable.E))",
         "measurements": null
       },
@@ -84439,7 +84439,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gh:function(a){return J.a7(this.gC(a))}\n",
+        "code": "gh:function(a){return J.a8(this.gC(a))}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -84921,7 +84921,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){var z,y,x,w,v,u,t,s,r,q\nz=this.b\ny=this.a\nx=J.E(y)\nw=x.gh(y)\nv=this.c\nif(v!=null&&v<w)w=v\nu=w-z\nif(u<0)u=0\nt=this.$ti\nif(b){s=H.u([],t)\nC.b.sh(s,u)}else{r=new Array(u)\nr.fixed$length=Array\ns=H.u(r,t)}for(q=0;q<u;++q){s[q]=x.t(y,z+q)\nif(x.gh(y)<w)throw H.b(P.P(this))}return s}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z,y,x,w,v,u,t,s,r,q\nz=this.b\ny=this.a\nx=J.E(y)\nw=x.gh(y)\nv=this.c\nif(v!=null&&v<w)w=v\nu=w-z\nif(u<0)u=0\nt=this.$ti\nif(b){s=H.u([],t)\nC.b.sh(s,u)}else{r=new Array(u)\nr.fixed$length=Array\ns=H.u(r,t)}for(q=0;q<u;++q){s[q]=x.t(y,z+q)\nif(x.gh(y)<w)throw H.b(P.P(this))}return s}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<SubListIterable.E> Function({bool growable})",
         "measurements": null
       },
@@ -85002,7 +85002,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z=R.q4(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=this.c\nz=new B.aH(z.c.B(C.x,z.a.Q),null,!1)\nthis.y=z\nthis.x.a8(0,z,[])\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z=R.q4(this,0)\nthis.x=z\nz=z.e\nthis.r=z\nthis.T(z)\nz=this.c\nz=new B.aH(z.c.B(C.x,z.a.Q),null,!1)\nthis.y=z\nthis.x.a8(0,z,[])\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<CommentComponent> Function()",
         "measurements": null
       },
@@ -86801,7 +86801,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "gE:function(a){var z=this.a\nreturn(z^C.d.aw(z,30))&1073741823}\n",
+        "code": "gE:function(a){var z=this.a\nreturn(z^C.d.av(z,30))&1073741823}\n",
         "type": "int Function()",
         "measurements": null
       },
@@ -86876,7 +86876,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x\nz=document\ny=z.createElement(\"article\")\nthis.r=y\ny=S.oM(z,y)\nthis.x=y\ny.className=\"rank\"\nx=z.createTextNode(\"\")\nthis.y=x\ny.appendChild(x)\nx=L.q5(this,3)\nthis.Q=x\nx=x.e\nthis.z=x\nthis.r.appendChild(x)\nx=new X.aq(null,null,null,null,null,null)\nthis.ch=x\nthis.Q.a8(0,x,[])\nthis.ag(this.r)\nreturn}\n",
+        "code": "D:function(){var z,y,x\nz=document\ny=z.createElement(\"article\")\nthis.r=y\ny=S.oM(z,y)\nthis.x=y\ny.className=\"rank\"\nx=z.createTextNode(\"\")\nthis.y=x\ny.appendChild(x)\nx=L.q5(this,3)\nthis.Q=x\nx=x.e\nthis.z=x\nthis.r.appendChild(x)\nx=new X.aq(null,null,null,null,null,null)\nthis.ch=x\nthis.Q.a8(0,x,[])\nthis.a9(this.r)\nreturn}\n",
         "type": "ComponentRef<FeedComponent> Function()",
         "measurements": null
       },
@@ -87138,7 +87138,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "bo:function(a,b,c){var z=$.p\nif(z!==C.c){b=z.b_(b)\nif(c!=null)c=P.qv(c,z)}return this.cC(b,c)}\nar:function(a,b){return this.bo(a,b,null)}\n",
+        "code": "bo:function(a,b,c){var z=$.p\nif(z!==C.c){b=z.b_(b)\nif(c!=null)c=P.qv(c,z)}return this.cC(b,c)}\naq:function(a,b){return this.bo(a,b,null)}\n",
         "type": "Future<then.E> Function(dynamic Function(_Future.T),{Function onError})",
         "measurements": null
       },
@@ -87225,7 +87225,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "bb:function(a){var z\nfor(z=0;z<a.length;++z)C.b.k(a,z,this.ay(a[z]))\nreturn a}\n",
+        "code": "bb:function(a){var z\nfor(z=0;z<a.length;++z)C.b.k(a,z,this.ax(a[z]))\nreturn a}\n",
         "type": "List<dynamic> Function(JSArray<dynamic>)",
         "measurements": null
       },
@@ -87262,7 +87262,7 @@
         "id": "function/1061367985",
         "kind": "function",
         "name": "build",
-        "size": 521,
+        "size": 162,
         "outputUnit": "outputUnit/669725656",
         "parent": "class/377293875",
         "children": [],
@@ -87277,7 +87277,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y,x\nz=$.$get$bS()\ny=new V.a_(0,null,this,z.cloneNode(!1),null,null,null)\nthis.r=y\nthis.x=new R.cn(y,null,null,null,new D.ad(y,Q.uX()))\nx=document\ny=x.createElement(\"footer\")\nthis.y=y\nthis.z=S.a9(x,\"nav\",y)\ny=z.cloneNode(!1)\nthis.z.appendChild(y)\ny=new V.a_(3,2,this,y,null,null,null)\nthis.Q=y\nthis.ch=new K.aw(new D.ad(y,Q.uY()),y,!1)\nz=z.cloneNode(!1)\nthis.z.appendChild(z)\nz=new V.a_(4,2,this,z,null,null,null)\nthis.cx=z\nthis.cy=new K.aw(new D.ad(z,Q.uZ()),z,!1)\nthis.ap([this.r,this.y],null)\nreturn}\n",
+        "code": "D:function(){var z=new V.a_(0,null,this,$.$get$bS().cloneNode(!1),null,null,null)\nthis.r=z\nthis.x=new R.cn(z,null,null,null,new D.ad(z,Q.uX()))\nthis.a9(z)\nreturn}\n",
         "type": "ComponentRef<FeedComponent> Function()",
         "measurements": null
       },
@@ -87553,7 +87553,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "M:function(a,b){var z,y,x,w\nz=H.u([],[H.a6(this,\"bj\",0)])\nC.b.sh(z,this.gh(this))\nfor(y=this.gv(this),x=0;y.l();x=w){w=x+1\nz[x]=y.d}return z}\na9:function(a){return this.M(a,!0)}\n",
+        "code": "M:function(a,b){var z,y,x,w\nz=H.u([],[H.a7(this,\"bj\",0)])\nC.b.sh(z,this.gh(this))\nfor(y=this.gv(this),x=0;y.l();x=w){w=x+1\nz[x]=y.d}return z}\naa:function(a){return this.M(a,!0)}\n",
         "type": "List<SetMixin.E> Function({bool growable})",
         "measurements": null
       },
@@ -88054,6 +88054,18 @@
         "code": null,
         "type": "TypeErrorDecoder"
       },
+      "83023401": {
+        "id": "field/83023401",
+        "kind": "field",
+        "name": "_service",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/949978825",
+        "children": [],
+        "inferredType": "[null|exact=HackerNewsService]",
+        "code": null,
+        "type": "HackerNewsService"
+      },
       "89430827": {
         "id": "field/89430827",
         "kind": "field",
@@ -88365,18 +88377,6 @@
         "inferredType": "[null|subclass=JSInt]",
         "code": null,
         "type": "int"
-      },
-      "391889250": {
-        "id": "field/391889250",
-        "kind": "field",
-        "name": "_service",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/1059406096",
-        "children": [],
-        "inferredType": "[null|exact=HackerNewsService]",
-        "code": null,
-        "type": "HackerNewsService"
       },
       "401776253": {
         "id": "field/401776253",
@@ -89000,14 +89000,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aH=new H.cD(\"call\")"
       },
-      "105186669": {
-        "id": "constant/105186669",
-        "kind": "constant",
-        "name": null,
-        "size": 34,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.aE=new H.ah(0,{},C.ap,[P.h,P.h])"
-      },
       "119268220": {
         "id": "constant/119268220",
         "kind": "constant",
@@ -89056,6 +89048,22 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.f=makeConstList([])"
       },
+      "179149995": {
+        "id": "constant/179149995",
+        "kind": "constant",
+        "name": null,
+        "size": 33,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.aq=H.u(makeConstList([]),[P.h])"
+      },
+      "187548465": {
+        "id": "constant/187548465",
+        "kind": "constant",
+        "name": null,
+        "size": 26,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.al=makeConstList([C.ap])"
+      },
       "205717158": {
         "id": "constant/205717158",
         "kind": "constant",
@@ -89063,6 +89071,14 @@
         "size": 15,
         "outputUnit": "outputUnit/669725656",
         "code": "C.E=new P.ab(0)"
+      },
+      "208546626": {
+        "id": "constant/208546626",
+        "kind": "constant",
+        "name": null,
+        "size": 463,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.ap=makeConstList([\"footer {\\n  background: #212121;\\n  position: fixed;\\n  z-index: 10;\\n  left: 0;\\n  bottom: 0;\\n  width: 100%;\\n  padding: 8px;\\n  height: 37px;\\n  display: flex;\\n}\\n\\n.loading {\\n  height: 100vh;\\n  padding: 50px;\\n  text-align: center;\\n  color: #212121;\\n}\\n\\nfooter div {\\n  flex: 1;\\n}\\n\\nfooter a {\\n  color: white;\\n  display: inline;\\n}\\n\\ndiv.next {\\n  text-align: right;\\n}\\n\\narticle:last-of-type {\\n  margin-bottom: 37px;\\n}\\n\"])"
       },
       "214770839": {
         "id": "constant/214770839",
@@ -89143,14 +89159,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aF=new Z.cm(2,\"NavigationResult.INVALID_ROUTE\")"
       },
-      "301008661": {
-        "id": "constant/301008661",
-        "kind": "constant",
-        "name": null,
-        "size": 72,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.ar=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])"
-      },
       "318997035": {
         "id": "constant/318997035",
         "kind": "constant",
@@ -89199,14 +89207,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.U=H.T(\"dG\")"
       },
-      "343888100": {
-        "id": "constant/343888100",
-        "kind": "constant",
-        "name": null,
-        "size": 368,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.al=makeConstList([\"footer {\\n  background: #212121;\\n  position: fixed;\\n  z-index: 10;\\n  left: 0;\\n  bottom: 0;\\n  width: 100%;\\n  padding: 8px;\\n  height: 37px;\\n  display: flex;\\n}\\n\\nfooter div {\\n  flex: 1;\\n}\\n\\nfooter a {\\n  color: white;\\n  display: inline;\\n}\\n\\ndiv.next {\\n  text-align: right;\\n}\\n\\narticle:last-of-type {\\n  margin-bottom: 37px;\\n}\\n\"])"
-      },
       "363656222": {
         "id": "constant/363656222",
         "kind": "constant",
@@ -89221,6 +89221,14 @@
         "name": null,
         "size": 18,
         "code": "C.t=J.dC.prototype"
+      },
+      "366580898": {
+        "id": "constant/366580898",
+        "kind": "constant",
+        "name": null,
+        "size": 34,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.ar=H.u(makeConstList([]),[P.bl])"
       },
       "372386686": {
         "id": "constant/372386686",
@@ -89237,14 +89245,6 @@
         "size": 9,
         "outputUnit": "outputUnit/7045321",
         "code": "C.a3=C.a7"
-      },
-      "401479258": {
-        "id": "constant/401479258",
-        "kind": "constant",
-        "name": null,
-        "size": 34,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.aq=H.u(makeConstList([]),[P.bl])"
       },
       "405774675": {
         "id": "constant/405774675",
@@ -89285,14 +89285,6 @@
         "size": 38,
         "outputUnit": "outputUnit/669725656",
         "code": "C.a8=new D.by(\"app\",V.uq(),C.f,[Q.bX])"
-      },
-      "446482740": {
-        "id": "constant/446482740",
-        "kind": "constant",
-        "name": null,
-        "size": 26,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.as=makeConstList([C.al])"
       },
       "450885872": {
         "id": "constant/450885872",
@@ -89450,14 +89442,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.R=H.T(\"dh\")"
       },
-      "591572485": {
-        "id": "constant/591572485",
-        "kind": "constant",
-        "name": null,
-        "size": 33,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.ap=H.u(makeConstList([]),[P.h])"
-      },
       "616941665": {
         "id": "constant/616941665",
         "kind": "constant",
@@ -89489,6 +89473,14 @@
         "size": 16,
         "outputUnit": "outputUnit/669725656",
         "code": "C.h=new P.ky(!1)"
+      },
+      "670467237": {
+        "id": "constant/670467237",
+        "kind": "constant",
+        "name": null,
+        "size": 34,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.aE=new H.ah(0,{},C.aq,[P.h,P.h])"
       },
       "679888185": {
         "id": "constant/679888185",
@@ -89550,14 +89542,6 @@
         "size": 478,
         "outputUnit": "outputUnit/669725656",
         "code": "C.ah=function(hooks) {\n  var getTag = hooks.getTag;\n  var prototypeForTag = hooks.prototypeForTag;\n  function getTagFixed(o) {\n    var tag = getTag(o);\n    if (tag == \"Document\") {\n      if (!!o.xmlVersion) return \"!Document\";\n      return \"!HTMLDocument\";\n    }\n    return tag;\n  }\n  function prototypeForTagFixed(tag) {\n    if (tag == \"Document\") return null;\n    return prototypeForTag(tag);\n  }\n  hooks.getTag = getTagFixed;\n  hooks.prototypeForTag = prototypeForTagFixed;\n}"
-      },
-      "762671801": {
-        "id": "constant/762671801",
-        "kind": "constant",
-        "name": null,
-        "size": 35,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.M=new H.ah(0,{},C.aq,[P.bl,null])"
       },
       "765610778": {
         "id": "constant/765610778",
@@ -89724,6 +89708,14 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.v=H.u(makeConstList([0,0,26498,1023,65534,34815,65534,18431]),[P.i])"
       },
+      "934501081": {
+        "id": "constant/934501081",
+        "kind": "constant",
+        "name": null,
+        "size": 72,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.as=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])"
+      },
       "952009657": {
         "id": "constant/952009657",
         "kind": "constant",
@@ -89771,6 +89763,14 @@
         "size": 24,
         "outputUnit": "outputUnit/669725656",
         "code": "C.aR=new P.M(C.c,P.uz())"
+      },
+      "1022977646": {
+        "id": "constant/1022977646",
+        "kind": "constant",
+        "name": null,
+        "size": 35,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.M=new H.ah(0,{},C.ar,[P.bl,null])"
       },
       "1023859514": {
         "id": "constant/1023859514",
@@ -103348,6 +103348,12 @@
         "mask": "[null|subclass=_Zone]"
       }
     ],
+    "function/205365462": [
+      {
+        "id": "function/413463556",
+        "mask": "inlined"
+      }
+    ],
     "function/206410177": [
       {
         "id": "function/138954289",
@@ -109035,6 +109041,264 @@
       },
       {
         "id": "function/993180101",
+        "mask": "null"
+      }
+    ],
+    "function/303051658": [
+      {
+        "id": "field/83023401",
+        "mask": "null"
+      },
+      {
+        "id": "function/1005844284",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/1012569334",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/1012569334",
+        "mask": "null"
+      },
+      {
+        "id": "function/1043968794",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/1061610239",
+        "mask": "null"
+      },
+      {
+        "id": "function/1063092923",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/116583876",
+        "mask": "null"
+      },
+      {
+        "id": "function/149727803",
+        "mask": "null"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "null"
+      },
+      {
+        "id": "function/18598760",
+        "mask": "null"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "null"
+      },
+      {
+        "id": "function/215057657",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "null"
+      },
+      {
+        "id": "function/246538928",
+        "mask": "[null|subclass=HierarchicalInjector]"
+      },
+      {
+        "id": "function/271854591",
+        "mask": "null"
+      },
+      {
+        "id": "function/330018013",
+        "mask": "null"
+      },
+      {
+        "id": "function/346305694",
+        "mask": "null"
+      },
+      {
+        "id": "function/350634083",
+        "mask": "null"
+      },
+      {
+        "id": "function/357627842",
+        "mask": "null"
+      },
+      {
+        "id": "function/381082214",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/412241189",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/420782694",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/426788096",
+        "mask": "null"
+      },
+      {
+        "id": "function/431004353",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/436977057",
+        "mask": "null"
+      },
+      {
+        "id": "function/441808139",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/441808139",
+        "mask": "null"
+      },
+      {
+        "id": "function/470520924",
+        "mask": "null"
+      },
+      {
+        "id": "function/476205558",
+        "mask": "null"
+      },
+      {
+        "id": "function/519774228",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/520054727",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/542141404",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/547844438",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/552125579",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/57895587",
+        "mask": "[null|exact=JSString]"
+      },
+      {
+        "id": "function/590669461",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "null"
+      },
+      {
+        "id": "function/663282902",
+        "mask": "null"
+      },
+      {
+        "id": "function/666359115",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/667950563",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/691777836",
+        "mask": "null"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "null"
+      },
+      {
+        "id": "function/752550139",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/752550139",
+        "mask": "null"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "null"
+      },
+      {
+        "id": "function/786936362",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/822905418",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/841567487",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/87662489",
+        "mask": "null"
+      },
+      {
+        "id": "function/880988781",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/894956829",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/900896148",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/958638746",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/958906135",
+        "mask": "null"
+      },
+      {
+        "id": "function/986454821",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/996967626",
         "mask": "null"
       }
     ],
@@ -115236,12 +115500,6 @@
         "mask": "null"
       }
     ],
-    "function/391134031": [
-      {
-        "id": "function/9932880",
-        "mask": "inlined"
-      }
-    ],
     "function/392481976": [
       {
         "id": "function/141703219",
@@ -119068,11 +119326,11 @@
         "mask": "[subclass=HierarchicalInjector]"
       },
       {
-        "id": "function/822358631",
+        "id": "function/863202712",
         "mask": "[subclass=HierarchicalInjector]"
       },
       {
-        "id": "function/863202712",
+        "id": "function/870314496",
         "mask": "[subclass=HierarchicalInjector]"
       },
       {
@@ -121087,10 +121345,6 @@
       }
     ],
     "function/490402070": [
-      {
-        "id": "function/235787637",
-        "mask": "[null|exact=NgIf]"
-      },
       {
         "id": "function/709587445",
         "mask": "null"
@@ -126142,264 +126396,6 @@
         "mask": "[subclass=JsLinkedHashMap]"
       }
     ],
-    "function/572736070": [
-      {
-        "id": "field/391889250",
-        "mask": "null"
-      },
-      {
-        "id": "function/1005844284",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/1012569334",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1012569334",
-        "mask": "null"
-      },
-      {
-        "id": "function/1043968794",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/1061610239",
-        "mask": "null"
-      },
-      {
-        "id": "function/1063092923",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/116583876",
-        "mask": "null"
-      },
-      {
-        "id": "function/149727803",
-        "mask": "null"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "null"
-      },
-      {
-        "id": "function/18598760",
-        "mask": "null"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "null"
-      },
-      {
-        "id": "function/215057657",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "null"
-      },
-      {
-        "id": "function/246538928",
-        "mask": "[null|subclass=HierarchicalInjector]"
-      },
-      {
-        "id": "function/271854591",
-        "mask": "null"
-      },
-      {
-        "id": "function/330018013",
-        "mask": "null"
-      },
-      {
-        "id": "function/346305694",
-        "mask": "null"
-      },
-      {
-        "id": "function/350634083",
-        "mask": "null"
-      },
-      {
-        "id": "function/357627842",
-        "mask": "null"
-      },
-      {
-        "id": "function/381082214",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/412241189",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/420782694",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/426788096",
-        "mask": "null"
-      },
-      {
-        "id": "function/431004353",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/436977057",
-        "mask": "null"
-      },
-      {
-        "id": "function/441808139",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/441808139",
-        "mask": "null"
-      },
-      {
-        "id": "function/470520924",
-        "mask": "null"
-      },
-      {
-        "id": "function/476205558",
-        "mask": "null"
-      },
-      {
-        "id": "function/519774228",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/520054727",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/542141404",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/547844438",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/552125579",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/57895587",
-        "mask": "[null|exact=JSString]"
-      },
-      {
-        "id": "function/590669461",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "null"
-      },
-      {
-        "id": "function/663282902",
-        "mask": "null"
-      },
-      {
-        "id": "function/666359115",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/667950563",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/691777836",
-        "mask": "null"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "null"
-      },
-      {
-        "id": "function/752550139",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/752550139",
-        "mask": "null"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "null"
-      },
-      {
-        "id": "function/786936362",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/822905418",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/841567487",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/87662489",
-        "mask": "null"
-      },
-      {
-        "id": "function/880988781",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/894956829",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/900896148",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/958638746",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/958906135",
-        "mask": "null"
-      },
-      {
-        "id": "function/986454821",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/996967626",
-        "mask": "null"
-      }
-    ],
     "function/573360720": [
       {
         "id": "field/154138306",
@@ -128860,7 +128856,19 @@
         "mask": "null"
       },
       {
+        "id": "function/291295234",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/291295234",
+        "mask": "null"
+      },
+      {
         "id": "function/297726234",
+        "mask": "null"
+      },
+      {
+        "id": "function/344879891",
         "mask": "null"
       },
       {
@@ -128872,7 +128880,15 @@
         "mask": "null"
       },
       {
+        "id": "function/556764247",
+        "mask": "null"
+      },
+      {
         "id": "function/780909447",
+        "mask": "null"
+      },
+      {
+        "id": "function/920444566",
         "mask": "null"
       },
       {
@@ -129010,6 +129026,16 @@
       {
         "id": "function/680740898",
         "mask": "inlined"
+      }
+    ],
+    "function/626988449": [
+      {
+        "id": "function/827266615",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/827266615",
+        "mask": "null"
       }
     ],
     "function/628002765": [
@@ -129916,12 +129942,6 @@
       {
         "id": "function/163889623",
         "mask": "null"
-      }
-    ],
-    "function/652434576": [
-      {
-        "id": "function/620315185",
-        "mask": "inlined"
       }
     ],
     "function/652708416": [
@@ -132246,12 +132266,6 @@
       {
         "id": "function/532470992",
         "mask": "null"
-      }
-    ],
-    "function/697956919": [
-      {
-        "id": "function/413463556",
-        "mask": "inlined"
       }
     ],
     "function/699578925": [
@@ -137700,148 +137714,6 @@
         "mask": "null"
       }
     ],
-    "function/822358631": [
-      {
-        "id": "field/391889250",
-        "mask": "null"
-      },
-      {
-        "id": "field/716694354",
-        "mask": "null"
-      },
-      {
-        "id": "function/166501270",
-        "mask": "null"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "null"
-      },
-      {
-        "id": "function/185819048",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/185819048",
-        "mask": "null"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "null"
-      },
-      {
-        "id": "function/202769844",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/202769844",
-        "mask": "null"
-      },
-      {
-        "id": "function/211735940",
-        "mask": "null"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "null"
-      },
-      {
-        "id": "function/308590447",
-        "mask": "null"
-      },
-      {
-        "id": "function/342062558",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/342062558",
-        "mask": "null"
-      },
-      {
-        "id": "function/388515229",
-        "mask": "null"
-      },
-      {
-        "id": "function/391134031",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/391134031",
-        "mask": "null"
-      },
-      {
-        "id": "function/413463556",
-        "mask": "null"
-      },
-      {
-        "id": "function/423237287",
-        "mask": "null"
-      },
-      {
-        "id": "function/445038701",
-        "mask": "null"
-      },
-      {
-        "id": "function/601959496",
-        "mask": "null"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "null"
-      },
-      {
-        "id": "function/620315185",
-        "mask": "null"
-      },
-      {
-        "id": "function/652434576",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/652434576",
-        "mask": "null"
-      },
-      {
-        "id": "function/697956919",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/697956919",
-        "mask": "null"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "null"
-      },
-      {
-        "id": "function/885768718",
-        "mask": "null"
-      },
-      {
-        "id": "function/915043485",
-        "mask": "null"
-      },
-      {
-        "id": "function/9932880",
-        "mask": "null"
-      },
-      {
-        "id": "function/996967626",
-        "mask": "null"
-      }
-    ],
     "function/822905418": [
       {
         "id": "function/440223505",
@@ -139800,6 +139672,148 @@
       {
         "id": "function/880396436",
         "mask": "[null|subtype=Map]"
+      }
+    ],
+    "function/870314496": [
+      {
+        "id": "field/716694354",
+        "mask": "null"
+      },
+      {
+        "id": "field/83023401",
+        "mask": "null"
+      },
+      {
+        "id": "function/166501270",
+        "mask": "null"
+      },
+      {
+        "id": "function/171079043",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/171079043",
+        "mask": "null"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "null"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "null"
+      },
+      {
+        "id": "function/205365462",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/205365462",
+        "mask": "null"
+      },
+      {
+        "id": "function/211735940",
+        "mask": "null"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "null"
+      },
+      {
+        "id": "function/308590447",
+        "mask": "null"
+      },
+      {
+        "id": "function/388515229",
+        "mask": "null"
+      },
+      {
+        "id": "function/413463556",
+        "mask": "null"
+      },
+      {
+        "id": "function/423237287",
+        "mask": "null"
+      },
+      {
+        "id": "function/445038701",
+        "mask": "null"
+      },
+      {
+        "id": "function/451952164",
+        "mask": "null"
+      },
+      {
+        "id": "function/601959496",
+        "mask": "null"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "null"
+      },
+      {
+        "id": "function/620315185",
+        "mask": "null"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "null"
+      },
+      {
+        "id": "function/748840325",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/748840325",
+        "mask": "null"
+      },
+      {
+        "id": "function/771549486",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/771549486",
+        "mask": "null"
+      },
+      {
+        "id": "function/885768718",
+        "mask": "null"
+      },
+      {
+        "id": "function/915043485",
+        "mask": "null"
+      },
+      {
+        "id": "function/943848855",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/943848855",
+        "mask": "null"
+      },
+      {
+        "id": "function/982989130",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/982989130",
+        "mask": "null"
+      },
+      {
+        "id": "function/996967626",
+        "mask": "null"
       }
     ],
     "function/871740317": [
@@ -143530,16 +143544,6 @@
         "mask": "null"
       }
     ],
-    "function/938490984": [
-      {
-        "id": "function/308829153",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/308829153",
-        "mask": "null"
-      }
-    ],
     "function/938516961": [
       {
         "id": "function/177739051",
@@ -143804,6 +143808,12 @@
       {
         "id": "function/687991938",
         "mask": "null"
+      }
+    ],
+    "function/943848855": [
+      {
+        "id": "function/620315185",
+        "mask": "inlined"
       }
     ],
     "function/944731703": [
@@ -145528,6 +145538,12 @@
       {
         "id": "function/886470497",
         "mask": "[null|subtype=List]"
+      }
+    ],
+    "function/982989130": [
+      {
+        "id": "function/451952164",
+        "mask": "inlined"
       }
     ],
     "function/983855882": [
@@ -149410,47 +149426,7 @@
         "mask": "null"
       },
       {
-        "id": "function/291295234",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/291295234",
-        "mask": "null"
-      },
-      {
-        "id": "function/297726234",
-        "mask": "null"
-      },
-      {
-        "id": "function/323321144",
-        "mask": "null"
-      },
-      {
-        "id": "function/344879891",
-        "mask": "null"
-      },
-      {
-        "id": "function/347604670",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/347604670",
-        "mask": "null"
-      },
-      {
-        "id": "function/556764247",
-        "mask": "null"
-      },
-      {
-        "id": "function/680740898",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/680740898",
-        "mask": "null"
-      },
-      {
-        "id": "function/920444566",
+        "id": "function/874825249",
         "mask": "null"
       },
       {
@@ -149785,7 +149761,7 @@
       "id": "outputUnit/669725656",
       "kind": "outputUnit",
       "name": "main",
-      "size": 336597,
+      "size": 336685,
       "imports": []
     },
     {
@@ -149811,12 +149787,12 @@
   },
   "dump_minor_version": 1,
   "program": {
-    "entrypoint": "function/572736070",
-    "size": 345496,
+    "entrypoint": "function/303051658",
+    "size": 345584,
     "dart2jsVersion": "2.0.0-dev.48.0",
-    "compilationMoment": "2018-04-13 20:59:27.540929",
-    "compilationDuration": 4469865,
-    "toJsonDuration": 59000,
+    "compilationMoment": "2018-04-14 20:40:56.513101",
+    "compilationDuration": 5104965,
+    "toJsonDuration": 55000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "isRuntimeTypeUsed": false,
