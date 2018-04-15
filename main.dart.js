@@ -10223,7 +10223,7 @@ t.a=S.V(t,3,C.n,0)
 s=document.createElement("feed")
 t.e=s
 s=$.cK
-if(s==null){s=$.aD.ba("",C.a_,C.al)
+if(s==null){s=$.aD.ba("",C.a_,C.an)
 $.cK=s}t.b3(s)
 this.r=t
 this.e=t.e
@@ -10254,7 +10254,7 @@ L.kF.prototype={
 fa:function(a,b){var t=document.createElement("item")
 this.e=t
 t=$.cL
-if(t==null){t=$.aD.ba("",C.z,C.am)
+if(t==null){t=$.aD.ba("",C.z,C.al)
 $.cL=t}this.b3(t)},
 D:function(){var t,s,r,q
 t=this.bg(this.e)
@@ -11584,13 +11584,13 @@ C.H=new P.i4(null,null)
 C.aj=new P.i5(null)
 C.ak=H.u(makeConstList([127,2047,65535,1114111]),[P.i])
 C.I=H.u(makeConstList([0,0,32776,33792,1,10240,0,0]),[P.i])
-C.ap=makeConstList(["footer {\n  background: #212121;\n  position: fixed;\n  z-index: 10;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px;\n  height: 37px;\n  display: flex;\n}\n\n.loading {\n  height: 100vh;\n  padding: 50px;\n  text-align: center;\n  color: #212121;\n}\n\nfooter div {\n  flex: 1;\n}\n\nfooter a {\n  color: white;\n  display: inline;\n}\n\ndiv.next {\n  text-align: right;\n}\n\narticle:last-of-type {\n  margin-bottom: 37px;\n}\n"])
-C.al=makeConstList([C.ap])
 C.u=makeConstList([0,0,65490,45055,65535,34815,65534,18431])
 C.ay=makeConstList([".primary._ngcontent-%COMP% { margin-bottom:.2rem; } .primary._ngcontent-%COMP% a._ngcontent-%COMP% { color:black; text-decoration:none; } .secondary._ngcontent-%COMP% { color:#555; font-size:.9rem; } .secondary._ngcontent-%COMP% a._ngcontent-%COMP% { color:#555; }"])
-C.am=makeConstList([C.ay])
+C.al=makeConstList([C.ay])
 C.J=H.u(makeConstList([0,0,26624,1023,65534,2047,65534,2047]),[P.i])
 C.v=H.u(makeConstList([0,0,26498,1023,65534,34815,65534,18431]),[P.i])
+C.ap=makeConstList(["footer {\n  background: #212121;\n  position: fixed;\n  z-index: 10;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px;\n  height: 37px;\n  display: flex;\n}\n\n.loading {\n  height: 100vh;\n  padding: 50px;\n  text-align: center;\n  color: #212121;\n}\n\nfooter div {\n  flex: 1;\n}\n\nfooter a {\n  display: inline;\n}\n\ndiv.next {\n  text-align: right;\n}\n\narticle:last-of-type {\n  margin-bottom: 37px;\n}\n"])
+C.an=makeConstList([C.ap])
 C.as=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])
 C.at=H.u(makeConstList([0,0,24576,1023,65534,34815,65534,18431]),[P.i])
 C.aw=H.u(makeConstList([0,0,32754,11263,65534,34815,65534,18431]),[P.i])
@@ -11762,7 +11762,7 @@ initializeDeferredHunk(t)
 u.deferredInitialized[a]=true},
 deferredLibraryParts:{item_detail:[0]},
 deferredPartUris:["main.dart.js_1.part.js"],
-deferredPartHashes:["iW7NIgDJLKqi5xWJ6Podqye+2Fg="],
+deferredPartHashes:["ylDOWdHnACaEwE5zU/0zwDbrtwk="],
 createNewIsolate:function(){return $},
 staticFunctionNameToClosure:function(a){var t=getGlobalFromName(a)
 var s=t.$tearOff

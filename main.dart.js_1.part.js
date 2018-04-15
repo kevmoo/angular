@@ -387,10 +387,10 @@ a(D.n1,H.ba)})();(function constants(){C.a7=new D.by("item-detail",E.vg(),C.f,[D
 C.a3=C.a7
 C.au=d(["._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }"])
 C.ao=d([C.au])
-C.an=d(["._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; }"])
-C.av=d([C.an])})();(function staticFields(){$.ov=null
+C.am=d(["._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; }"])
+C.av=d([C.am])})();(function staticFields(){$.ov=null
 $.kH=null})()
 i([{func:1,ret:[S.t,D.aM],args:[S.t,P.i]},{func:1,v:true},{func:1,ret:[S.t,B.aH],args:[S.t,P.i]},{func:1,ret:P.i,args:[P.O]},{func:1,ret:S.t,args:[S.t,P.i]}]);(function nativeSupport(){j({})
 k({})})()}
-$__dart_deferred_initializers__["iW7NIgDJLKqi5xWJ6Podqye+2Fg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["ylDOWdHnACaEwE5zU/0zwDbrtwk="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_1.part.js.map
