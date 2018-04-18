@@ -446,7 +446,7 @@ r=[]
 if(b!=null){t.a=J.a8(b)
 C.b.bC(s,b)}t.b=""
 if(c!=null&&!c.gu(c))c.w(0,new H.j2(t,r,s))
-return J.ri(a,new H.i1(C.aH,""+"$"+t.a+t.b,0,null,s,r,0,null))},
+return J.ri(a,new H.i1(C.aJ,""+"$"+t.a+t.b,0,null,s,r,0,null))},
 t3:function(a,b,c){var t,s,r,q
 if(b instanceof Array)t=c==null||c.gu(c)
 else t=!1
@@ -1587,7 +1587,7 @@ ug:function(a,b,c,d){H.p_(H.c(d))},
 uc:function(a){$.p.eo(0,a)},
 qw:function(a,b,c,d,e){var t,s,r
 $.qT=P.ux()
-if(d==null)d=C.b_
+if(d==null)d=C.b1
 if(e==null)t=c instanceof P.f3?c.gdt():P.hM(null,null,null,null,null)
 else t=P.rJ(e,null,null)
 s=new P.l1(null,null,null,null,null,null,null,null,null,null,null,null,null,null,c,t)
@@ -2391,7 +2391,7 @@ k=1}else k=3
 r.a=l+o
 t+=k
 s=t
-q=!0}else if(p<127&&(C.aw[p>>>4]&1<<(p&15))!==0){if(q&&65<=p&&90>=p){if(r==null)r=new P.ak("")
+q=!0}else if(p<127&&(C.ay[p>>>4]&1<<(p&15))!==0){if(q&&65<=p&&90>=p){if(r==null)r=new P.ak("")
 if(s<t){r.a+=C.a.n(a,s,t)
 s=t}q=!1}++t}else if(p<=93&&(C.I[p>>>4]&1<<(p&15))!==0)P.d2(a,t,"Invalid character")
 else{if((p&64512)===55296&&t+1<c){j=C.a.G(a,t+1)
@@ -2447,7 +2447,7 @@ q=H.n7(s)
 p=H.n7(r)
 if(q<0||p<0)return"%"
 o=q*16+p
-if(o<127&&(C.at[C.d.av(o,4)]&1<<(o&15))!==0)return H.dU(c&&65<=o&&90>=o?(o|32)>>>0:o)
+if(o<127&&(C.au[C.d.av(o,4)]&1<<(o&15))!==0)return H.dU(c&&65<=o&&90>=o?(o|32)>>>0:o)
 if(s>=97||r>=97)return C.a.n(a,b,b+3).toUpperCase()
 return},
 qe:function(a){var t,s,r,q,p
@@ -3117,7 +3117,7 @@ s=P.X([C.Y,r])
 s=new A.dI(s,C.i)
 $.qu=s}q=Y.vn().$1(s)
 t.a=null
-s=P.X([C.R,new G.mW(t),C.aI,new G.mX()])
+s=P.X([C.R,new G.mW(t),C.aK,new G.mX()])
 p=a.$1(new G.lH(s,q==null?C.i:q))
 o=q.S(0,C.y)
 return o.f.Y(new G.mY(t,o,p,q))},
@@ -6111,19 +6111,19 @@ r.stack=s.j(0)
 throw r},
 $S:function(){return{func:1}}}
 P.lU.prototype={
-gc7:function(){return C.aW},
-gc9:function(){return C.aY},
-gc8:function(){return C.aX},
-gdF:function(){return C.aV},
-gdG:function(){return C.aP},
-gdE:function(){return C.aO},
-gdi:function(){return C.aS},
-gbz:function(){return C.aZ},
-gc6:function(){return C.aR},
-gdf:function(){return C.aN},
-gdA:function(){return C.aU},
-gdm:function(){return C.aT},
-gdq:function(){return C.aQ},
+gc7:function(){return C.aY},
+gc9:function(){return C.b_},
+gc8:function(){return C.aZ},
+gdF:function(){return C.aX},
+gdG:function(){return C.aR},
+gdE:function(){return C.aQ},
+gdi:function(){return C.aU},
+gbz:function(){return C.b0},
+gc6:function(){return C.aT},
+gdf:function(){return C.aP},
+gdA:function(){return C.aW},
+gdm:function(){return C.aV},
+gdq:function(){return C.aS},
 gaZ:function(a){return},
 gdt:function(){return $.$get$qc()},
 gdg:function(){var t=$.qb
@@ -7169,7 +7169,7 @@ P.md.prototype={
 $1:function(a){throw H.b(P.R("Invalid port",this.a,this.b+1))},
 $S:function(){return{func:1,args:[,]}}}
 P.me.prototype={
-$1:function(a){return P.f2(C.ax,a,C.h,!1)},
+$1:function(a){return P.f2(C.az,a,C.h,!1)},
 "call*":"$1",
 $R:1,
 $S:function(){return{func:1,args:[,]}}}
@@ -7249,7 +7249,7 @@ gbf:function(){var t,s
 t=this.r
 s=this.a
 return t<s.length?J.p9(s,t+1):""},
-gbQ:function(){if(!(this.f<this.r))return C.aE
+gbQ:function(){if(!(this.f<this.r))return C.aG
 var t=P.h
 return new P.cJ(P.pZ(this.gcV(this),C.h),[t,t])},
 gE:function(a){var t=this.y
@@ -8298,9 +8298,9 @@ this.c=t}return t}if(a===C.y){t=this.d
 if(t==null){t=Y.t1(!1)
 this.d=t}return t}if(a===C.O){t=this.e
 if(t==null){t=G.uR()
-this.e=t}return t}if(a===C.aJ){t=this.f
+this.e=t}return t}if(a===C.aL){t=this.f
 if(t==null){t=new M.c0()
-this.f=t}return t}if(a===C.aL){t=this.r
+this.f=t}return t}if(a===C.aN){t=this.r
 if(t==null){t=new G.ka()
 this.r=t}return t}if(a===C.Z){t=this.x
 if(t==null){t=new D.cE(this.aH(C.y),0,!0,!1,H.u([],[P.aL]))
@@ -9433,7 +9433,7 @@ $S:function(){return{func:1}}}
 M.fT.prototype={}
 V.cf.prototype={
 f2:function(a){this.a.a.toString
-C.aM.aT(window,"popstate",new V.ii(this),!1)},
+C.aO.aT(window,"popstate",new V.ii(this),!1)},
 aK:function(a){return V.bE(V.d8(this.c,V.bR(this.a.aK(0))))}}
 V.ii.prototype={
 $1:function(a){var t=this.a
@@ -9538,7 +9538,7 @@ t=1
 break}t=8
 return P.Q(q.fY(a,b),$async$ae)
 case 8:j=e
-if(j==null){r=C.aF
+if(j==null){r=C.aH
 t=1
 break}l=j.d
 if(l.length!==0)C.b.gR(l)
@@ -9766,7 +9766,7 @@ $S:function(){return{func:1,args:[,]}}}
 S.e_.prototype={
 gbS:function(){return this.a}}
 M.bi.prototype={
-j:function(a){return"#"+C.aK.j(0)+" {"+this.eX(0)+"}"},
+j:function(a){return"#"+C.aM.j(0)+" {"+this.eX(0)+"}"},
 gaY:function(a){return this.e}}
 M.cj.prototype={
 D:function(){var t,s,r,q,p
@@ -9984,7 +9984,7 @@ t.a=S.V(t,3,C.n,0)
 s=document.createElement("app")
 t.e=s
 s=$.q3
-if(s==null){s=$.aD.ba("",C.a_,C.f)
+if(s==null){s=$.aD.ba("",C.a_,C.ap)
 $.q3=s}t.b3(s)
 this.r=t
 this.e=t.e
@@ -10224,7 +10224,7 @@ t.a=S.V(t,3,C.n,0)
 s=document.createElement("feed")
 t.e=s
 s=$.cK
-if(s==null){s=$.aD.ba("",C.a_,C.ap)
+if(s==null){s=$.aD.ba("",C.a_,C.al)
 $.cK=s}t.b3(s)
 this.r=t
 this.e=t.e
@@ -10255,7 +10255,7 @@ L.kF.prototype={
 fa:function(a,b){var t=document.createElement("item")
 this.e=t
 t=$.cL
-if(t==null){t=$.aD.ba("",C.z,C.al)
+if(t==null){t=$.aD.ba("",C.z,C.am)
 $.cL=t}this.b3(t)},
 D:function(){var t,s,r,q
 t=this.bg(this.e)
@@ -10544,7 +10544,7 @@ if(a===C.A){t=this.b
 if(t==null){t=$.oJ
 this.b=t}return t}if(a===C.U){t=this.c
 if(t==null){t=this.aH(C.V)
-s=this.aA(C.aG,null)
+s=this.aA(C.aI,null)
 r=new X.dR(t,null)
 if(s==null){t.toString
 s=$.qI.$0()}if(s==null)H.w(P.b7("No base href set. Please provide a value for the appBaseHref token or add a base element to the document."))
@@ -11447,7 +11447,7 @@ C.a=J.bd.prototype
 C.ai=J.aY.prototype
 C.Q=J.iZ.prototype
 C.B=J.bK.prototype
-C.aM=W.cN.prototype
+C.aO=W.cN.prototype
 C.a1=new P.fG(!1)
 C.a0=new P.fF(C.a1)
 C.f=makeConstList([])
@@ -11585,41 +11585,43 @@ C.H=new P.i4(null,null)
 C.aj=new P.i5(null)
 C.ak=H.u(makeConstList([127,2047,65535,1114111]),[P.i])
 C.I=H.u(makeConstList([0,0,32776,33792,1,10240,0,0]),[P.i])
+C.aw=makeConstList(["footer {\n  background: #212121;\n  position: fixed;\n  z-index: 10;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px;\n  height: 37px;\n  display: flex;\n}\n\nfooter div {\n  flex: 1;\n}\n\nfooter a {\n  display: inline;\n}\n\ndiv.next {\n  text-align: right;\n}\n\narticle:last-of-type {\n  margin-bottom: 37px;\n}\n"])
+C.al=makeConstList([C.aw])
 C.u=makeConstList([0,0,65490,45055,65535,34815,65534,18431])
-C.ay=makeConstList([".primary._ngcontent-%COMP% { margin-bottom:.2rem; } .primary._ngcontent-%COMP% a._ngcontent-%COMP% { color:black; text-decoration:none; } .secondary._ngcontent-%COMP% { color:#555; font-size:.9rem; } .secondary._ngcontent-%COMP% a._ngcontent-%COMP% { color:#555; }"])
-C.al=makeConstList([C.ay])
+C.aA=makeConstList([".primary._ngcontent-%COMP% { margin-bottom:.2rem; } .primary._ngcontent-%COMP% a._ngcontent-%COMP% { color:black; text-decoration:none; } .secondary._ngcontent-%COMP% { color:#555; font-size:.9rem; } .secondary._ngcontent-%COMP% a._ngcontent-%COMP% { color:#555; }"])
+C.am=makeConstList([C.aA])
 C.J=H.u(makeConstList([0,0,26624,1023,65534,2047,65534,2047]),[P.i])
 C.v=H.u(makeConstList([0,0,26498,1023,65534,34815,65534,18431]),[P.i])
-C.ao=makeConstList(["footer {\n  background: #212121;\n  position: fixed;\n  z-index: 10;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 8px;\n  height: 37px;\n  display: flex;\n}\n\n.notice {\n  text-align: center;\n  color: #212121;\n  position: fixed;\n  top: 100px;\n  width: 100%;\n  max-width: 800px;\n}\n\nfooter div {\n  flex: 1;\n}\n\nfooter a {\n  display: inline;\n}\n\ndiv.next {\n  text-align: right;\n}\n\narticle:last-of-type {\n  margin-bottom: 37px;\n}\n"])
-C.ap=makeConstList([C.ao])
+C.at=makeConstList([".notice {\n  text-align: center;\n  color: #212121;\n  position: fixed;\n  top: 100px;\n  width: 100%;\n  max-width: 800px;\n}\n"])
+C.ap=makeConstList([C.at])
 C.as=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])
-C.at=H.u(makeConstList([0,0,24576,1023,65534,34815,65534,18431]),[P.i])
-C.aw=H.u(makeConstList([0,0,32754,11263,65534,34815,65534,18431]),[P.i])
-C.ax=H.u(makeConstList([0,0,32722,12287,65535,34815,65534,18431]),[P.i])
+C.au=H.u(makeConstList([0,0,24576,1023,65534,34815,65534,18431]),[P.i])
+C.ay=H.u(makeConstList([0,0,32754,11263,65534,34815,65534,18431]),[P.i])
+C.az=H.u(makeConstList([0,0,32722,12287,65535,34815,65534,18431]),[P.i])
 C.K=makeConstList([0,0,65490,12287,65535,34815,65534,18431])
 C.D=new U.hh()
 C.L=new U.il(C.D,C.D,[null,null])
 C.q=makeConstList(["feed"])
-C.az=new H.ah(1,{feed:"newest"},C.q,[null,null])
-C.aA=new H.ah(1,{feed:"show"},C.q,[null,null])
-C.aB=new H.ah(1,{feed:"news"},C.q,[null,null])
-C.aC=new H.ah(1,{feed:"ask"},C.q,[null,null])
-C.aD=new H.ah(1,{feed:"jobs"},C.q,[null,null])
+C.aB=new H.ah(1,{feed:"newest"},C.q,[null,null])
+C.aC=new H.ah(1,{feed:"show"},C.q,[null,null])
+C.aD=new H.ah(1,{feed:"news"},C.q,[null,null])
+C.aE=new H.ah(1,{feed:"ask"},C.q,[null,null])
+C.aF=new H.ah(1,{feed:"jobs"},C.q,[null,null])
 C.aq=H.u(makeConstList([]),[P.h])
-C.aE=new H.ah(0,{},C.aq,[P.h,P.h])
+C.aG=new H.ah(0,{},C.aq,[P.h,P.h])
 C.ar=H.u(makeConstList([]),[P.bl])
 C.M=new H.ah(0,{},C.ar,[P.bl,null])
-C.b0=new H.ah(0,{},C.f,[null,null])
+C.b2=new H.ah(0,{},C.f,[null,null])
 C.N=new Z.cm(0,"NavigationResult.SUCCESS")
 C.w=new Z.cm(1,"NavigationResult.BLOCKED_BY_GUARD")
-C.aF=new Z.cm(2,"NavigationResult.INVALID_ROUTE")
+C.aH=new Z.cm(2,"NavigationResult.INVALID_ROUTE")
 C.O=new S.cq("APP_ID",[P.h])
 C.P=new S.cq("EventManagerPlugins",[null])
-C.aG=new S.cq("appBaseHref",[P.h])
-C.aH=new H.cD("call")
-C.aI=H.T("dg")
+C.aI=new S.cq("appBaseHref",[P.h])
+C.aJ=new H.cD("call")
+C.aK=H.T("dg")
 C.R=H.T("dh")
-C.aJ=H.T("c0")
+C.aL=H.T("c0")
 C.x=H.T("vG")
 C.S=H.T("dx")
 C.T=H.T("vH")
@@ -11631,10 +11633,10 @@ C.y=H.T("co")
 C.V=H.T("dT")
 C.W=H.T("vI")
 C.o=H.T("e_")
-C.aK=H.T("bi")
+C.aM=H.T("bi")
 C.e=H.T("dY")
 C.X=H.T("vJ")
-C.aL=H.T("vK")
+C.aN=H.T("vK")
 C.Y=H.T("e5")
 C.Z=H.T("cE")
 C.h=new P.ky(!1)
@@ -11643,20 +11645,20 @@ C.a_=new A.ea(1,"ViewEncapsulation.None")
 C.C=new R.cM(0,"ViewType.host")
 C.n=new R.cM(1,"ViewType.component")
 C.k=new R.cM(2,"ViewType.embedded")
-C.aN=new P.M(C.c,P.uy())
-C.aO=new P.M(C.c,P.uE())
-C.aP=new P.M(C.c,P.uG())
-C.aQ=new P.M(C.c,P.uC())
-C.aR=new P.M(C.c,P.uz())
-C.aS=new P.M(C.c,P.uA())
-C.aT=new P.M(C.c,P.uB())
-C.aU=new P.M(C.c,P.uD())
-C.aV=new P.M(C.c,P.uF())
-C.aW=new P.M(C.c,P.uH())
-C.aX=new P.M(C.c,P.uI())
-C.aY=new P.M(C.c,P.uJ())
-C.aZ=new P.M(C.c,P.uK())
-C.b_=new P.f5(null,null,null,null,null,null,null,null,null,null,null,null,null)})();(function staticFields(){$.qT=null
+C.aP=new P.M(C.c,P.uy())
+C.aQ=new P.M(C.c,P.uE())
+C.aR=new P.M(C.c,P.uG())
+C.aS=new P.M(C.c,P.uC())
+C.aT=new P.M(C.c,P.uz())
+C.aU=new P.M(C.c,P.uA())
+C.aV=new P.M(C.c,P.uB())
+C.aW=new P.M(C.c,P.uD())
+C.aX=new P.M(C.c,P.uF())
+C.aY=new P.M(C.c,P.uH())
+C.aZ=new P.M(C.c,P.uI())
+C.b_=new P.M(C.c,P.uJ())
+C.b0=new P.M(C.c,P.uK())
+C.b1=new P.f5(null,null,null,null,null,null,null,null,null,null,null,null,null)})();(function staticFields(){$.qT=null
 $.pD="$cachedFunction"
 $.pE="$cachedInvocation"
 $.aG=0
@@ -11747,11 +11749,11 @@ m=o==null?null:o.c
 if(m==null)m=!1
 o=o==null?null:o.d
 return[t,s,r,q,p,new N.dt(new Q.fo(),n,m,o)]})
-lazy($,"oX","$get$oX",function(){return O.cw(C.aB,null,"/",!0)})
-lazy($,"oW","$get$oW",function(){return O.cw(C.az,null,"/newest",!1)})
-lazy($,"p1","$get$p1",function(){return O.cw(C.aA,null,"/show",!1)})
-lazy($,"oK","$get$oK",function(){return O.cw(C.aC,null,"/ask",!1)})
-lazy($,"oT","$get$oT",function(){return O.cw(C.aD,null,"/jobs",!1)})
+lazy($,"oX","$get$oX",function(){return O.cw(C.aD,null,"/",!0)})
+lazy($,"oW","$get$oW",function(){return O.cw(C.aB,null,"/newest",!1)})
+lazy($,"p1","$get$p1",function(){return O.cw(C.aC,null,"/show",!1)})
+lazy($,"oK","$get$oK",function(){return O.cw(C.aE,null,"/ask",!1)})
+lazy($,"oT","$get$oT",function(){return O.cw(C.aF,null,"/jobs",!1)})
 lazy($,"oS","$get$oS",function(){return O.cw(null,null,"/item/:id",!1)})
 lazy($,"jt","$get$jt",function(){return self.window.navigator.serviceWorker==null?null:new L.jq(null,null,null,self.window.navigator.serviceWorker)})})()
 var u={deferredInitialized:Object.create(null),
@@ -11763,7 +11765,7 @@ initializeDeferredHunk(t)
 u.deferredInitialized[a]=true},
 deferredLibraryParts:{item_detail:[0]},
 deferredPartUris:["main.dart.js_1.part.js"],
-deferredPartHashes:["YLzBJ5qnPkDEWJhvESpzWkxeedk="],
+deferredPartHashes:["y2/jNvnGeZazlhBFuHJtwnQbhNE="],
 createNewIsolate:function(){return $},
 staticFunctionNameToClosure:function(a){var t=getGlobalFromName(a)
 var s=t.$tearOff
