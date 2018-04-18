@@ -664,6 +664,17 @@
         ],
         "canonicalUri": "package:angular_router/src/directives/router_link_directive.dart"
       },
+      "134652175": {
+        "id": "library/134652175",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 830,
+        "children": [
+          "class/422252764",
+          "function/925093782"
+        ],
+        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacedCYfUb/web/main.template.dart"
+      },
       "138933533": {
         "id": "library/138933533",
         "kind": "library",
@@ -1026,6 +1037,18 @@
         ],
         "canonicalUri": "package:angular/src/bootstrap/run.dart"
       },
+      "319979656": {
+        "id": "library/319979656",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 462,
+        "children": [
+          "field/533283160",
+          "function/381239220",
+          "function/680831886"
+        ],
+        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_spacedCYfUb/web/main.dart"
+      },
       "322257783": {
         "id": "library/322257783",
         "kind": "library",
@@ -1330,18 +1353,6 @@
         ],
         "canonicalUri": "package:examples.hacker_news_pwa/src/item_component.dart"
       },
-      "486631007": {
-        "id": "library/486631007",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 462,
-        "children": [
-          "field/211324747",
-          "function/28064473",
-          "function/752138369"
-        ],
-        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_space51Zw6C/web/main.dart"
-      },
       "497871269": {
         "id": "library/497871269",
         "kind": "library",
@@ -1383,17 +1394,6 @@
           "field/716694354"
         ],
         "canonicalUri": "package:angular_router/src/location/platform_location.dart"
-      },
-      "567998851": {
-        "id": "library/567998851",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 830,
-        "children": [
-          "class/867582709",
-          "function/186499631"
-        ],
-        "canonicalUri": "file:///private/var/folders/53/wcg58s8n72b4thbmd7mhqjyc0071_k/T/scratch_space51Zw6C/web/main.template.dart"
       },
       "574189511": {
         "id": "library/574189511",
@@ -8549,6 +8549,27 @@
         },
         "children": []
       },
+      "422252764": {
+        "id": "class/422252764",
+        "kind": "class",
+        "name": "_Injector$hackerNewsApp",
+        "size": 774,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/134652175",
+        "modifiers": {
+          "abstract": false
+        },
+        "children": [
+          "function/89455297",
+          "function/229060987",
+          "function/667884931",
+          "function/722050518",
+          "function/758308047",
+          "function/924392133",
+          "function/932969493",
+          "function/1002437449"
+        ]
+      },
       "422296825": {
         "id": "class/422296825",
         "kind": "class",
@@ -15506,27 +15527,6 @@
         },
         "children": []
       },
-      "867582709": {
-        "id": "class/867582709",
-        "kind": "class",
-        "name": "_Injector$hackerNewsApp",
-        "size": 774,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/567998851",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/546797265",
-          "function/656040912",
-          "function/828284158",
-          "function/876970589",
-          "function/919065491",
-          "function/938574402",
-          "function/992925362",
-          "function/1027231272"
-        ]
-      },
       "867784885": {
         "id": "class/867784885",
         "kind": "class",
@@ -20371,29 +20371,6 @@
         "type": "int Function()",
         "measurements": null
       },
-      "28064473": {
-        "id": "function/28064473",
-        "kind": "function",
-        "name": "main",
-        "size": 462,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/486631007",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[exact=_Future]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z=0,y=P.a1(),x,w,v\nvar $async$nl=P.a5(function(a,b){if(a===1)return P.a2(b,y)\nwhile(true)switch(z){case 0:$.oJ=new Q.dA(\"https://api.hnpwa.com/v0\",null,null)\nx=window.location.pathname\nif(window.location.search.length===0&&!J.aU(x,\"/item\")){w=C.b.gR(x.split(\"/\"))\nif(J.bW(w))w=\"news\"\nv=$.oJ.b2(w,1)}else v=null\nU.tB(\"./pwa.dart.js\")\nz=2\nreturn P.Q(v,$async$nl)\ncase 2:G.up(K.vl()).S(0,C.R).ht(C.a8)\nreturn P.a3(null,y)}})\nreturn P.a4($async$nl,y)}\n",
-        "type": "void Function()",
-        "measurements": null
-      },
       "28527809": {
         "id": "function/28527809",
         "kind": "function",
@@ -24690,6 +24667,40 @@
         "inlinedCount": 0,
         "code": "function(a){if(!!J.r(a).$isl||a==null)return a\nthrow H.b(H.pm(a,\"List\"))}\n",
         "type": "dynamic Function(dynamic)",
+        "measurements": null
+      },
+      "89455297": {
+        "id": "function/89455297",
+        "kind": "function",
+        "name": "injectFromSelfOptional",
+        "size": 684,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Object",
+        "inferredReturnType": "[null|subclass=Object]",
+        "parameters": [
+          {
+            "name": "token",
+            "type": "[null|subclass=Object]",
+            "declaredType": "Object"
+          },
+          {
+            "name": "orElse",
+            "type": "[null|subclass=Object]",
+            "declaredType": "Object"
+          }
+        ],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "aW:function(a,b){var z,y,x\nif(a===C.A){z=this.b\nif(z==null){z=$.oJ\nthis.b=z}return z}if(a===C.U){z=this.c\nif(z==null){z=this.aH(C.V)\ny=this.aA(C.aG,null)\nx=new X.dR(z,null)\nif(y==null){z.toString\ny=$.qI.$0()}if(y==null)H.w(P.b7(\"No base href set. Please provide a value for the appBaseHref token or add a base element to the document.\"))\nx.b=y\nthis.c=x\nz=x}return z}if(a===C.V){z=this.d\nif(z==null){z=new M.fT(null,null)\n$.qI=O.uM()\nz.a=window.location\nz.b=window.history\nthis.d=z}return z}if(a===C.j){z=this.e\nif(z==null){z=V.t_(this.aH(C.U))\nthis.e=z}return z}if(a===C.e){z=this.f\nif(z==null){z=Z.tg(this.aH(C.j),this.aA(C.W,null))\nthis.f=z}return z}if(a===C.r)return this\nreturn b}\n",
+        "type": "Object Function(Object,[Object])",
         "measurements": null
       },
       "91259075": {
@@ -30778,35 +30789,6 @@
         "type": "dynamic Function(Function)",
         "measurements": null
       },
-      "186499631": {
-        "id": "function/186499631",
-        "kind": "function",
-        "name": "hackerNewsApp$Injector",
-        "size": 56,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/567998851",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Injector",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [
-          {
-            "name": "parent",
-            "type": "[exact=_LazyInjector]",
-            "declaredType": "Injector"
-          }
-        ],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 0,
-        "code": "function(a){return new K.lB(null,null,null,null,null,a)}\n",
-        "type": "Injector Function([Injector])",
-        "measurements": null
-      },
       "186767525": {
         "id": "function/186767525",
         "kind": "function",
@@ -33551,6 +33533,29 @@
         "inlinedCount": 0,
         "code": "I:function(){var z,y\nz=this.f.c\ny=this.z\nif(y==null?z!=null:y!==z){y=this.y.e\ny.e=z\ny.f=null\ny.r=null\nthis.z=z}this.y.am(this,this.x)}\n",
         "type": "void Function()",
+        "measurements": null
+      },
+      "229060987": {
+        "id": "function/229060987",
+        "kind": "function",
+        "name": "_getLocation$3",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Location",
+        "inferredReturnType": "[exact=Location]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "Location Function()",
         "measurements": null
       },
       "229841337": {
@@ -44373,7 +44378,7 @@
         "parameters": [],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "D:function(){var z,y\nz=new E.kG(null,null,null,null,null,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"item-detail\")\nz.e=y\ny=$.kH\nif(y==null){y=$.aD.ba(\"\",C.z,C.al)\n$.kH=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new D.aM(this.B(C.A,this.a.Q),null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.a9(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
+        "code": "D:function(){var z,y\nz=new E.kG(null,null,null,null,null,!1,null,P.B(),this,null,null,null)\nz.a=S.V(z,3,C.n,0)\ny=document.createElement(\"item-detail\")\nz.e=y\ny=$.kH\nif(y==null){y=$.aD.ba(\"\",C.z,C.av)\n$.kH=y}z.b3(y)\nthis.r=z\nthis.e=z.e\nz=new D.aM(this.B(C.A,this.a.Q),null)\nthis.x=z\nthis.r.a8(0,z,this.a.e)\nthis.a9(this.e)\nreturn new D.bz(this,0,this.e,this.x)}\n",
         "type": "ComponentRef<dynamic> Function()",
         "measurements": null
       },
@@ -44398,6 +44403,29 @@
         "inlinedCount": 15,
         "code": "gu:function(a){return a.length===0}\n",
         "type": "bool Function()",
+        "measurements": null
+      },
+      "381239220": {
+        "id": "function/381239220",
+        "kind": "function",
+        "name": "main",
+        "size": 462,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/319979656",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[exact=_Future]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z=0,y=P.a1(),x,w,v\nvar $async$nl=P.a5(function(a,b){if(a===1)return P.a2(b,y)\nwhile(true)switch(z){case 0:$.oJ=new Q.dA(\"https://api.hnpwa.com/v0\",null,null)\nx=window.location.pathname\nif(window.location.search.length===0&&!J.aU(x,\"/item\")){w=C.b.gR(x.split(\"/\"))\nif(J.bW(w))w=\"news\"\nv=$.oJ.b2(w,1)}else v=null\nU.tB(\"./pwa.dart.js\")\nz=2\nreturn P.Q(v,$async$nl)\ncase 2:G.up(K.vl()).S(0,C.R).ht(C.a8)\nreturn P.a3(null,y)}})\nreturn P.a4($async$nl,y)}\n",
+        "type": "void Function()",
         "measurements": null
       },
       "381493483": {
@@ -55666,29 +55694,6 @@
         "type": "void Function(void Function())",
         "measurements": null
       },
-      "546797265": {
-        "id": "function/546797265",
-        "kind": "function",
-        "name": "_getLocation$3",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Location",
-        "inferredReturnType": "[exact=Location]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "Location Function()",
-        "measurements": null
-      },
       "546874941": {
         "id": "function/546874941",
         "kind": "function",
@@ -62365,7 +62370,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){var z,y,x,w,v,u\nz=b+2\nif(z>=a.length)return\"%\"\ny=J.S(a).G(a,b+1)\nx=C.a.G(a,z)\nw=H.n7(y)\nv=H.n7(x)\nif(w<0||v<0)return\"%\"\nu=w*16+v\nif(u<127&&(C.au[C.d.av(u,4)]&1<<(u&15))!==0)return H.dU(c&&65<=u&&90>=u?(u|32)>>>0:u)\nif(y>=97||x>=97)return C.a.n(a,b,b+3).toUpperCase()\nreturn}\n",
+        "code": "function(a,b,c){var z,y,x,w,v,u\nz=b+2\nif(z>=a.length)return\"%\"\ny=J.S(a).G(a,b+1)\nx=C.a.G(a,z)\nw=H.n7(y)\nv=H.n7(x)\nif(w<0||v<0)return\"%\"\nu=w*16+v\nif(u<127&&(C.at[C.d.av(u,4)]&1<<(u&15))!==0)return H.dU(c&&65<=u&&90>=u?(u|32)>>>0:u)\nif(y>=97||x>=97)return C.a.n(a,b,b+3).toUpperCase()\nreturn}\n",
         "type": "String Function(String,int,bool)",
         "measurements": null
       },
@@ -62576,29 +62581,6 @@
         "inlinedCount": 5,
         "code": null,
         "type": "JSArray<JSArray.E> Function(dynamic)",
-        "measurements": null
-      },
-      "656040912": {
-        "id": "function/656040912",
-        "kind": "function",
-        "name": "_getdynamic$0",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[null|exact=HackerNewsService]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads field, static; writes field)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "dynamic Function()",
         "measurements": null
       },
       "656209552": {
@@ -63356,6 +63338,29 @@
         "type": "String Function()",
         "measurements": null
       },
+      "667884931": {
+        "id": "function/667884931",
+        "kind": "function",
+        "name": "_getBrowserPlatformLocation$2",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "BrowserPlatformLocation",
+        "inferredReturnType": "[exact=BrowserPlatformLocation]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "BrowserPlatformLocation Function()",
+        "measurements": null
+      },
       "667950563": {
         "id": "function/667950563",
         "kind": "function",
@@ -63944,6 +63949,29 @@
         "inlinedCount": 20,
         "code": null,
         "type": "Element Function(String,[String])",
+        "measurements": null
+      },
+      "680831886": {
+        "id": "function/680831886",
+        "kind": "function",
+        "name": "getNewsService",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/319979656",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "HackerNewsService",
+        "inferredReturnType": "[null|exact=HackerNewsService]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads static; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "HackerNewsService Function()",
         "measurements": null
       },
       "680855947": {
@@ -66509,6 +66537,29 @@
         "type": "int Function(String)",
         "measurements": null
       },
+      "722050518": {
+        "id": "function/722050518",
+        "kind": "function",
+        "name": "_getPathLocationStrategy$1",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "PathLocationStrategy",
+        "inferredReturnType": "[exact=PathLocationStrategy]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "PathLocationStrategy Function()",
+        "measurements": null
+      },
       "722354663": {
         "id": "function/722354663",
         "kind": "function",
@@ -68319,29 +68370,6 @@
         "type": "String Function(dynamic,int)",
         "measurements": null
       },
-      "752138369": {
-        "id": "function/752138369",
-        "kind": "function",
-        "name": "getNewsService",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/486631007",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "HackerNewsService",
-        "inferredReturnType": "[null|exact=HackerNewsService]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads static; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "HackerNewsService Function()",
-        "measurements": null
-      },
       "752139918": {
         "id": "function/752139918",
         "kind": "function",
@@ -68816,6 +68844,29 @@
         "inlinedCount": 0,
         "code": "eo:function(a,b){var z,y,x\nz=this.Q\ny=z.a\nx=P.a0(y)\nreturn z.b.$4(y,x,this,b)}\n",
         "type": "void Function(String)",
+        "measurements": null
+      },
+      "758308047": {
+        "id": "function/758308047",
+        "kind": "function",
+        "name": "_getRouterImpl$4",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "RouterImpl",
+        "inferredReturnType": "[exact=RouterImpl]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "RouterImpl Function()",
         "measurements": null
       },
       "760273060": {
@@ -72848,29 +72899,6 @@
         "type": "dynamic Function(dynamic)",
         "measurements": null
       },
-      "828284158": {
-        "id": "function/828284158",
-        "kind": "function",
-        "name": "_getBrowserPlatformLocation$2",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "BrowserPlatformLocation",
-        "inferredReturnType": "[exact=BrowserPlatformLocation]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "BrowserPlatformLocation Function()",
-        "measurements": null
-      },
       "828975983": {
         "id": "function/828975983",
         "kind": "function",
@@ -75805,35 +75833,6 @@
         "inlinedCount": 3,
         "code": null,
         "type": "dynamic Function(dynamic,String,List<dynamic>)",
-        "measurements": null
-      },
-      "876970589": {
-        "id": "function/876970589",
-        "kind": "function",
-        "name": "_Injector$hackerNewsApp._",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [
-          {
-            "name": "parent",
-            "type": "[exact=_LazyInjector]",
-            "declaredType": "Injector"
-          }
-        ],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "dynamic Function([Injector])",
         "measurements": null
       },
       "877388889": {
@@ -78794,29 +78793,6 @@
         "type": "void Function(_EventDispatch<_DelayedData.T>)",
         "measurements": null
       },
-      "919065491": {
-        "id": "function/919065491",
-        "kind": "function",
-        "name": "_getPathLocationStrategy$1",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "PathLocationStrategy",
-        "inferredReturnType": "[exact=PathLocationStrategy]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "PathLocationStrategy Function()",
-        "measurements": null
-      },
       "919244648": {
         "id": "function/919244648",
         "kind": "function",
@@ -79165,6 +79141,29 @@
         "type": "dynamic Function(dynamic,dynamic)",
         "measurements": null
       },
+      "924392133": {
+        "id": "function/924392133",
+        "kind": "function",
+        "name": "_getdynamic$0",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "dynamic",
+        "inferredReturnType": "[null|exact=HackerNewsService]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads field, static; writes field)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "dynamic Function()",
+        "measurements": null
+      },
       "924607416": {
         "id": "function/924607416",
         "kind": "function",
@@ -79186,6 +79185,35 @@
         "inlinedCount": 0,
         "code": "gaG:function(){return this.cx.a}\n",
         "type": "Zone Function()",
+        "measurements": null
+      },
+      "925093782": {
+        "id": "function/925093782",
+        "kind": "function",
+        "name": "hackerNewsApp$Injector",
+        "size": 56,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/134652175",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Injector",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [
+          {
+            "name": "parent",
+            "type": "[exact=_LazyInjector]",
+            "declaredType": "Injector"
+          }
+        ],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 0,
+        "code": "function(a){return new K.lB(null,null,null,null,null,a)}\n",
+        "type": "Injector Function([Injector])",
         "measurements": null
       },
       "926065481": {
@@ -79422,6 +79450,29 @@
         "type": "String Function(dynamic)",
         "measurements": null
       },
+      "932969493": {
+        "id": "function/932969493",
+        "kind": "function",
+        "name": "_getInjector$5",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "Injector",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "Injector Function()",
+        "measurements": null
+      },
       "933791876": {
         "id": "function/933791876",
         "kind": "function",
@@ -79457,7 +79508,7 @@
         ],
         "sideEffects": "SideEffects(reads anything; writes anything)",
         "inlinedCount": 0,
-        "code": "function(a,b,c){if(a==null)return\"\"\nreturn P.d3(a,b,c,C.at)}\n",
+        "code": "function(a,b,c){if(a==null)return\"\"\nreturn P.d3(a,b,c,C.as)}\n",
         "type": "String Function(String,int,int)",
         "measurements": null
       },
@@ -79675,29 +79726,6 @@
         "inlinedCount": 0,
         "code": "fe:function(a,b){if(this.c)return\nthis.b.$1(b)}\n",
         "type": "void Function(dynamic)",
-        "measurements": null
-      },
-      "938574402": {
-        "id": "function/938574402",
-        "kind": "function",
-        "name": "_getRouterImpl$4",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "RouterImpl",
-        "inferredReturnType": "[exact=RouterImpl]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "RouterImpl Function()",
         "measurements": null
       },
       "938598106": {
@@ -83182,29 +83210,6 @@
         "type": "String Function(dynamic)",
         "measurements": null
       },
-      "992925362": {
-        "id": "function/992925362",
-        "kind": "function",
-        "name": "_getInjector$5",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Injector",
-        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads nothing; writes nothing)",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "Injector Function()",
-        "measurements": null
-      },
       "993007468": {
         "id": "function/993007468",
         "kind": "function",
@@ -83858,6 +83863,35 @@
         "inlinedCount": 0,
         "code": "be:function(a){var z,y,x,w\nz=this.a\ny=z.length\nfor(x=0;x<y;++x){w=z[x]\nif(w==null?a==null:w===a)return x}z.push(a)\nthis.b.push(null)\nreturn y}\n",
         "type": "int Function(dynamic)",
+        "measurements": null
+      },
+      "1002437449": {
+        "id": "function/1002437449",
+        "kind": "function",
+        "name": "_Injector$hackerNewsApp._",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "class/422252764",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "dynamic",
+        "inferredReturnType": "[exact=_Injector$hackerNewsApp]",
+        "parameters": [
+          {
+            "name": "parent",
+            "type": "[exact=_LazyInjector]",
+            "declaredType": "Injector"
+          }
+        ],
+        "sideEffects": "SideEffects(reads nothing; writes nothing)",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "dynamic Function([Injector])",
         "measurements": null
       },
       "1002655525": {
@@ -85440,40 +85474,6 @@
         "inlinedCount": 0,
         "code": "F:function(a,b){var z,y\nif(b==null)return!1\nif(b===this)return!0\nif(b instanceof H.b8){z=this.a\ny=b.a\nreturn z==null?y==null:z===y}return!1}\n",
         "type": "bool Function(Object)",
-        "measurements": null
-      },
-      "1027231272": {
-        "id": "function/1027231272",
-        "kind": "function",
-        "name": "injectFromSelfOptional",
-        "size": 684,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "class/867582709",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Object",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [
-          {
-            "name": "token",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          },
-          {
-            "name": "orElse",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          }
-        ],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "aW:function(a,b){var z,y,x\nif(a===C.A){z=this.b\nif(z==null){z=$.oJ\nthis.b=z}return z}if(a===C.U){z=this.c\nif(z==null){z=this.aH(C.V)\ny=this.aA(C.aG,null)\nx=new X.dR(z,null)\nif(y==null){z.toString\ny=$.qI.$0()}if(y==null)H.w(P.b7(\"No base href set. Please provide a value for the appBaseHref token or add a base element to the document.\"))\nx.b=y\nthis.c=x\nz=x}return z}if(a===C.V){z=this.d\nif(z==null){z=new M.fT(null,null)\n$.qI=O.uM()\nz.a=window.location\nz.b=window.history\nthis.d=z}return z}if(a===C.j){z=this.e\nif(z==null){z=V.t_(this.aH(C.U))\nthis.e=z}return z}if(a===C.e){z=this.f\nif(z==null){z=Z.tg(this.aH(C.j),this.aA(C.W,null))\nthis.f=z}return z}if(a===C.r)return this\nreturn b}\n",
-        "type": "Object Function(Object,[Object])",
         "measurements": null
       },
       "1027280221": {
@@ -88174,18 +88174,6 @@
         "code": null,
         "type": "Function"
       },
-      "211324747": {
-        "id": "field/211324747",
-        "kind": "field",
-        "name": "_service",
-        "size": 0,
-        "outputUnit": "outputUnit/669725656",
-        "parent": "library/486631007",
-        "children": [],
-        "inferredType": "[null|exact=HackerNewsService]",
-        "code": null,
-        "type": "HackerNewsService"
-      },
       "233373704": {
         "id": "field/233373704",
         "kind": "field",
@@ -88509,6 +88497,18 @@
         "inferredType": "Container([exact=JSExtendableArray], element: [null|subclass=Object], length: null)",
         "code": null,
         "type": "List<dynamic>"
+      },
+      "533283160": {
+        "id": "field/533283160",
+        "kind": "field",
+        "name": "_service",
+        "size": 0,
+        "outputUnit": "outputUnit/669725656",
+        "parent": "library/319979656",
+        "children": [],
+        "inferredType": "[null|exact=HackerNewsService]",
+        "code": null,
+        "type": "HackerNewsService"
       },
       "538384943": {
         "id": "field/538384943",
@@ -88936,6 +88936,14 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aG=new S.cq(\"appBaseHref\",[P.h])"
       },
+      "42629664": {
+        "id": "constant/42629664",
+        "kind": "constant",
+        "name": null,
+        "size": 14,
+        "outputUnit": "outputUnit/7045321",
+        "code": "C.an=makeConstList([C.au])"
+      },
       "54069679": {
         "id": "constant/54069679",
         "kind": "constant",
@@ -89024,13 +89032,13 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.f=makeConstList([])"
       },
-      "182460637": {
-        "id": "constant/182460637",
+      "179149995": {
+        "id": "constant/179149995",
         "kind": "constant",
         "name": null,
-        "size": 34,
+        "size": 33,
         "outputUnit": "outputUnit/669725656",
-        "code": "C.as=H.u(makeConstList([]),[P.bl])"
+        "code": "C.aq=H.u(makeConstList([]),[P.h])"
       },
       "205717158": {
         "id": "constant/205717158",
@@ -89056,14 +89064,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aY=new P.M(C.c,P.uJ())"
       },
-      "222431384": {
-        "id": "constant/222431384",
-        "kind": "constant",
-        "name": null,
-        "size": 14,
-        "outputUnit": "outputUnit/7045321",
-        "code": "C.al=makeConstList([C.aq])"
-      },
       "223485948": {
         "id": "constant/223485948",
         "kind": "constant",
@@ -89078,6 +89078,14 @@
         "name": null,
         "size": 18,
         "code": "C.b=J.aX.prototype"
+      },
+      "241609550": {
+        "id": "constant/241609550",
+        "kind": "constant",
+        "name": null,
+        "size": 335,
+        "outputUnit": "outputUnit/7045321",
+        "code": "C.au=makeConstList([\"._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }\"])"
       },
       "249327544": {
         "id": "constant/249327544",
@@ -89167,14 +89175,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.U=H.T(\"dG\")"
       },
-      "345251392": {
-        "id": "constant/345251392",
-        "kind": "constant",
-        "name": null,
-        "size": 34,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.aE=new H.ah(0,{},C.ar,[P.h,P.h])"
-      },
       "363656222": {
         "id": "constant/363656222",
         "kind": "constant",
@@ -89190,6 +89190,14 @@
         "size": 18,
         "code": "C.t=J.dC.prototype"
       },
+      "366580898": {
+        "id": "constant/366580898",
+        "kind": "constant",
+        "name": null,
+        "size": 34,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.ar=H.u(makeConstList([]),[P.bl])"
+      },
       "372386686": {
         "id": "constant/372386686",
         "kind": "constant",
@@ -89197,6 +89205,14 @@
         "size": 18,
         "outputUnit": "outputUnit/669725656",
         "code": "C.a9=new P.ab(2e6)"
+      },
+      "376809899": {
+        "id": "constant/376809899",
+        "kind": "constant",
+        "name": null,
+        "size": 14,
+        "outputUnit": "outputUnit/7045321",
+        "code": "C.av=makeConstList([C.am])"
       },
       "389444578": {
         "id": "constant/389444578",
@@ -89269,14 +89285,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aj=new P.i5(null)"
       },
-      "462004548": {
-        "id": "constant/462004548",
-        "kind": "constant",
-        "name": null,
-        "size": 33,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.ar=H.u(makeConstList([]),[P.h])"
-      },
       "464847021": {
         "id": "constant/464847021",
         "kind": "constant",
@@ -89308,14 +89316,6 @@
         "size": 13,
         "outputUnit": "outputUnit/669725656",
         "code": "C.Z=H.T(\"cE\")"
-      },
-      "475166417": {
-        "id": "constant/475166417",
-        "kind": "constant",
-        "name": null,
-        "size": 35,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.M=new H.ah(0,{},C.as,[P.bl,null])"
       },
       "491201343": {
         "id": "constant/491201343",
@@ -89426,14 +89426,6 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aI=H.T(\"dg\")"
       },
-      "655518818": {
-        "id": "constant/655518818",
-        "kind": "constant",
-        "name": null,
-        "size": 271,
-        "outputUnit": "outputUnit/7045321",
-        "code": "C.aq=makeConstList([\"._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; } .notice._ngcontent-%COMP% { text-align:center; color:#212121; position:fixed; top:100px; width:100%; max-width:800px; }\"])"
-      },
       "662819034": {
         "id": "constant/662819034",
         "kind": "constant",
@@ -89449,6 +89441,14 @@
         "size": 16,
         "outputUnit": "outputUnit/669725656",
         "code": "C.h=new P.ky(!1)"
+      },
+      "670467237": {
+        "id": "constant/670467237",
+        "kind": "constant",
+        "name": null,
+        "size": 34,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.aE=new H.ah(0,{},C.aq,[P.h,P.h])"
       },
       "679888185": {
         "id": "constant/679888185",
@@ -89630,13 +89630,21 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.N=new Z.cm(0,\"NavigationResult.SUCCESS\")"
       },
-      "878777975": {
-        "id": "constant/878777975",
+      "871597547": {
+        "id": "constant/871597547",
         "kind": "constant",
         "name": null,
         "size": 71,
         "outputUnit": "outputUnit/669725656",
-        "code": "C.au=H.u(makeConstList([0,0,24576,1023,65534,34815,65534,18431]),[P.i])"
+        "code": "C.at=H.u(makeConstList([0,0,24576,1023,65534,34815,65534,18431]),[P.i])"
+      },
+      "881101301": {
+        "id": "constant/881101301",
+        "kind": "constant",
+        "name": null,
+        "size": 26,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.al=makeConstList([C.ay])"
       },
       "887333501": {
         "id": "constant/887333501",
@@ -89652,22 +89660,6 @@
         "name": null,
         "size": 19,
         "code": "C.aM=W.cN.prototype"
-      },
-      "894927358": {
-        "id": "constant/894927358",
-        "kind": "constant",
-        "name": null,
-        "size": 26,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.am=makeConstList([C.ay])"
-      },
-      "903312067": {
-        "id": "constant/903312067",
-        "kind": "constant",
-        "name": null,
-        "size": 72,
-        "outputUnit": "outputUnit/669725656",
-        "code": "C.at=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])"
       },
       "904894787": {
         "id": "constant/904894787",
@@ -89692,13 +89684,13 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.v=H.u(makeConstList([0,0,26498,1023,65534,34815,65534,18431]),[P.i])"
       },
-      "941795719": {
-        "id": "constant/941795719",
+      "934501081": {
+        "id": "constant/934501081",
         "kind": "constant",
         "name": null,
-        "size": 14,
-        "outputUnit": "outputUnit/7045321",
-        "code": "C.an=makeConstList([C.av])"
+        "size": 72,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.as=H.u(makeConstList([0,0,32722,12287,65534,34815,65534,18431]),[P.i])"
       },
       "957688896": {
         "id": "constant/957688896",
@@ -89732,6 +89724,14 @@
         "outputUnit": "outputUnit/669725656",
         "code": "C.aV=new P.M(C.c,P.uF())"
       },
+      "1002352710": {
+        "id": "constant/1002352710",
+        "kind": "constant",
+        "name": null,
+        "size": 151,
+        "outputUnit": "outputUnit/7045321",
+        "code": "C.am=makeConstList([\"._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; }\"])"
+      },
       "1008862169": {
         "id": "constant/1008862169",
         "kind": "constant",
@@ -89739,6 +89739,14 @@
         "size": 24,
         "outputUnit": "outputUnit/669725656",
         "code": "C.aR=new P.M(C.c,P.uz())"
+      },
+      "1022977646": {
+        "id": "constant/1022977646",
+        "kind": "constant",
+        "name": null,
+        "size": 35,
+        "outputUnit": "outputUnit/669725656",
+        "code": "C.M=new H.ah(0,{},C.ar,[P.bl,null])"
       },
       "1023859514": {
         "id": "constant/1023859514",
@@ -89795,14 +89803,6 @@
         "size": 48,
         "outputUnit": "outputUnit/669725656",
         "code": "C.az=new H.ah(1,{feed:\"newest\"},C.q,[null,null])"
-      },
-      "1069472129": {
-        "id": "constant/1069472129",
-        "kind": "constant",
-        "name": null,
-        "size": 335,
-        "outputUnit": "outputUnit/7045321",
-        "code": "C.av=makeConstList([\"._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }\"])"
       }
     },
     "closure": {
@@ -93174,264 +93174,6 @@
         "mask": "inlined"
       }
     ],
-    "function/28064473": [
-      {
-        "id": "field/211324747",
-        "mask": "null"
-      },
-      {
-        "id": "function/1005844284",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/1012569334",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1012569334",
-        "mask": "null"
-      },
-      {
-        "id": "function/1043968794",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/1061610239",
-        "mask": "null"
-      },
-      {
-        "id": "function/1063092923",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/116583876",
-        "mask": "null"
-      },
-      {
-        "id": "function/149727803",
-        "mask": "null"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "null"
-      },
-      {
-        "id": "function/18598760",
-        "mask": "null"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "null"
-      },
-      {
-        "id": "function/215057657",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "null"
-      },
-      {
-        "id": "function/246538928",
-        "mask": "[null|subclass=HierarchicalInjector]"
-      },
-      {
-        "id": "function/271854591",
-        "mask": "null"
-      },
-      {
-        "id": "function/330018013",
-        "mask": "null"
-      },
-      {
-        "id": "function/346305694",
-        "mask": "null"
-      },
-      {
-        "id": "function/350634083",
-        "mask": "null"
-      },
-      {
-        "id": "function/357627842",
-        "mask": "null"
-      },
-      {
-        "id": "function/381082214",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/412241189",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/420782694",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/426788096",
-        "mask": "null"
-      },
-      {
-        "id": "function/431004353",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/436977057",
-        "mask": "null"
-      },
-      {
-        "id": "function/441808139",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/441808139",
-        "mask": "null"
-      },
-      {
-        "id": "function/470520924",
-        "mask": "null"
-      },
-      {
-        "id": "function/476205558",
-        "mask": "null"
-      },
-      {
-        "id": "function/519774228",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/520054727",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/542141404",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/547844438",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/552125579",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/57895587",
-        "mask": "[null|exact=JSString]"
-      },
-      {
-        "id": "function/590669461",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "null"
-      },
-      {
-        "id": "function/663282902",
-        "mask": "null"
-      },
-      {
-        "id": "function/666359115",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/667950563",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/691777836",
-        "mask": "null"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "null"
-      },
-      {
-        "id": "function/752550139",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/752550139",
-        "mask": "null"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/773528823",
-        "mask": "null"
-      },
-      {
-        "id": "function/786936362",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/822905418",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/841567487",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/87662489",
-        "mask": "null"
-      },
-      {
-        "id": "function/880988781",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/894956829",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/900896148",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/958638746",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/958906135",
-        "mask": "null"
-      },
-      {
-        "id": "function/986454821",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/996967626",
-        "mask": "null"
-      }
-    ],
     "function/28527809": [
       {
         "id": "function/1023028553",
@@ -96621,6 +96363,148 @@
       },
       {
         "id": "function/792983328",
+        "mask": "null"
+      }
+    ],
+    "function/89455297": [
+      {
+        "id": "field/533283160",
+        "mask": "null"
+      },
+      {
+        "id": "field/716694354",
+        "mask": "null"
+      },
+      {
+        "id": "function/166501270",
+        "mask": "null"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "null"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "null"
+      },
+      {
+        "id": "function/211735940",
+        "mask": "null"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "[null|subtype=Function]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "null"
+      },
+      {
+        "id": "function/229060987",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/229060987",
+        "mask": "null"
+      },
+      {
+        "id": "function/308590447",
+        "mask": "null"
+      },
+      {
+        "id": "function/388515229",
+        "mask": "null"
+      },
+      {
+        "id": "function/413463556",
+        "mask": "null"
+      },
+      {
+        "id": "function/423237287",
+        "mask": "null"
+      },
+      {
+        "id": "function/445038701",
+        "mask": "null"
+      },
+      {
+        "id": "function/601959496",
+        "mask": "null"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "null"
+      },
+      {
+        "id": "function/620315185",
+        "mask": "null"
+      },
+      {
+        "id": "function/667884931",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/667884931",
+        "mask": "null"
+      },
+      {
+        "id": "function/680831886",
+        "mask": "null"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "null"
+      },
+      {
+        "id": "function/722050518",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/722050518",
+        "mask": "null"
+      },
+      {
+        "id": "function/758308047",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/758308047",
+        "mask": "null"
+      },
+      {
+        "id": "function/885768718",
+        "mask": "null"
+      },
+      {
+        "id": "function/915043485",
+        "mask": "null"
+      },
+      {
+        "id": "function/924392133",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/924392133",
+        "mask": "null"
+      },
+      {
+        "id": "function/932969493",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/932969493",
+        "mask": "null"
+      },
+      {
+        "id": "function/996967626",
         "mask": "null"
       }
     ],
@@ -102219,16 +102103,6 @@
       },
       {
         "id": "function/2358729",
-        "mask": "null"
-      }
-    ],
-    "function/186499631": [
-      {
-        "id": "function/876970589",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/876970589",
         "mask": "null"
       }
     ],
@@ -114796,6 +114670,264 @@
         "mask": "null"
       }
     ],
+    "function/381239220": [
+      {
+        "id": "field/533283160",
+        "mask": "null"
+      },
+      {
+        "id": "function/1005844284",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/1012569334",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/1012569334",
+        "mask": "null"
+      },
+      {
+        "id": "function/1043968794",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/1061610239",
+        "mask": "null"
+      },
+      {
+        "id": "function/1063092923",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/116583876",
+        "mask": "null"
+      },
+      {
+        "id": "function/149727803",
+        "mask": "null"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/177739051",
+        "mask": "null"
+      },
+      {
+        "id": "function/18598760",
+        "mask": "null"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/192022080",
+        "mask": "null"
+      },
+      {
+        "id": "function/215057657",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/220016266",
+        "mask": "null"
+      },
+      {
+        "id": "function/246538928",
+        "mask": "[null|subclass=HierarchicalInjector]"
+      },
+      {
+        "id": "function/271854591",
+        "mask": "null"
+      },
+      {
+        "id": "function/330018013",
+        "mask": "null"
+      },
+      {
+        "id": "function/346305694",
+        "mask": "null"
+      },
+      {
+        "id": "function/350634083",
+        "mask": "null"
+      },
+      {
+        "id": "function/357627842",
+        "mask": "null"
+      },
+      {
+        "id": "function/381082214",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/412241189",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/420782694",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/426788096",
+        "mask": "null"
+      },
+      {
+        "id": "function/431004353",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/436977057",
+        "mask": "null"
+      },
+      {
+        "id": "function/441808139",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/441808139",
+        "mask": "null"
+      },
+      {
+        "id": "function/470520924",
+        "mask": "null"
+      },
+      {
+        "id": "function/476205558",
+        "mask": "null"
+      },
+      {
+        "id": "function/519774228",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/520054727",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/542141404",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/547844438",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/552125579",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/57895587",
+        "mask": "[null|exact=JSString]"
+      },
+      {
+        "id": "function/590669461",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/611864195",
+        "mask": "null"
+      },
+      {
+        "id": "function/663282902",
+        "mask": "null"
+      },
+      {
+        "id": "function/666359115",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/667950563",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/691777836",
+        "mask": "null"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/698629541",
+        "mask": "null"
+      },
+      {
+        "id": "function/752550139",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/752550139",
+        "mask": "null"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/773528823",
+        "mask": "null"
+      },
+      {
+        "id": "function/786936362",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/822905418",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/841567487",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/87662489",
+        "mask": "null"
+      },
+      {
+        "id": "function/880988781",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/894956829",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/900896148",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/958638746",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/958906135",
+        "mask": "null"
+      },
+      {
+        "id": "function/986454821",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/996967626",
+        "mask": "null"
+      }
+    ],
     "function/382207028": [
       {
         "id": "function/468858174",
@@ -119258,10 +119390,6 @@
     ],
     "function/445038701": [
       {
-        "id": "function/1027231272",
-        "mask": "[subclass=HierarchicalInjector]"
-      },
-      {
         "id": "function/176212879",
         "mask": "[subclass=HierarchicalInjector]"
       },
@@ -119311,6 +119439,10 @@
       },
       {
         "id": "function/863202712",
+        "mask": "[subclass=HierarchicalInjector]"
+      },
+      {
+        "id": "function/89455297",
         "mask": "[subclass=HierarchicalInjector]"
       },
       {
@@ -129926,12 +130058,6 @@
         "mask": "inlined"
       }
     ],
-    "function/656040912": [
-      {
-        "id": "function/752138369",
-        "mask": "inlined"
-      }
-    ],
     "function/657373613": [
       {
         "id": "function/1013713190",
@@ -130640,6 +130766,12 @@
       {
         "id": "function/445547063",
         "mask": "null"
+      }
+    ],
+    "function/667884931": [
+      {
+        "id": "function/620315185",
+        "mask": "inlined"
       }
     ],
     "function/668300185": [
@@ -133249,6 +133381,12 @@
     "function/721522373": [
       {
         "id": "function/917679862",
+        "mask": "inlined"
+      }
+    ],
+    "function/722050518": [
+      {
+        "id": "function/413463556",
         "mask": "inlined"
       }
     ],
@@ -137998,12 +138136,6 @@
         "mask": "null"
       }
     ],
-    "function/828284158": [
-      {
-        "id": "function/620315185",
-        "mask": "inlined"
-      }
-    ],
     "function/828975983": [
       {
         "id": "function/1037398992",
@@ -142612,12 +142744,6 @@
         "mask": "null"
       }
     ],
-    "function/919065491": [
-      {
-        "id": "function/413463556",
-        "mask": "inlined"
-      }
-    ],
     "function/919244648": [
       {
         "id": "function/177739051",
@@ -143087,6 +143213,22 @@
       },
       {
         "id": "function/899124814",
+        "mask": "null"
+      }
+    ],
+    "function/924392133": [
+      {
+        "id": "function/680831886",
+        "mask": "inlined"
+      }
+    ],
+    "function/925093782": [
+      {
+        "id": "function/1002437449",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/1002437449",
         "mask": "null"
       }
     ],
@@ -147702,148 +147844,6 @@
         "mask": "null"
       }
     ],
-    "function/1027231272": [
-      {
-        "id": "field/211324747",
-        "mask": "null"
-      },
-      {
-        "id": "field/716694354",
-        "mask": "null"
-      },
-      {
-        "id": "function/166501270",
-        "mask": "null"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/177739051",
-        "mask": "null"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/192022080",
-        "mask": "null"
-      },
-      {
-        "id": "function/211735940",
-        "mask": "null"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "[null|subtype=Function]"
-      },
-      {
-        "id": "function/220016266",
-        "mask": "null"
-      },
-      {
-        "id": "function/308590447",
-        "mask": "null"
-      },
-      {
-        "id": "function/388515229",
-        "mask": "null"
-      },
-      {
-        "id": "function/413463556",
-        "mask": "null"
-      },
-      {
-        "id": "function/423237287",
-        "mask": "null"
-      },
-      {
-        "id": "function/445038701",
-        "mask": "null"
-      },
-      {
-        "id": "function/546797265",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/546797265",
-        "mask": "null"
-      },
-      {
-        "id": "function/601959496",
-        "mask": "null"
-      },
-      {
-        "id": "function/611864195",
-        "mask": "null"
-      },
-      {
-        "id": "function/620315185",
-        "mask": "null"
-      },
-      {
-        "id": "function/656040912",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/656040912",
-        "mask": "null"
-      },
-      {
-        "id": "function/698629541",
-        "mask": "null"
-      },
-      {
-        "id": "function/752138369",
-        "mask": "null"
-      },
-      {
-        "id": "function/828284158",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/828284158",
-        "mask": "null"
-      },
-      {
-        "id": "function/885768718",
-        "mask": "null"
-      },
-      {
-        "id": "function/915043485",
-        "mask": "null"
-      },
-      {
-        "id": "function/919065491",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/919065491",
-        "mask": "null"
-      },
-      {
-        "id": "function/938574402",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/938574402",
-        "mask": "null"
-      },
-      {
-        "id": "function/992925362",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/992925362",
-        "mask": "null"
-      },
-      {
-        "id": "function/996967626",
-        "mask": "null"
-      }
-    ],
     "function/1027535879": [
       {
         "id": "function/163889623",
@@ -149690,7 +149690,7 @@
       "id": "outputUnit/7045321",
       "kind": "outputUnit",
       "name": "1",
-      "size": 9040,
+      "size": 8920,
       "imports": [
         "item_detail"
       ]
@@ -149709,12 +149709,12 @@
   },
   "dump_minor_version": 1,
   "program": {
-    "entrypoint": "function/28064473",
-    "size": 345763,
+    "entrypoint": "function/381239220",
+    "size": 345643,
     "dart2jsVersion": "2.0.0-dev.48.0",
-    "compilationMoment": "2018-04-17 18:17:19.755407",
-    "compilationDuration": 4803206,
-    "toJsonDuration": 59000,
+    "compilationMoment": "2018-04-17 18:21:43.755606",
+    "compilationDuration": 4620786,
+    "toJsonDuration": 57000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "isRuntimeTypeUsed": false,

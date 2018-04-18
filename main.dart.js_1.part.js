@@ -357,7 +357,7 @@ y.a=S.V(y,3,C.n,0)
 x=document.createElement("item-detail")
 y.e=x
 x=$.kH
-if(x==null){x=$.aD.ba("",C.z,C.al)
+if(x==null){x=$.aD.ba("",C.z,C.av)
 $.kH=x}y.b3(x)
 this.r=y
 this.e=y.e
@@ -386,12 +386,12 @@ a(E.mv,y)
 a(E.mw,y)
 a(D.n1,H.ba)})();(function constants(){C.a7=new D.by("item-detail",E.vg(),C.f,[D.aM])
 C.a3=C.a7
-C.aq=d(["._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; } .notice._ngcontent-%COMP% { text-align:center; color:#212121; position:fixed; top:100px; width:100%; max-width:800px; }"])
-C.al=d([C.aq])
-C.av=d(["._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }"])
-C.an=d([C.av])})();(function staticFields(){$.ov=null
+C.au=d(["._nghost-%COMP% { display:block; } button._ngcontent-%COMP% { background:inherit; border:none; padding:0; } button:hover._ngcontent-%COMP% { text-decoration:underline; } comment._ngcontent-%COMP% { padding-left:8px; } .content._ngcontent-%COMP% { border-bottom:1px solid #eee; } .header._ngcontent-%COMP% { padding:8px 0; }"])
+C.an=d([C.au])
+C.am=d(["._nghost-%COMP% { background:#fff; display:block; padding:16px; } ._nghost-%COMP%  pre { background:#eee; padding:8px; overflow-x:scroll; }"])
+C.av=d([C.am])})();(function staticFields(){$.ov=null
 $.kH=null})()
 i([{func:1,ret:[S.t,D.aM],args:[S.t,P.i]},{func:1,v:true},{func:1,ret:[S.t,B.aH],args:[S.t,P.i]},{func:1,ret:P.i,args:[P.O]},{func:1,ret:S.t,args:[S.t,P.i]}]);(function nativeSupport(){j({})
 k({})})()}
-$__dart_deferred_initializers__["jTm/xV43RV1Gf6rBgD4AdR0rpTE="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["YLzBJ5qnPkDEWJhvESpzWkxeedk="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_1.part.js.map
