@@ -52,6 +52,7 @@ jobs:
       deploy:
         skip_cleanup: true
         on:
+          branch: preload_fun
           repo: kevmoo/angular
         provider: firebase
         message: "Travis deploy from commit $TRAVIS_COMMIT"
